@@ -37,4 +37,16 @@
 			}
 		],
 	},
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"When played on taunt board.",
+				"condition":"my_minions(count(), taunt) > 0",
+				"value":"10",
+			}
+		],
+	}
 }

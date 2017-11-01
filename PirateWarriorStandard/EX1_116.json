@@ -1,6 +1,6 @@
 {
-	"GameCardId":"UNG_087",	
-	"ConfigComment":"Bittertide Hydra bonuses.",	
+	"GameCardId":"EX1_116",	
+	"ConfigComment":"Leeroy bonuses.",	
 	
 	"BeforePlayCardBonus": 
     {
@@ -13,22 +13,10 @@
 			},
 			
 			{						
-				"comment":"Playing it while you have a taunt up.",  		  
-				"condition": "my_minions(count(), taunt) > 0",
-				"value":"10",
-			},
-			
-			{						
-				"comment":"Playing it against shaman.",  		  
-				"condition": "opp_hero(count(), shaman) > 0",
-				"value":"-5",
-			},
-			
-			{						
-				"comment":"Playing it while low on health.",  		  
-				"condition": "my_hero(count(), health) < 13",
+				"comment":"Playing it if you can't finish the enemy.",  		  
+				"condition": "opp_hero(count(), health) > 7",
 				"value":"-10",
-			}
+			},
 		],
 	},
 	

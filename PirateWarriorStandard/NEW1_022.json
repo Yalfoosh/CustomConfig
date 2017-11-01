@@ -9,13 +9,13 @@
 			{						
 				"comment":"Playing it while a weapon is equipped.",  		  
 				"condition": "my_hero(count(), weapon) > 0",
-				"value":"8",
+				"value":"10",
 			},
 			
 			{						
 				"comment":"Playing it without a weapon equipped.",  		  
 				"condition": "my_hero(count(), weapon) == 0",
-				"value":"-7",
+				"value":"-5",
 			}
 		],
 	},

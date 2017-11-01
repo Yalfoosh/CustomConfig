@@ -12,8 +12,18 @@
 			},
 			
 			{						  		  
-				"condition": "my_hand(count(), cardid=NEW1_025) > 0 AND opp_heroweapon(count()) == 0 AND my_hero(count(), max_mana) == 1",
+				"condition": "my_hero(count(), max_mana) == 1",
+				"value":"2",
+			}
+			
+			{						  		  
+				"condition": "my_hand(count(), cardid=NEW1_025) > 0 AND opp_heroweapon(count()) == 0",
 				"value":"8",
+			},
+			
+			{						  		  
+				"condition": "opp_minions(count(), health < 2) > 0",
+				"value":"2",
 			}
 		],
 	},																																																					

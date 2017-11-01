@@ -9,7 +9,13 @@
 			{
 				"comment":"Playing it while you have at least one minion up.",  		  
 				"condition": "my_minions(count()) > 0",
-				"value":"6",
+				"value":"10",
+			},
+			
+			{
+				"comment":"Playing it while you have a taunt up.",  		  
+				"condition": "my_minions(count(), taunt) > 0",
+				"value":"3",
 			}
 		],
 	},

@@ -1,0 +1,28 @@
+{
+	"GameCardId":"ICC_466",	
+	"ConfigComment":"Saronite Chain Gang",
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"When Keleseth buffed this.",  		  
+				"condition": "my_hand(count(), cardid = ICC_466, health > 3)",
+				"value":"15",
+			},
+			
+			{
+				"comment":"When opponent has more than 1 minion up.",  		  
+				"condition": "opp_minions(count()) > 1",
+				"value":"10",
+			},
+			
+			{
+				"comment":"When you have less HP than your opponent.",  		  
+				"condition": "opp_hero(count(), health) > my_hero(count(), health)",
+				"value":"(opp_hero(count(), health) - my_hero(count(), health)) * 2",
+			}
+		],
+	}
+}

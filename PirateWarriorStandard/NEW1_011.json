@@ -1,0 +1,28 @@
+{
+	"GameCardId":"NEW1_011",	
+	"ConfigComment":"Kor'Kron Elite bonuses.",		
+	
+	"BeforePhysicalAttackBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Get bonus for attacking enemy hero when able to.",  		  
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0 ",
+				"value":"10",
+			}
+		],
+	},
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"When played on taunt board.",
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0",
+				"value":"8",
+			}
+		],
+	}
+}

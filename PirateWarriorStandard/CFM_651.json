@@ -9,13 +9,19 @@
 			{						
 				"comment":"Playing it while a weapon is equipped.",  		  
 				"condition": "my_hero(count(), weapon) > 0",
-				"value":"6",
+				"value":"10",
 			},
 			
 			{						
 				"comment":"Playing it without a weapon equipped.",  		  
 				"condition": "my_hero(count(), weapon) == 0",
-				"value":"-4",
+				"value":"-5",
+			},
+			
+			{						
+				"comment":"Playing it when a Taunt is up.",  		  
+				"condition": "my_minions(count(), taunt) > 0",
+				"value":"4",
 			}
 		],
 	},

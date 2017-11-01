@@ -7,9 +7,15 @@
 		"values":
 		[
 			{						
-				"comment":"Playing it while a weapon is equipped.",  		  
-				"condition": "my_hero(count(), health) > 13",
-				"value":"7",
+				"comment":"Playing it when low on HP.",  		  
+				"condition": "my_hero(count(), health) < 13",
+				"value":"10",
+			},
+			
+			{						
+				"comment":"Playing it on the enemy hero.",  		  
+				"condition": "my_target(count(), hero=true) > 0 AND opp_minions(count(), taunt) == 0",
+				"value":"10",
 			}
 		],
 	},
