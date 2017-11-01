@@ -1,0 +1,16 @@
+{
+	"GameCardId":"GAME_005",	
+	"ConfigComment":"The Coin settings.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Don't play the Coin if there is nothing to play with it.",  		  
+				"condition": "(my_hero(count(), mana) + 1) < my_hand(count(), min(mana))",
+				"value":"-1000",
+			}
+		],
+	},
+}

@@ -8,14 +8,14 @@
 		[
 			{
 				"comment":"N'Zoth's First Mate --> Coin --> Southsea Deckhand",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 1",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana=1, mana=1) > 0",
 				"combo":"OG_312 >> GAME_005 >> CS2_146",
 				"value":"2 >> 0 >> 5",
 			},
 			
 			{
 				"comment":"Coin --> Bloodsail Cultist if you have a weapon and a pirate.",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 2 AND my_hero(count(), weapon) > 0 AND my_minions(count(), pirate = true) > 0",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 2, mana = 2) > 0 AND my_hero(count(), weapon) > 0 AND my_minions(count(), pirate = true) > 0",
 				"combo":"GAME_005 >> OG_315",
 				"value":"0 >> 20",
 			},
@@ -43,7 +43,7 @@
 			
 			{
 				"comment":"Coin --> Frothing Berserker if my minion count > 2.",
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 2 AND my_minions(count()) > 2",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 2, mana = 2) > 0",
 				"combo":"GAME_005 >> EX1_604",
 				"value":"0 >> 15",
 			},
