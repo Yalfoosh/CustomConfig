@@ -9,7 +9,7 @@
 			{
 				"comment":"You don't want Coin --> nothing.",
 				"condition": "my_hand(count(), cardid = GAME_005) > 0",
-				"combo":"GAME_005",
+				"combo":"GAME_005 >-> *",
 				"value":"-1000",
 			},
 			
