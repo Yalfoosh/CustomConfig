@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_602",	
+	"ConfigComment":"Jade Idol config",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it on turn 1.",  		  
+				"condition": "my_hero(count(), max_mana) == 1",
+				"value":"10",
+			}
+		],
+	},
+}

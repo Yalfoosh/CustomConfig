@@ -1,0 +1,34 @@
+{
+	"GameCardId":"CFM_713",	
+	"ConfigComment":"Jade Blossom config.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If it's the third turn.",  		  
+				"condition": "my_hero(count(), max_mana) == 3",
+				"value":"10",
+			},
+			
+			{						
+				"comment":"If you have 3 mana left.",  		  
+				"condition": "my_hero(count(), mana) == 3",
+				"value":"5",
+			}
+		],
+	},
+	
+	"BeforeUseHeroPowerBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If there is no enemy minions on the board, you don't want to Hero Power before this.",  		  
+				"condition": "opp_minions(count()) < 1",
+				"value":"-1000",
+			}
+		],
+	},
+}

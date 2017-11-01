@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_602a",	
+	"ConfigComment":"Jade Idol: Summon a Jade Golem",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Choose this if it's a duplicate or you're losing heavily.",  		  
+				"condition": "my_deck(count(), cardid=CFM_602) > 0 OR my_hand(count(), cardid=CFM_602) > 0 OR my_hero(count(), health < 12, armor < 12) > 0",
+				"value":"16",
+			}
+		],
+	},
+}

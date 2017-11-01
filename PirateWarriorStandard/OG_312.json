@@ -14,7 +14,7 @@
 			{						  		  
 				"condition": "my_hero(count(), max_mana) == 1",
 				"value":"2",
-			}
+			},
 			
 			{						  		  
 				"condition": "my_hand(count(), cardid=NEW1_025) > 0 AND opp_heroweapon(count()) == 0",

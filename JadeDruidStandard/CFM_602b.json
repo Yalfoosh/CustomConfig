@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_602b",	
+	"ConfigComment":"Jade Idol: Shuffle 3 Jade Idols in your deck.",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Choose this if it's your last Jade Idol.",  		  
+				"condition": "my_deck(count(), cardid=CFM_602) == 0 AND my_hand(count(), cardid=CFM_602) == 0",
+				"value":"15",
+			}
+		],
+	},
+}

@@ -1,0 +1,40 @@
+{
+	"GameCardId":"CS2_013",	
+	"ConfigComment":"Wild Growth",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Play bonus if played on curve.",  		  
+				"condition": "my_hero(count(), max_mana) == 2",
+				"value":"15",
+			},
+			
+			{
+				"comment":"Discourage playing when having a full hand.",
+				"condition": "my_hand(count()) > 9",
+				"value":"-50",
+			},
+			
+			{
+				"comment":"Never play at 9 mana.",
+				"condition": "my_hero(count(), max_mana) == 9",
+				"value":"-1000",
+			}
+		],
+	},
+	
+	"BeforeUseHeroPowerBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Never Hero Power before playing this if not with 9 mana.",  		  
+				"condition": "my_hero(count(), max_mana) < 9",
+				"value":"-1000",
+			},
+		],
+	},
+}
