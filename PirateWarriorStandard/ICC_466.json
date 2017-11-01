@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"When Keleseth buffed this.",  		  
-				"condition": "my_hand(count(), cardid = ICC_466, health > 3)",
+				"condition": "my_hand(count(), health > 3, taunt=true)",
 				"value":"15",
 			},
 			
