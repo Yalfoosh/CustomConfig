@@ -14,7 +14,7 @@
 			
 			{						
 				"comment":"If you have equal or less minions than your opponent and you have more than 12 HP, you will NEVER play this.",  		  
-				"condition": "(my_minions(count()) >= opp_minions(count())) AND my_hero(count(), health) > 12",
+				"condition": "my_minions(count()) >= opp_minions(count()) AND my_hero(count(), health) > 12",
 				"value":"-1000",
 			}
 		],

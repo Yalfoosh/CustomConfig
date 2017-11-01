@@ -24,7 +24,7 @@
 				"comment":"Fandral --> Nourish on turn 9 and above with less than 8 cards.",  		  
 				"condition": "my_hand(count()) < 8 AND my_hero(count(), max_mana) > 8 AND my_hero(count(), mana) > 8",
 				"combo":"OG_044 >> EX1_164",
-				"value":"8 >-> 10",
+				"value":"8 >> 10",
 			},
 			
 			{
