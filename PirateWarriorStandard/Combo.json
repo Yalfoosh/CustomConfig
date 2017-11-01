@@ -7,13 +7,6 @@
 		"values":
 		[
 			{
-				"comment":"You don't want Coin -> end turn.",
-				"condition": "my_hand(count(), cardid = GAME_005) > 0",
-				"combo":"GAME_005 >-> *",
-				"value":"-1000 >-> 0",
-			},
-			
-			{
 				"comment":"N'Zoth's First Mate --> Coin --> Southsea Deckhand",  		  
 				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana=1, mana=1) > 0",
 				"combo":"OG_312 >> GAME_005 >> CS2_146",
