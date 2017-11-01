@@ -8,49 +8,49 @@
 		[
 			{
 				"comment":"N'Zoth's First Mate --> Coin --> Southsea Deckhand",  		  
-				"condition": "coin",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0",
 				"combo":"OG_312 >> GAME_005 >> CS2_146",
 				"value":"4 >> 10 >> 8",
 			},
 			
 			{
 				"comment":"N'Zoth's First Mate |TURN| Coin --> Bloodsail Cultist",  		  
-				"condition": "coin AND my_hero(count(), turn) == 1",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), turn) == 1",
 				"combo":"OG_312 >-> GAME_005 >> OG_315",
 				"value":"4 >> 10 >> 10",
 			},
 			
 			{
 				"comment":"N'Zoth's First Mate --> coin --> Upgrade! without weapon in hand",  		  
-				"condition": "coin AND my_hero(count(), turn) == 1 AND my_hand(count(), weapon) < 1",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), turn) == 1 AND my_hand(count(), weapon) < 1",
 				"combo":"OG_312 >> GAME_005 >> EX1_409",
 				"value":"4 >> 10 >> 8",
 			},
 			
 			{
 				"comment":"Coin --> Keleseth",
-				"condition": "coin AND my_hero(count(), turn) == 1",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), turn) == 1",
 				"combo":"GAME_005 >> ICC_851",
 				"value":"0 >> 20",
 			},
 			
 			{
 				"comment":"Coin --> Fledgeling if the board is empty on turn 2.",
-				"condition": "coin AND my_hero(count(), turn) == 2 AND opp_minions(count()) < 1",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), turn) == 2 AND opp_minions(count()) < 1",
 				"combo":"GAME_005 >> UNG_075",
 				"value":"0 >> 13",
 			},
 			
 			{
 				"comment":"Coin --> Frothing Berserker if my minion count > 2.",
-				"condition": "coin AND my_hero(turn(), turn) == 2 AND my_minions(count()) > 2",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(turn(), turn) == 2 AND my_minions(count()) > 2",
 				"combo":"GAME_005 >> EX1_604",
 				"value":"0 >> 15",
 			},
 			
 			{
 				"comment":"Fiery War Axe --> Coin --> Dread Corsair on turn 3.",
-				"condition": "coin AND my_hero(count(), turn) == 3 AND my_hero(count(), mana) == 3",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), turn) == 3 AND my_hero(count(), mana) == 3",
 				"combo":"CS2_106 >> GAME_005 >> NEW1_022",
 				"value":"3 >> 0 >> 10",
 			},

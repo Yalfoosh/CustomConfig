@@ -32,7 +32,7 @@
 		[
 			{
 				"comment":"Don't use heropower before playing this.",
-				condition": "*",
+				"condition": "*",
 				"value": "-1000",
 			}
 		],
