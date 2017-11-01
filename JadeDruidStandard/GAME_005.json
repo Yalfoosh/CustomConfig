@@ -7,8 +7,8 @@
 		"values":
 		[
 			{						
-				"comment":"Don't play the Coin if there is nothing to play with it.",  		  
-				"condition": "(my_hero(count(), mana) + 1) < my_hand(min(cost))",
+				"comment":"Don't play the Coin if you don't need it to play something 1 mana higher than you have.",  		  
+				"condition": "my_hand(min(cost)) - my_hero(count(), mana) != 1)",
 				"value":"-1000",
 			}
 		],
