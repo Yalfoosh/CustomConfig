@@ -20,7 +20,7 @@
 		[
 			{
 				"comment":"Prince Keleseth will always be of the highest priority to play.",
-				"condition": "my_hero(count(), mana) > 1",
+				"condition": "*",
 				"value": "250",
 			}
 		],
