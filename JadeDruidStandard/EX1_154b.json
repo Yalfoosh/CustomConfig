@@ -7,8 +7,8 @@
 		"values":
 		[
 			{
-				"comment":"If there's an enemy minion with 1 Health on the board.",  		  
-				"condition": "opp_minions(count(), health=1) > 0",
+				"comment":"If there's an enemy minion with 1 Health on the board with more than 1 Attack.",  		  
+				"condition": "opp_minions(count(), health = 1, attack > 1) > 0",
 				"value":"8",
 			},
 		],
