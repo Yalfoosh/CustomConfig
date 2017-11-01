@@ -38,14 +38,14 @@
 				"comment":"Coin --> Fledgeling if the board is empty on turn 2.",
 				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 2 AND opp_minions(count()) < 1",
 				"combo":"GAME_005 >> UNG_075",
-				"value":"0 >> 15",
+				"value":"0 >> 5",
 			},
 			
 			{
 				"comment":"Coin --> Frothing Berserker if my minion count > 2.",
 				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 2 AND my_minions(count()) > 2",
 				"combo":"GAME_005 >> EX1_604",
-				"value":"0 >> 20",
+				"value":"0 >> 15",
 			},
 			
 			{
