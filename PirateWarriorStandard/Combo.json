@@ -7,20 +7,6 @@
 		"values":
 		[
 			{
-				"comment":"N'Zoth's First Mate --> Coin --> Southsea Deckhand",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana=1, mana=1) > 0",
-				"combo":"OG_312 >> GAME_005 >> CS2_146",
-				"value":"2 >> 5 >> 5",
-			},
-			
-			{
-				"comment":"Coin --> Bloodsail Cultist if you have a weapon and a pirate.",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 2, mana = 2) > 0 AND my_hero(count(), weapon) > 0 AND my_minions(count(), pirate = true) > 0",
-				"combo":"GAME_005 >> OG_315",
-				"value":"5 >> 20",
-			},
-			
-			{
 				"comment":"N'Zoth's First Mate --> coin --> Upgrade! without weapon in hand",  		  
 				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 1 AND my_hand(count(), weapon) < 1",
 				"combo":"OG_312 >> GAME_005 >> EX1_409",
@@ -40,41 +26,6 @@
 				"combo":"GAME_005 >> UNG_075",
 				"value":"5 >> 5",
 			},
-			
-			{
-				"comment":"Coin --> Frothing Berserker if my minion count > 2.",
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 2, mana = 2) > 0",
-				"combo":"GAME_005 >> EX1_604",
-				"value":"5 >> 15",
-			},
-			
-			{
-				"comment":"Fiery War Axe --> Coin --> Dread Corsair on turn 3.",
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 3",
-				"combo":"CS2_106 >> GAME_005 >> NEW1_022",
-				"value":"0 >> 5 >> 5",
-			},
-			
-			{
-				"comment":"Arcanite Reaper --> Dread Corsair on turn 5.",
-				"condition": "my_hero(count(), max_mana) == 5",
-				"combo":"CS2_112 >> NEW1_022",
-				"value":"0 >> 0",
-			},
-			
-			{
-				"comment":"Vicious Fledgling >> Saronite Chain Gang when I have the mana.",
-				"condition": "my_hero(count(), mana) >= 7",
-				"combo":"UNG_075 >> ICC_466",
-				"value":"5 >> 0",
-			},
-			
-			{
-				"comment":"Hydra >> Saronite Chain Gang when I have the mana.",
-				"condition": "my_hero(count(), mana) >= 9",
-				"combo":"UNG_087 >> ICC_466",
-				"value":"10 >> 0",
-			}
 		],
 	},					
 }
