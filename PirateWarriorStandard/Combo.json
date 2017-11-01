@@ -52,21 +52,21 @@
 				"comment":"Fiery War Axe --> Coin --> Dread Corsair on turn 3.",
 				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana) == 3",
 				"combo":"CS2_106 >> GAME_005 >> NEW1_022",
-				"value":"0 >> 0 >> 12",
+				"value":"0 >> 0 >> 5",
 			},
 			
 			{
 				"comment":"Arcanite Reaper --> Dread Corsair on turn 5.",
 				"condition": "my_hero(count(), max_mana) == 5",
 				"combo":"CS2_112 >> NEW1_022",
-				"value":"0 >> 20",
+				"value":"0 >> 0",
 			},
 			
 			{
 				"comment":"Vicious Fledgling >> Saronite Chain Gang when I have the mana.",
 				"condition": "my_hero(count(), mana) >= 7",
 				"combo":"UNG_075 >> ICC_466",
-				"value":"10 >> 0",
+				"value":"5 >> 0",
 			},
 			
 			{
