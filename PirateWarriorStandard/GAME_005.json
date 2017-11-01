@@ -13,4 +13,16 @@
 			}
 		],
 	},
+	
+	"InHandBonus":
+	{
+		"values":
+		[
+			{						
+				"comment":"A coin in hand is valued if you have less than 10 cards.",  		  
+				"condition": "my_hand(count()) < 10",
+				"value":"10",
+			}
+		],
+	},
 }
