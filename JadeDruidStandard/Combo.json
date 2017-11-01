@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"Coin --> Wild Growth |TURN| Jade Blossoms",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 1) AND my_hero(count(), mana = 1)",
+				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 1) > 0 AND my_hero(count(), mana = 1) > 0",
 				"combo":"GAME_005 >> CS2_013 >-> CFM_713",
 				"value":"0 >> 5 >-> 2",
 			},
@@ -32,9 +32,7 @@
 				"condition": "my_hand(count()) < 6 AND my_hero(count(), max_mana > 8) AND my_hero(count(), mana > 7)",
 				"combo":"KAR_097 >-> ICC_085",
 				"value":"5 >-> 5",
-			},
-			
-			
+			}
 		],
 	},					
 }

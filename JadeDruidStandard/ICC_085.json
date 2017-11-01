@@ -6,31 +6,31 @@
     {
 		"values":
 		[
-			{						
+			{
 				"comment":"If you have more than 6 cards in your hand, you almost never want to play this.",  		  
 				"condition": "my_hand(count()) > 6",
 				"value":"-100",
 			},
 			
-			{						
+			{
 				"comment":"If you have less than 4 cards in your hand, you almost always want to play this.",  		  
 				"condition": "my_hand(count()) < 4",
 				"value":"25",
 			},
 			
-			{						
+			{
 				"comment":"If there is an enemy minion with 5 or less HP on the board, you want to play this.",  		  
-				"condition": "opp_minions(count(), health < 6) > 0",
+				"condition": "opp_minions(count(), health) < 6",
 				"value":"10",
 			},
 			
-			{						
-				"comment":"If you have less than 5 HP and more than 5 cards in your deck, you almost always want to play this.",  		  
-				"condition": "my_hero(count(), health < 6) AND my_deck(count()) > 5",
+			{
+				"comment":"If you have less than 6 HP and more than 5 cards in your deck, you almost always want to play this.",  		  
+				"condition": "my_hero(count(), health) < 6 AND my_deck(count()) > 5",
 				"value":"100",
 			},
 			
-			{						
+			{
 				"comment":"If you have 7 minions on board, you likely don't want to play it.",  		  
 				"condition": "my_minions(count()) > 6",
 				"value":"-25",

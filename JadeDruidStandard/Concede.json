@@ -16,7 +16,7 @@
 				"comment":"Concede when deck has less than 2 cards left and you're not winning by at least 10 HP.",  		  
 				"condition": "my_deck(count()) < 2 AND ((my_hero(count(), health) + my_hero(count(), armor)) - (opp_hero(count(), health) + opp_hero(count(), armor))) < 10",
 				"value":"1",
-			}
+			},
 			
 			{						
 				"comment":"Concede when you have 10 mana and the enemy minion count is larger than your hand.",  		  

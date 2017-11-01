@@ -8,8 +8,8 @@
 		[
 			{						
 				"comment":"If your opponent has more than a minion more than you, you will want to play this.",  		  
-				"condition": "(my_minions(count()) + 1) < opp_minions(count())",
-				"value":"(my_minions(count()) - opp_minions(count())) * 15",
+				"condition": "opp_minions(count()) - my_minions(count()) > 1",
+				"value":"(opp_minions(count()) - my_minions(count())) * 15",
 			},
 			
 			{						
