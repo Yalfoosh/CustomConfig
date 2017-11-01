@@ -23,7 +23,7 @@
 			{ 
 				"comment": "N'Zoth's First Mate (OG_312) + Upgrade! (EX1_409)",
 				"mulligan":"OG_312 + EX1_409",
-				"condition": "my_hero(count(),warrior) > 0",
+				"condition": "coin AND my_hero(count(),warrior) > 0",
 				"value":"hold",
 			},
 				
