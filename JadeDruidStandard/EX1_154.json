@@ -7,8 +7,14 @@
 		"values":
 		[
 			{						
-				"comment":"If there's an enemy minion with 1 or 3 Health.",  		  
-				"condition": "opp_minions(count(), health=1) > 0 OR opp_minions(count(), health=3) > 0",
+				"comment":"If there's an enemy minion with 1 Health.",  		  
+				"condition": "opp_minions(count(), health=1) > 0",
+				"value":"5",
+			},
+
+			{						
+				"comment":"If there's an enemy minion with 3 Health.",  		  
+				"condition": "opp_minions(count(), health=3) > 0",
 				"value":"10",
 			},
 			
