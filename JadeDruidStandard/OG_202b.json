@@ -1,0 +1,16 @@
+{
+	"GameCardId":"OG_202b",	
+	"ConfigComment":"Mire Keeper: Gain an empty Mana Crystal.",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If you have less than 9 Mana.",  		  
+				"condition": "my_hero(count(), max_mana < 9) > 0",
+				"value":"10",
+			}
+		],
+	},
+}

@@ -1,0 +1,22 @@
+{
+	"GameCardId":"ICC_832",	
+	"ConfigComment":"Malfurion Death Knight config.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"You will always want to play this.",  		  
+				"condition": "*",
+				"value":"10",
+			},
+			
+			{						
+				"comment":"If you have Fandral, you will want to play this even more.",  		  
+				"condition": "my_minions(count(), cardid = OG_044) > 0",
+				"value":"15",
+			}
+		],
+	},
+}

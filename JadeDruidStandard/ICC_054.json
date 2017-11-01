@@ -1,0 +1,22 @@
+{
+	"GameCardId":"ICC_054",	
+	"ConfigComment":"Spreading Plague config.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If your opponent has more than a minion more than you, you will want to play this.",  		  
+				"condition": "(my_minions(count()) + 1) < opp_minions(count())",
+				"value":"(my_minions(count()) - opp_minions(count())) * 15",
+			},
+			
+			{						
+				"comment":"If you have equal or less minions than your opponent and you have more than 12 HP, you will NEVER play this.",  		  
+				"condition": "(my_minions(count()) >= opp_minions(count())) AND my_hero(count(), health) > 12",
+				"value":"-1000",
+			}
+		],
+	},
+}

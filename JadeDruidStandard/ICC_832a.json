@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_832a",	
+	"ConfigComment":"Malfurion: Summon 2 1/2 Spiders with Poisonous.",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If the opponent's class doesn't have clears and they have high health minions, you want to choose this.",  		  
+				"condition": "opp_hero(count(), hero_class = shaman | priest | paladin | mage) == 0 AND opp_minions(count(), health > 4) > 0",
+				"value":"15",
+			}
+		],
+	},
+}

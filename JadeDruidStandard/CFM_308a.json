@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_308a",	
+	"ConfigComment":"Kun: Gain 10 Armor.",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If the sum of your Health and Armor is less than 12, you want this option.",  		  
+				"condition": "(my_hero(count(), health) + my_hero(count(), armor)) < 12",
+				"value":"15",
+			}
+		],
+	},
+}

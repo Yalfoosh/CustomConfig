@@ -1,0 +1,16 @@
+{
+	"GameCardId":"OG_202a",	
+	"ConfigComment":"Mire Keeper: Summon a 2/2 Slime.",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If you're losing heavily on board.",  		  
+				"condition": "my_minions(count()) < opp_minions(count())",
+				"value":"5",
+			}
+		],
+	},
+}
