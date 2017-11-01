@@ -1,0 +1,16 @@
+﻿{	
+	"GameCardId":"OG_312",	
+	"ConfigComment":"",	
+	
+	"BeforePlayCardBonus": 
+	          {
+						  "values":
+						  [
+						  		{						  		  
+						  			"condition": "my_heroweapon(count()) > 0 ",
+						  			"value":"-5",
+						  		}
+						  ],
+						},																																																					
+		
+}

@@ -1,0 +1,32 @@
+#Milecar12's VisionAI decks
+
+---------- Standard Pirate Warrior ----------
+
+Warrior cards (13):
+
+2x N'Zoth's First Mate <OG_312>
+1x Upgrade! <EX1_409>
+2x Bloodsail Cultist <OG_315>
+1x Fiery War Axe <CS2_106>
+2x Frothing Berserker <EX1_604>
+2x Kor'kron Elite <NEW1_011>
+1x Mortal Strike <EX1_408>
+2x Arcanite Reaper <CS2_112>
+
+Neutral cards (17):
+
+1x Bloodsail Corsair <NEW1_025>
+1x Patches the Pirate <CFM_637>
+2x Southsea Deckhand <CS2_146>
+1x Prince Keleseth <ICC_851>
+2x Southsea Captain <NEW1_027>
+2x Vicious Fledgling <UNG_075>
+1x Dread Corsair <NEW1_022>
+1x Naga Corsair <CFM_651>
+2x Saronite Chain Gang <ICC_466>
+1x Spellbreaker <EX1_048>
+1x Bittertide Hydra <UNG_087>
+1x Cobalt Scalebane <ICC_029>
+1x Leeroy Jenkins <EX1_116>
+
+----------------------------------------------

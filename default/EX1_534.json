@@ -1,0 +1,17 @@
+{
+	"GameCardId":"EX1_534",	
+	"ConfigComment":"Savannah Highmane :  Deathrattle: Summon two 2/2 Hyenas.",	
+	 "BeforePlayCardBonus":
+          {
+                                              "values":
+                                              [
+                                                           {
+                                                             "comment":"set higher play bonus for this card",             
+                                                                    "condition": "*",
+                                                                    "value":"12",
+                                                           },
+ 
+                                              ],
+           }, 
+	
+}

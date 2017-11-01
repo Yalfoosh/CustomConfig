@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_408",	
+	"ConfigComment":"Mortal Strike while under 13 HP.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Playing it while a weapon is equipped.",  		  
+				"condition": "my_hero(count(), health) > 13",
+				"value":"7",
+			}
+		],
+	},
+}

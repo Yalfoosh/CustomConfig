@@ -1,0 +1,80 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Discard Patches (CFM_637), Upgrade! (EX1_409), Mortal Strike (EX1_408), Arcanite Reaper (CS2_112), Dread Corsair (NEW1_022), Naga Corsair (CFM_651), Cobalt Scalebane (ICC_029), Leeroy (EX1_116).",
+				"mulligan":"CFM_637,EX1_409,EX1_408,CS2_112,NEW1_022,CFM_651,ICC_029,EX1_116",
+				"condition": "my_hero(count(),warrior) > 0",
+				"value":"discard",
+			},
+				
+			{ 
+				"comment": "Hold N'Zoth's First Mate (OG_312), Southsea Deckhand (CS2_146), Frothing Berserker (EX1_604), Prince Keleseth (ICC_851)",
+				"mulligan":"OG_312,CS2_146,EX1_604,ICC_851",
+				"condition": "my_hero(count(),warrior) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "N'Zoth's First Mate (OG_312) + Upgrade! (EX1_409)",
+				"mulligan":"OG_312 + EX1_409",
+				"condition": "my_hero(count(),warrior) > 0",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "N'Zoth's First Mate (OG_312) + Southsea Deckhand (CS2_146)",
+				"mulligan":"CS2_146 + OG_312",
+				"condition": "my_hero(count(),warrior) > 0",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "Fledgling (UNG_075) with Coin.",
+				"mulligan":"UNG_075",
+				"condition": "coin",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Keep Fiery War Axe (CS2_106) against classes with critical minions early.",
+				"mulligan":"CS2_106",
+				"condition": "opp_hero(count(), hero_class=hunter | priest | shaman | warlock ) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Keep Bloodsail Corsair (NEW1_025) against classes with weapons.",
+				"mulligan":"NEW1_025",
+				"condition": "opp_hero(count(), hero_class=hunter | shaman | warrior ) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Keep Spellbreaker (EX1_048) for classes with nasty buffs.",
+				"mulligan":"EX1_048",
+				"condition": "opp_hero(count(), hero_class=paladin | priest | rogue ) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Bloodsail Cultist (OG_315) + N'Zoth's First Mate (OG_312) with Coin.",
+				"mulligan":"OG_315 + OG_312",
+				"condition": "coin",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "my_hero(count(),warrior) > 0",
+				"value":"discard",
+			}
+		],
+	},
+}

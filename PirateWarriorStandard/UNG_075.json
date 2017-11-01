@@ -1,0 +1,40 @@
+{
+	"GameCardId":"UNG_075",	
+	"ConfigComment":"Vicious Fledgling :  After this minion attacks a hero, Adapt.",	
+	
+	"OnAdaptCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Select Windfury (UNG_999t7) when opponent is attackable.",  		  
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_discover(count(),cardid=UNG_999t7) > 0 ",
+				"value":"15",
+			},
+			
+			{						
+				"comment":"Select Attack +3 (UNG_999t3) when opponent is attackable and you can't/don't need Windfury.",  		  
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_discover(count(),cardid=UNG_999t3) > 0 AND my_target(count(), windfury) > 0",
+				"value":"10",
+			},
+			
+			{						
+				"comment":"Select +1/+1 (UNG_999t14) when opponent is attackable, you don't need Windfury and Attack +3 is not available.",  		  
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_discover(count(),cardid=UNG_999t14) > 0 AND my_discover(count(),cardid=UNG_999t3) == 0 AND my_target(count(), windfury) > 0",
+				"value":"10",
+			}
+		],
+	},		
+	
+	"BeforePhysicalAttackBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Get bonus for attacking enemy hero when able to.",  		  
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0 ",
+				"value":"10",
+			}
+		],
+	},
+}

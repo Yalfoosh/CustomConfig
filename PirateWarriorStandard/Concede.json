@@ -1,0 +1,16 @@
+{
+	"GameCardId":"Concede",	
+	"ConfigComment":"This is the extra auto concede settings file.",
+	
+		"ExtraConcdeSettings": 
+			{
+				"values":
+					[
+						{						
+							"comment":"Concede when maximum mana is 10 and opponent's health is >= 20",  		  
+						  	"condition": "my_hero(count(),max_mana >=10) > 0 AND opp_hero(min(health)) >= 20",
+						  	"value":"1",
+						}
+					],
+			},					
+}

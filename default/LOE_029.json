@@ -1,0 +1,16 @@
+﻿{	
+	"GameCardId":"LOE_029",	
+	"ConfigComment":"",	
+	
+	"OnDiscoverCardBonus": 
+	          {
+						  "values":
+						  [
+						  		{						  		  
+						  			"condition": "opp_hero(count(),warrior) > 0 AND my_discover(count(),cardid=CS2_101|CS2_141) > 0 ",
+						  			"value":"20",
+						  		}
+						  ],
+						},																																																					
+		
+}

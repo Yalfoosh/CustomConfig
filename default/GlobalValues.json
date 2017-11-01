@@ -1,0 +1,355 @@
+﻿{	
+	"GameCardId":"GlobalValues",	
+	"ConfigComment":"This is a special card for setup global values",	
+
+	"FirstTurnValueWeight": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0",
+						  		}
+						  ],
+						},
+						
+	"SecondTurnValueWeight": 
+					  {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.0",
+						  		}
+						  ],
+						},
+	
+	"GlobalDivineShield": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"2.74",
+						  		}
+						  ],
+						},
+	
+	"GlobalDurability": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.22",
+						  		}
+						  ],
+						},
+	
+	"GlobalStealth": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.21",
+						  		}
+						  ],
+						},
+						  
+	"GlobalHeroAttack": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.81",
+						  		}
+						  ],
+						},
+	"GlobalMinionAttack": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.81",
+						  		}
+						  ],
+						},						
+	
+	"GlobalWeaponAttack": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.14",
+						  		}
+						  ],
+						},
+						
+	"GlobalTaunt": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.02",
+						  		}
+						  ],
+						},
+	"GlobalOverload": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.68",
+						  		}
+						  ],
+						},						
+						
+	"GlobalQuestProgressValue": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"2",
+						  		}
+						  ],
+						},							
+						
+						
+	"GlobalFrozen": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"2.04",
+						  		}
+						  ],
+						},						
+	"GlobalWindfury": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.96",
+						  		}
+						  ],
+						},
+	"GlobalHeroHealth": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.14",
+						  		}
+						  ],
+						},
+	"GlobalMinionHealth": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.14",
+						  		}
+						  ],
+						},
+	"GlobalCharge": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.65",
+						  		}
+						  ],
+						},
+	"GlobalMinionIntrinsicValue": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"3.32 + 2",
+						  		}
+						  ],
+						},
+
+
+
+
+
+
+
+
+	"OppGlobalDivineShield": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"2.74",
+						  		}
+						  ],
+						},
+	
+	"OppGlobalDurability": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.22",
+						  		}
+						  ],
+						},
+	
+	"OppGlobalStealth": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.21",
+						  		}
+						  ],
+						},
+						
+	"OppGlobalHeroAttack": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.14",
+						  		}
+						  ],
+						},						  
+	"OppGlobalMinionAttack": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.14",
+						  		}
+						  ],
+						},
+						
+	"OppGlobalWeaponAttack": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.14",
+						  		}
+						  ],
+						},						
+						
+	"OppGlobalTaunt": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.02",
+						  		}
+						  ],
+						},
+						
+	"OppGlobalOverload": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"1.68",
+						  		}
+						  ],
+						},
+						
+	"OppGlobalQuestProgressValue": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"2",
+						  		}
+						  ],
+						},													
+												
+	"OppGlobalFrozen": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"2.04",
+						  		}
+						  ],
+						},								
+	"OppGlobalWindfury": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.96",
+						  		}
+						  ],
+						},
+	"OppGlobalHeroHealth": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.81",
+						  		}
+						  ],
+						},
+	"OppGlobalMinionHealth": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.81",
+						  		}
+						  ],
+						},
+	"OppGlobalCharge": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"0.65",
+						  		}
+						  ],
+						},
+	"OppGlobalMinionIntrinsicValue": 
+	          {
+						  "values":
+						  [
+						  		{
+						  			"condition": "*",
+						  			"value":"3.32+6",
+						  		}
+						  ],
+						},
+
+
+																																																						
+		
+}

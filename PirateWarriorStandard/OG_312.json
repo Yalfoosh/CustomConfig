@@ -1,0 +1,15 @@
+﻿{	
+	"GameCardId":"OG_312",	
+	"ConfigComment":"Don't play N'Zoth's First Mate when you have a weapon.",	
+	
+	"BeforePlayCardBonus": 
+	{
+		"values":
+		[
+			{						  		  
+				"condition": "my_heroweapon(count()) > 0 ",
+				"value":"-8",
+			}
+		],
+	},																																																					
+}

@@ -1,0 +1,16 @@
+﻿{	
+	"GameCardId":"NEW1_018",	
+	"ConfigComment":"Bloodsail Raider	<b>Battlecry:</b> Gain Attack equal to the Attack\nof your weapon.",	
+	
+	"BeforePlayCardBonus": 
+	          {
+						  "values":
+						  [
+						  		{						  		  
+						  			"condition": "my_deck(count(),weapon) > 0 AND my_hand(count(),weapon) == 0",
+						  			"value":"-8",
+						  		}
+						  ],
+						},																																																					
+		
+}

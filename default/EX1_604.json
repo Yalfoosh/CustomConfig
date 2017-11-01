@@ -1,0 +1,16 @@
+﻿{	
+	"GameCardId":"EX1_604",	
+	"ConfigComment":"Frothing Berserker: Whenever a minion takes damage, gain +1 Attack -- should play first",	
+	
+	"InHandPlayPriority": 
+	          {
+						  "values":
+						  [
+						  		{						  		  
+						  			"condition": "*",
+						  			"value":"5",
+						  		}
+						  ],
+						},																																																					
+		
+}

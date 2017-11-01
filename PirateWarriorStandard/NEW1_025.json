@@ -1,0 +1,16 @@
+{
+	"GameCardId":"NEW1_025",	
+	"ConfigComment":"Bloodsail Corsair bonuses.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it when your opponent has a weapon.",  		  
+				"condition": "opp_hero(count(), weapon) > 0",
+				"value":"8",
+			}
+		],
+	},
+}

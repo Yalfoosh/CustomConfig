@@ -1,0 +1,17 @@
+{
+	"GameCardId":"CS2_049",	
+	"ConfigComment":"Totemic Call :  Hero Power Summon a random Totem.",	
+	
+		"BeforeUseHeroPowerBonus": 
+          {
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"adjust value to act properly",  		  
+					  			"condition": "*",
+					  			"value":"-4",
+					  		}
+					  ],
+					},		
+					
+}

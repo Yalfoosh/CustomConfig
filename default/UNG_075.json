@@ -1,0 +1,35 @@
+{
+	"GameCardId":"UNG_075",	
+	"ConfigComment":"Vicious Fledgling :  After this minion attacks a_hero, Adapt.",	
+	
+	
+	
+	"OnAdaptCardBonus": 
+          {
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"bonus this card if select windfury (UNG_999t7) to adapt when opponent hero is attackable",  		  
+					  			"condition": "opp_minions(count(),taunt=true)==0 AND my_discover(count(),cardid=UNG_999t7) > 0 ",
+					  			"value":"15",
+					  		}
+					  ],
+					},		
+	
+	"BeforePhysicalAttackBonus": 
+          {
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"bonus this card to attack opponent hero when opponent hero is attackable",  		  
+					  			"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0 ",
+					  			"value":"10",
+					  		}
+					  ],
+					},		
+	
+	
+	
+	
+	
+}

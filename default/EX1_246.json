@@ -1,0 +1,28 @@
+{
+	"GameCardId":"EX1_246",	
+	"ConfigComment":"Hex :  Transform a minion into a 0/1 Frog with Taunt.",	
+	
+	
+	
+			"BeforePlayCardBonus": 
+          {
+					  "values":
+					  [
+					  		{						
+					  		  "comment":"bonus this card used on a 5/5 minion or higher",  		  
+					  			"condition": "opp_target(min(health)) >= 5 AND opp_target(min(attack)) >= 5",
+					  			"value":"15",
+					  		},
+					  		{						
+					  		  "comment":"bonus this card used on a minion attack >=7",  		  
+					  			"condition": "opp_target(min(attack)) >= 7",
+					  			"value":"20",
+					  		},
+					  		{						
+					  		  "comment":"bonus this card used on a minion health >=10",  		  
+					  			"condition": "opp_target(min(attack)) >= 10",
+					  			"value":"20",
+					  		}
+					  ],
+					},		
+}

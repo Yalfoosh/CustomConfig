@@ -1,0 +1,16 @@
+﻿{	
+	"GameCardId":"NEW1_027",	
+	"ConfigComment":"Southsea Captain: Your other Pirates have +1/+1.",	
+	
+	"InHandPlayPriority": 
+	          {
+						  "values":
+						  [
+						  		{						  		  
+						  			"condition": "my_minions(count(),pirate) > 0 OR my_hand(count(),pirate) > 0",
+						  			"value":"10",
+						  		}
+						  ],
+						},																																																					
+		
+}

@@ -1,0 +1,80 @@
+{
+	"GameCardId":"Combo",	
+	"ConfigComment":"These are the combos.",
+	
+	"ComboList": 
+	{
+		"values":
+		[
+			{
+				"comment":"N'Zoth's First Mate --> Coin --> Southsea Deckhand",  		  
+				"condition": "coin",
+				"combo":"OG_312 >> GAME_005 >> CS2_146",
+				"value":"4 >> 10 >> 8",
+			},
+			
+			{
+				"comment":"N'Zoth's First Mate |TURN| Coin --> Bloodsail Cultist",  		  
+				"condition": "coin AND my_hero(turn(), turn == 1)",
+				"combo":"OG_312 >-> GAME_005 >> OG_315",
+				"value":"4 >> 10 >> 10",
+			},
+			
+			{
+				"comment":"N'Zoth's First Mate --> coin --> Upgrade! without weapon in hand",  		  
+				"condition": "coin AND my_hero(turn(), turn == 1) AND my_hand(count(), weapon=false)",
+				"combo":"OG_312 >> GAME_005 >> EX1_409",
+				"value":"4 >> 10 >> 8",
+			},
+			
+			{
+				"comment":"Coin --> Keleseth",
+				"condition": "coin AND my_hero(turn(), turn == 1)",
+				"combo":"GAME_005 >> ICC_851",
+				"value":"5 >> 20",
+			},
+			
+			{
+				"comment":"Coin --> Fledgeling if the board is empty on turn 2.",
+				"condition": "coin AND my_hero(turn(), turn == 2) AND opp_minions(count()) < 1",
+				"combo":"GAME_005 >> UNG_075",
+				"value":"5 >> 13",
+			},
+			
+			{
+				"comment":"Coin --> Frothing Berserker if my minion count > 2.",
+				"condition": "coin AND my_hero(turn(), turn == 2) AND my_minions(count()) > 2",
+				"combo":"GAME_005 >> EX1_604",
+				"value":"5 >> 15",
+			},
+			
+			{
+				"comment":"Fiery War Axe --> Coin --> Dread Corsair on turn 3.",
+				"condition": "coin AND my_hero(turn(), turn == 3) AND my_hero(count(), mana == 3)",
+				"combo":"CS2_106 >> GAME_005 >> NEW1_022",
+				"value":"3 >> 5 >> 10",
+			},
+			
+			{
+				"comment":"Arcanite Reaper --> Dread Corsair on turn 5.",
+				"condition": "my_hero(turn(), turn == 5) AND my_hero(count(), mana == 5)",
+				"combo":"CS2_112 >> NEW1_022",
+				"value":"10 >> 15",
+			},
+			
+			{
+				"comment":"Vicious Fledgling >> Saronite Chain Gang when I have the mana.",
+				"condition": "my_hero(count(), mana == 7)",
+				"combo":"UNG_075 >> ICC_466",
+				"value":"15 >> 8",
+			},
+			
+			{
+				"comment":"Hydra >> Saronite Chain Gang when I have the mana.",
+				"condition": "my_hero(count(), mana == 9)",
+				"combo":"UNG_087 >> ICC_466",
+				"value":"10 >> 15",
+			}
+		],
+	},					
+}

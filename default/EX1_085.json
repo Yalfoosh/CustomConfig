@@ -1,0 +1,17 @@
+{
+	"GameCardId":"EX1_085",	
+	"ConfigComment":"Mind Control Tech :  [x]Battlecry: If your opponent has 4 or more minions, take  control of one at random.",	
+	
+		"InHandPlayPriority": 
+	          {
+						  "values":
+						  [
+						  		{
+						  		  "comment":"if opponent has 4 or more minions, play this card first!",						  		  
+						  			"condition": "opp_minions(count()) >= 4 ",
+						  			"value":"20",
+						  		}
+						  ],
+						},																																																					
+		
+}

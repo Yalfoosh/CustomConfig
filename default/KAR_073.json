@@ -1,0 +1,16 @@
+﻿{	
+	"GameCardId":"KAR_073",	
+	"ConfigComment":"Moonglade Portal: Deal_$1_damage to_all_enemy_minions. Summon_a_random1-Cost minion.",	
+	
+	"BeforePlayCardBonus": 
+	          {
+						  "values":
+						  [
+						  		{						  		  
+						  			"condition": "opp_minions(count()) == 0",
+						  			"value":"-2*1.64",
+						  		}
+						  ],
+						},																																																					
+		
+}
