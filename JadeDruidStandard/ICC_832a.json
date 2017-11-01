@@ -7,9 +7,15 @@
 		"values":
 		[
 			{						
-				"comment":"If the opponent's class doesn't have clears and they have high health minions, you want to choose this.",  		  
-				"condition": "opp_hero(count(), hero_class = shaman | priest | paladin | mage) == 0 AND opp_minions(count(), health > 4) > 0",
-				"value":"15",
+				"comment":"If the opponent's class doesn't have clears you want to choose this.",  		  
+				"condition": "opp_hero(count(), hero_class = shaman | priest | paladin | mage) == 0",
+				"value":"10",
+			},
+			
+			{						
+				"comment":"If the opponent has a relatively strong minion, you will be encouraged to choose this.",  		  
+				"condition": "opp_minions(count(), health > 4, attack > 3) > 0",
+				"value":"5 * opp_minions(count(), health > 4, attack > 3)",
 			}
 		],
 	},
