@@ -7,20 +7,6 @@
 		"values":
 		[
 			{
-				"comment":"Coin --> Wild Growth |TURN| Jade Blossoms",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hero(count(), max_mana = 1) > 0 AND my_hero(count(), mana = 1) > 0",
-				"combo":"GAME_005 >> CS2_013 >-> CFM_713",
-				"value":"0 >> 5 >-> 2",
-			},
-			
-			{
-				"comment":"Wild Growth |TURN| Coin --> Mire Keeper on turn 2.",  		  
-				"condition": "my_hand(count(), cardid=GAME_005) > 0 AND my_hand(count(), cardid=OG_202) > 0 AND my_hero(count(), max_mana = 2) > 0 AND my_hero(count(), mana = 2) > 0",
-				"combo":"CS2_013 >-> GAME_005 >> OG_202",
-				"value":"2 >-> 0 >> 5",
-			},
-			
-			{
 				"comment":"Fandral --> Nourish on turn 9 and above with less than 8 cards.",  		  
 				"condition": "my_hand(count()) < 8 AND my_hero(count(), max_mana) > 8 AND my_hero(count(), mana) > 8",
 				"combo":"OG_044 >> EX1_164",

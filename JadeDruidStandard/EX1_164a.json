@@ -8,7 +8,7 @@
 		[
 			{						
 				"comment":"If you have less than 8 Mana, you want to ramp.",  		  
-				"condition": "my_hero(count(), max_mana < 8) > 0",
+				"condition": "my_hero(count(), max_mana) < 8",
 				"value":"15",
 			}
 		],

@@ -16,6 +16,12 @@
 				"comment":"If you have 3 mana left.",  		  
 				"condition": "my_hero(count(), mana) == 3",
 				"value":"5",
+			},
+			
+			{
+				"comment":"You generally want to play this if you don't have 9 Mana.",  		  
+				"condition": "my_hero(count(), max_mana) != 9",
+				"value":"5",
 			}
 		],
 	},

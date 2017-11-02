@@ -7,21 +7,9 @@
 		"values":
 		[
 			{						
-				"comment":"If there's an enemy minion with 1 Health.",  		  
-				"condition": "opp_minions(count(), health=1) > 0",
-				"value":"5",
-			},
-
-			{						
-				"comment":"If there's an enemy minion with 3 Health.",  		  
-				"condition": "opp_minions(count(), health=3) > 0",
-				"value":"10",
-			},
-			
-			{						
 				"comment":"If you have Fandral and there's a minion with 4 Health without Divine Shield.",  		  
 				"condition": "my_minions(count(), cardid = OG_044) > 0 AND my_target(count(), health=4, divineshield=false, minion=true) > 0",
-				"value":"20",
+				"value":"15",
 			},
 			
 			{						
