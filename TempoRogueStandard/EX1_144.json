@@ -1,0 +1,28 @@
+{
+	"GameCardId":"EX1_144",	
+	"ConfigComment":"Shadowstep config.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it on Keleseth",  		  
+				"condition": "my_target(count(), cardid = ICC_851)",
+				"value":"20",
+			}
+		],
+	},
+	
+	"InHandBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"It's worth to keep it in hand.",  		  
+				"condition": "*",
+				"value":"5",
+			}
+		],
+	},
+}

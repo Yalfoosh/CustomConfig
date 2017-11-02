@@ -1,0 +1,52 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Discard Cold Blood (CS2_073), Vilespine Slayer (UNG_064), Patches (CFM_637), Naga Corsair (CFM_651), Cobalt Scalebane (ICC_029), Leeroy (EX1_116), Bonemare (ICC_705).",
+				"mulligan":"CS2_073,UNG_064,CFM_637,CFM_651,ICC_029,EX1_116,ICC_705",
+				"condition": "*",
+				"value":"discard",
+			},
+				
+			{ 
+				"comment": "Hold Swashburglar (KAR_069), Fire Fly (UNG_809), Southsea Deckhand (CS2_146), Prince Keleseth (ICC_851)",
+				"mulligan":"KAR_069,UNG_809,CS2_146,ICC_851",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Shadowstep + Keleseth",
+				"mulligan":"EX1_144 + ICC_851",
+				"condition": "*",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "Hold Backstab against annoying early classes.",
+				"mulligan":"CS2_072",
+				"condition": "opp_hero(count(), hero_class=hunter | priest | shaman | warlock ) > 0",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "Hold SI:7 Agent if you get the Coin.",
+				"mulligan":"EX1_134",
+				"condition": "coin",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

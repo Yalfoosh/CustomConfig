@@ -1,0 +1,34 @@
+{
+	"GameCardId":"EX1_116",	
+	"ConfigComment":"Leeroy bonuses.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it while no enemy minions are on board.",  		  
+				"condition": "opp_minions(count()) == 0",
+				"value":"10",
+			},
+			
+			{
+				"comment":"Playing it if you can't finish the enemy.",  		  
+				"condition": "opp_hero(count(), health) > 7",
+				"value":"-10",
+			},
+		],
+	},
+	
+	"BeforePhysicalAttackBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Get bonus for attacking enemy hero when able to.",  		  
+				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0 ",
+				"value":"20",
+			}
+		],
+	},
+}
