@@ -7,9 +7,9 @@
 		"values":
 		[
 			{						
-				"comment":"Choose this if it's a duplicate or you're losing heavily.",  		  
-				"condition": "my_deck(count(), cardid=CFM_602) > 0 OR my_hand(count(), cardid=CFM_602) > 0 OR my_hero(count(), health < 12, armor < 12) > 0",
-				"value":"16",
+				"comment":"If this is the last Jade Idol in your game, you NEVER want to play this.",  		  
+				"condition": "my_deck(count(), cardid=CFM_602) == 0 AND my_hand(count(), cardid = CFM_602) < 2",
+				"value":"-100",
 			}
 		],
 	},

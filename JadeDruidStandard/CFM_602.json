@@ -10,6 +10,12 @@
 				"comment":"Playing it on turn 1.",  		  
 				"condition": "my_hero(count(), max_mana) == 1",
 				"value":"10",
+			},
+			
+			{
+				"comment":"Playing the last one if you have anything more than one mana should not happen.",  		  
+				"condition": "my_hero(count(), mana) > 1 AND my_deck(count(), cardid = CFM_602) == 0 AND my_hand(count(), cardid = CFM_602) < 2",
+				"value":"-1000",
 			}
 		],
 	},

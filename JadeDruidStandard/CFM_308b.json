@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_308b",	
+	"ConfigComment":"Kun: Refresh your Mana Crystals.",	
+	
+	"OnChooseOneCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If you cannot play a lot of cards, you don't wanna take this.",  		  
+				"condition": "my_hand(count(), mana > 3) < 2",
+				"value":"-15",
+			}
+		],
+	},
+}

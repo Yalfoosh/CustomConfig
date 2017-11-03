@@ -7,9 +7,9 @@
 		"values":
 		[
 			{						
-				"comment":"Choose this if it's your last Jade Idol.",  		  
-				"condition": "my_deck(count(), cardid=CFM_602) == 0 AND my_hand(count(), cardid=CFM_602) == 0",
-				"value":"15",
+				"comment":"You want to discourage shuffling at early turns.",  		  
+				"condition": "my_hero(count(), max_mana) < 7",
+				"value":"-100",
 			}
 		],
 	},

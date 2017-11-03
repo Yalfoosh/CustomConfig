@@ -31,4 +31,16 @@
 			},
 		],
 	},
+	
+	"BeforeBattlecryTargetBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"You don't want to silence a very low spec minion because you can kill it usually.",  		  
+				"condition": "my_target(count(), health < 4, attack < 4) > 0",
+				"value":"-20",
+			},
+		],
+	},
 }

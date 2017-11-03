@@ -10,6 +10,12 @@
 				"comment":"If the opponent has more than 2 minions, you want to take this.",  		  
 				"condition": "opp_minions(count()) > 2",
 				"value":"15",
+			},
+			
+			{						
+				"comment":"If the opponent's minions are very strong and you don't have Swipe in hand, you don't want to choose this.",  		  
+				"condition": "opp_minions(count(), attack > 4, health > 4) > 0 AND my_hand(count(), cardid = CS2_012) == 0",
+				"value":"-25",
 			}
 		],
 	},

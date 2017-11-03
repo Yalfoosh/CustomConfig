@@ -14,7 +14,7 @@
 			
 			{
 				"comment":"Play bonus if it's the first turn and you have Jade Blossoms in hand.",  		  
-				"condition": "my_hand(count(), cardid = CFM_713) > 0 AND my_hero(count(), max_mana == 1)",
+				"condition": "my_hand(count(), cardid = CFM_713) > 0 AND my_hero(count(), max_mana) == 1",
 				"value":"10",
 			},
 			
@@ -28,6 +28,12 @@
 				"comment":"Never play at 9 mana.",
 				"condition": "my_hero(count(), max_mana) == 9",
 				"value":"-1000",
+			},
+			
+			{
+				"comment":"Encourage playing at 10 mana if you have less than 5 cards in hand.",
+				"condition": "my_hero(count(), max_mana) == 10 AND my_hand(count()) < 5",
+				"value":"10",
 			}
 		],
 	},

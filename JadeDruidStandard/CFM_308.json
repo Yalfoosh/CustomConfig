@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_308",	
+	"ConfigComment":"Kun config.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"You always kinda wanna play this.",  		  
+				"condition": "*",
+				"value":"15",
+			}
+		],
+	},
+}

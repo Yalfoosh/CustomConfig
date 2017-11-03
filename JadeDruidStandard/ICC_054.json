@@ -7,14 +7,14 @@
 		"values":
 		[
 			{						
-				"comment":"If your opponent has more than a minion more than you, you will want to play this.",  		  
-				"condition": "opp_minions(count()) - my_minions(count()) > 1",
-				"value":"(opp_minions(count()) - my_minions(count())) * 15",
+				"comment":"If you have equal or less minions than your opponent and you have more than 12 HP, you will NEVER play this.",  		  
+				"condition": "my_minions(count()) >= opp_minions(count()) AND my_hero(count(), health) > 12",
+				"value":"-1000",
 			},
 			
 			{						
-				"comment":"If you have equal or less minions than your opponent and you have more than 12 HP, you will NEVER play this.",  		  
-				"condition": "my_minions(count()) >= opp_minions(count()) AND my_hero(count(), health) > 12",
+				"comment":"If the enemy has 2 or less minions more than you and you have both Malfurion in hand and 7 or more mana, you will never play this.",  		  
+				"condition": "opp_minions(count()) - my_minions(count()) < 3 AND my_hand(count(), cardid = ICC_832) > 0 AND my_hero(count(), mana) > 6",
 				"value":"-1000",
 			}
 		],
