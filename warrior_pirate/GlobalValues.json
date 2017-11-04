@@ -1,14 +1,14 @@
 ﻿{	
 	"GameCardId":"GlobalValues",	
 	"ConfigComment":"This is a special card for setup global values",	
-
+	
 	"FirstTurnValueWeight": 
 	          {
 						  "values":
 						  [
 						  		{
 						  			"condition": "*",
-						  			"value":"0",
+						  			"value":"1.0",
 						  		}
 						  ],
 						},
@@ -19,11 +19,11 @@
 						  [
 						  		{
 						  			"condition": "*",
-						  			"value":"1.0",
+						  			"value":"0",
 						  		}
 						  ],
 						},
-	
+						
 	"GlobalDivineShield": 
 	          {
 						  "values":
@@ -109,19 +109,6 @@
 						  		}
 						  ],
 						},						
-						
-	"GlobalQuestProgressValue": 
-	          {
-						  "values":
-						  [
-						  		{
-						  			"condition": "*",
-						  			"value":"2",
-						  		}
-						  ],
-						},							
-						
-						
 	"GlobalFrozen": 
 	          {
 						  "values":
@@ -276,17 +263,6 @@
 						  		}
 						  ],
 						},
-						
-	"OppGlobalQuestProgressValue": 
-	          {
-						  "values":
-						  [
-						  		{
-						  			"condition": "*",
-						  			"value":"2",
-						  		}
-						  ],
-						},													
 												
 	"OppGlobalFrozen": 
 	          {
@@ -314,7 +290,7 @@
 						  [
 						  		{
 						  			"condition": "*",
-						  			"value":"0.81",
+						  			"value":"0.81 + 1",
 						  		}
 						  ],
 						},
@@ -344,7 +320,7 @@
 						  [
 						  		{
 						  			"condition": "*",
-						  			"value":"3.32+6",
+						  			"value":"3.32",
 						  		}
 						  ],
 						},

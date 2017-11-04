@@ -20,7 +20,7 @@
 			
 			{
 				"comment":"If there is an enemy minion with 5 or less HP on the board, you want to play this.",  		  
-				"condition": "opp_minions(count(), health) < 6",
+				"condition": "opp_minions(count(), health < 6, health > 3) > 0",
 				"value":"15",
 			},
 			
@@ -29,12 +29,6 @@
 				"condition": "my_hero(count(), health) < 6 AND my_deck(count()) > 5",
 				"value":"15",
 			},
-			
-			{
-				"comment":"If you have 7 minions on board, you likely don't want to play it.",  		  
-				"condition": "my_minions(count()) > 6",
-				"value":"-20",
-			}
 		],
 	},
 }

@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_164",	
+	"ConfigComment":"Nourish config",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"If you have Fandral on board, you want to play this.",  		  
+				"condition": "*",
+				"value":"50",
+			}
+		],
+	},
+}

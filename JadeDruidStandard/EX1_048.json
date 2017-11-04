@@ -2,36 +2,6 @@
 	"GameCardId":"EX1_048",	
 	"ConfigComment":"Spellbreaker config.",	
 	
-	"BeforePlayCardBonus": 
-    {
-		"values":
-		[
-			{						
-				"comment":"If there is a taunt minion, you will generally want to play this.",  		  
-				"condition": "opp_minions(count(), taunt = true) > 0",
-				"value":"10",
-			},
-			
-			{						
-				"comment":"If there is a large buffed minion, you want to play this.",  		  
-				"condition": "opp_minions(count(), health > 4) > 0 OR opp_minions(count(), attack > 4) > 0",
-				"value":"10",
-			}
-		],
-	},
-	
-	"InHandBonus":
-	{
-		"values":
-		[
-			{
-				"comment":"You generally want to hold onto this.",  		  
-				"condition": "*",
-				"value":"8",
-			},
-		],
-	},
-	
 	"BeforeBattlecryTargetBonus":
 	{
 		"values":

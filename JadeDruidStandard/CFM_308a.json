@@ -7,9 +7,9 @@
 		"values":
 		[
 			{						
-				"comment":"If the sum of your Health and Armor is more than 12, you don't want to play this.",  		  
+				"comment":"If the sum of your Health and Armor is more than 14, you don't want to play this.",  		  
 				"condition": "(my_hero(count(), health) + my_hero(count(), armor)) > 14",
-				"value":"-15",
+				"value":"-100",
 			}
 		],
 	},

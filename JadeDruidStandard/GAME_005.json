@@ -8,20 +8,8 @@
 		[
 			{						
 				"comment":"Don't play the Coin if you don't need it to play something 1 mana higher than you have.",  		  
-				"condition": "my_hand(min(cost)) - my_hero(count(), mana) != 1)",
+				"condition": "(my_hand(min(cost)) - my_hero(count(), mana)) != 1",
 				"value":"-1000",
-			}
-		],
-	},
-	
-	"InHandBonus":
-	{
-		"values":
-		[
-			{						
-				"comment":"A coin in hand is valued if you have less than 10 cards.",  		  
-				"condition": "my_hand(count()) < 10",
-				"value":"5",
 			}
 		],
 	},
@@ -33,7 +21,7 @@
 			{						
 				"comment":"A coin in a full hand is almost worthless.",  		  
 				"condition": "my_hand(count()) > 9",
-				"value":"-50",
+				"value":"-100",
 			}
 		],
 	},

@@ -13,6 +13,12 @@
 			},
 			
 			{						
+				"comment":"Discourage playing this if you have a Spreading Plague in hand.",  		  
+				"condition": "my_hand(count(), cardid = ICC_054) > 0",
+				"value":"-15",
+			},
+			
+			{						
 				"comment":"Gain a bonus depending on how many minions you have.",  		  
 				"condition": "my_minions(count()) > 1",
 				"value":"my_minions(count()) * 5",

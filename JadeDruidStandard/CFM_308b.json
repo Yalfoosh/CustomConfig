@@ -8,7 +8,7 @@
 		[
 			{						
 				"comment":"If you cannot play a lot of cards, you don't wanna take this.",  		  
-				"condition": "my_hand(count(), mana > 3) < 2",
+				"condition": "my_hand(count(), cost > 3) < 2",
 				"value":"-15",
 			}
 		],

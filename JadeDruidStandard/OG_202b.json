@@ -7,9 +7,9 @@
 		"values":
 		[
 			{						
-				"comment":"If you have less than 9 Mana.",  		  
-				"condition": "my_hero(count(), max_mana < 9) > 0",
-				"value":"10",
+				"comment":"If you have 9 Mana, you don't want to choose this ever.",  		  
+				"condition": "my_hero(count(), max_mana) == 9",
+				"value":"-1000",
 			}
 		],
 	},

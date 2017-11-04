@@ -1,0 +1,18 @@
+{
+	"GameCardId":"Combo",	
+	"ConfigComment":"This is the combo config file.",
+	
+		"ComboList": 
+	          {
+						  "values":
+						  [
+						  		{						
+						  		  "comment":"Arcanite Reaper -->  Bloodsail Raider",  		  
+						  			"condition": "*",
+						  			"combo":"CS2_112 >> NEW1_018",
+						  			"value":"15 >> 10",
+						  		}
+						  ],
+						},					
+		
+}

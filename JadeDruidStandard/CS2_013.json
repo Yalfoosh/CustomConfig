@@ -27,7 +27,7 @@
 			{
 				"comment":"Never play at 9 mana.",
 				"condition": "my_hero(count(), max_mana) == 9",
-				"value":"-1000",
+				"value":"-10000",
 			},
 			
 			{
