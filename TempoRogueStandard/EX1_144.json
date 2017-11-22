@@ -7,9 +7,9 @@
 		"values":
 		[
 			{
-				"comment":"Playing it on Keleseth",  		  
+				"comment":"Playing it on Keleseth is what you generally want.",  		  
 				"condition": "my_target(count(), cardid = ICC_851)",
-				"value":"20",
+				"value":"25",
 			}
 		],
 	},

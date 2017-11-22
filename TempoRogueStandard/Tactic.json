@@ -1,0 +1,16 @@
+{
+	"GameCardId":"Tactic",	
+	"ConfigComment":"This is the tactic config file.",
+	
+	"AttackOppHeroBonus": 
+	{
+		"values":
+		[
+			{
+				"comment":"Attack the enemy hero whenever you can.",  		  
+				"condition": "*",
+				"value":"1",
+			}
+		],
+	},
+}

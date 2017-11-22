@@ -9,7 +9,7 @@
 			{
 				"comment":"Playing it with more than 1 combo card is beneficial.",  		  
 				"condition": "my_target(count(), health > 3) > 0",
-				"value":"5",
+				"value":"10",
 			}
 		],
 	},

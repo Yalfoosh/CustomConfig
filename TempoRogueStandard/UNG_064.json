@@ -1,0 +1,16 @@
+{
+	"GameCardId":"UNG_064",	
+	"ConfigComment":"Vilespine Slayer config.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it without combo while the opponent has minions is not that good.",  		  
+				"condition": "my_played(count()) < 1 && opp_minion(count()) > 1",
+				"value":"-12",
+			}
+		],
+	},
+}

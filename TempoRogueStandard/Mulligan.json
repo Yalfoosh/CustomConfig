@@ -7,15 +7,15 @@
 		"values":
 		[
 			{ 
-				"comment": "Discard Cold Blood (CS2_073), Vilespine Slayer (UNG_064), Patches (CFM_637), Naga Corsair (CFM_651), Cobalt Scalebane (ICC_029), Leeroy (EX1_116), Bonemare (ICC_705).",
-				"mulligan":"CS2_073,UNG_064,CFM_637,CFM_651,ICC_029,EX1_116,ICC_705",
+				"comment": "Discard Cold Blood (CS2_073), Vilespine Slayer (UNG_064), Patches (CFM_637), Cobalt Scalebane (ICC_029), Leeroy (EX1_116), Cairne (EX1_110), Bonemare (ICC_705), Lich King (ICC_314)",
+				"mulligan":"CS2_073,UNG_064,CFM_637,ICC_029,EX1_116,EX1_110,ICC_705,ICC_314",
 				"condition": "*",
 				"value":"discard",
 			},
 				
 			{ 
-				"comment": "Hold Swashburglar (KAR_069), Fire Fly (UNG_809), Southsea Deckhand (CS2_146), Prince Keleseth (ICC_851)",
-				"mulligan":"KAR_069,UNG_809,CS2_146,ICC_851",
+				"comment": "Hold Swashburglar (KAR_069), Fire Fly (UNG_809), Southsea Deckhand (CS2_146), Prince Keleseth (ICC_851), Edwin (EX1_613)",
+				"mulligan":"KAR_069,UNG_809,CS2_146,ICC_851,EX1_613",
 				"condition": "*",
 				"value":"hold",
 			},

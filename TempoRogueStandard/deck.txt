@@ -2,30 +2,32 @@
 
 ---------- Standard Tempo Rogue ----------
 
-Rogue cards (15):
+Rogue cards (13):
 
 2x Backstab (CS2_072)
 2x Shadowstep (EX1_144)
-2x Cold Blood (CS2_073)
+1x Cold Blood (CS2_073)
 2x Swashburglar (KAR_069)
 1x Edwin VanCleef (EX1_613)
-1x Plague Scientist (ICC_809)
 1x Shaku, the Collector (CFM_781)
 2x SI:7 Agent (EX1_134)
 2x Vilespine Slayer (UNG_064)
 
 
 
-Neutral cards (15):
+Neutral cards (17):
 
 2x Fire Fly (UNG_809)
 1x Patches the Pirate (CFM_637)
-2x Southsea Deckhand (CS2_146)
+1x Southsea Deckhand (CS2_146)
 1x Prince Keleseth (ICC_851)
 2x Southsea Captain (NEW1_027)
-2x Naga Corsair (CFM_651)
+2x Saronite Chain Gang (ICC_466)
+1x Spellbreaker (EX1_048)
 2x Cobalt Scalebane (ICC_029)
 1x Leeroy Jenkins (EX1_116)
+1x Cairne Bloodhoof (EX1_110)
 2x Bonemare (ICC_705)
+1x The Lich King (ICC_314)
 
 ------------------------------------------
