@@ -13,21 +13,9 @@
 			},
 			
 			{
-				"comment":"Playing it if you have otehr things to play is a no-no.",  		  
-				"condition": "my_hand(count(), cost < 6) > 1 AND my_hero(count(), max_mana) > 5",
+				"comment":"Playing it if you have other things to play is a no-no.",  		  
+				"condition": "my_hand(count(), cost < 6) > 0 AND my_hero(count(), max_mana) > 4",
 				"value":"-15",
-			}
-		],
-	},
-	
-	"BeforePhysicalAttackBonus": 
-    {
-		"values":
-		[
-			{
-				"comment":"Get bonus for attacking enemy hero when able to.",  		  
-				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0 ",
-				"value":"20",
 			}
 		],
 	},
