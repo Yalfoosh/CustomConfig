@@ -20,7 +20,7 @@
         [
 			{
 				"comment":"Don't Hero Power before my boy.",
-                "condition": "my_hand(count(),cardid=ICC_851)>0",
+                "condition": "my_hand(count(),cardid=ICC_851) > 0",
 				"value":"-15",
             }
         ],

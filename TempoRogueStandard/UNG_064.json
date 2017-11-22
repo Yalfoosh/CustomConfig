@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"Playing it without combo while the opponent has minions is not that good.",  		  
-				"condition": "my_played(count()) < 1 && opp_minion(count()) > 1",
+				"condition": "my_played(count()) < 1 && opp_minions(count()) > 1",
 				"value":"-12",
 			}
 		],
