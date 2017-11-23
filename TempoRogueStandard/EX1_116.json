@@ -7,15 +7,9 @@
 		"values":
 		[
 			{
-				"comment":"Playing it if you can't finish the enemy is a no-no.",  		  
-				"condition": "opp_hero(count(), health) > 7",
-				"value":"-10",
-			},
-			
-			{
 				"comment":"Playing it if you have other things to play is a no-no.",  		  
-				"condition": "my_hand(count(), cost < 6) > 0 AND my_hero(count(), max_mana) > 4",
-				"value":"-15",
+				"condition": "my_hand(count(), cost < 6) > 1 AND opp_hero(count(), health > 7) > 0",
+				"value":"-25",
 			}
 		],
 	},

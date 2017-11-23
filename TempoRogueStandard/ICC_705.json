@@ -9,7 +9,7 @@
 			{
 				"comment":"Playing it without a minion on board is abysmal",  		  
 				"condition": "my_minions(count()) < 1",
-				"value":"-20",
+				"value":"-40",
 			}
 		],
 	},
