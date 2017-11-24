@@ -9,7 +9,7 @@
 			{
 				"comment":"Playing it on Keleseth is what you generally want.",  		  
 				"condition": "my_target(count(), cardid = ICC_851) > 0",
-				"value":"25",
+				"value":"100",
 			}
 		],
 	},
