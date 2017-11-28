@@ -14,7 +14,7 @@
 			
 			{						
 				"comment":"Don't play the Coin if you have something to play this turn, nothing next turn without the Coin.",  		  
-				"condition": "my_hand(count(), cost = (mana + 2)) > 0 AND my_hand(count(), cost = (mana + 1)) < 1 AND my_hand(count(), cost = mana) > 0",
+				"condition": "my_hand(count(), cost = (mana + 2)) > 0 AND my_hand(count(), cost = (mana + 1)) < 1",
 				"value":"-100",
 			}
 		],
