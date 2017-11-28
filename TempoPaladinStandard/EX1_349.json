@@ -15,7 +15,7 @@
 			{
 				"comment":"Gain increasingly more value for every additional card your opponent has.",
 				"condition": "opp_hand(count()) > my_hand(count())",
-				"value":"10 + 5 * (opp_hand(count()) - my_hand(count()))",
+				"value":"5 + 4 * (opp_hand(count()) - my_hand(count()))",
 			}
 		],
 	},
