@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"Don't use it if Patches is in my deck.",
-				"condition": "my_deck(count(), cardid = CFM_637) > 0",
+				"condition": "my_deck(count(), cardid = CFM_637) > 0 AND my_graveyard(count(), cardid = CFM_637) < 1",
 				"value":"-100",
 			},
 			
