@@ -7,9 +7,15 @@
 		"values":
 		[
 			{
-				"comment":"Don't use it if Patches hasn't been played or drawn.",
-				"condition": "my_hand(count(), cardid = CFM_637) < 1 OR my_deck(count(), cardid = CFM_637) > 0",
+				"comment":"Don't use it if Patches is in my deck.",
+				"condition": "my_deck(count(), cardid = CFM_637) > 0",
 				"value":"-100",
+			},
+			
+			{
+				"comment":"Bonus if Keleseth went off.",
+				"condition": "my_played(count(), cardid = ICC_851) > 0",
+				"value":"20",
 			}
 		],
 	},
