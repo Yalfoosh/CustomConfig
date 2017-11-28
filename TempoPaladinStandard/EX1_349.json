@@ -10,6 +10,12 @@
 				"comment":"Drawing less than 1 card should never happen.",
 				"condition": "opp_hand(count()) - my_hand(count()) < 1",
 				"value":"-100",
+			},
+			
+			{
+				"comment":"Gain increasingly more value for every additional card your opponent has.",
+				"condition": "opp_hand(count()) > my_hand(count())",
+				"value":"10 + 5 * (opp_hand(count()) - my_hand(count()))",
 			}
 		],
 	},
