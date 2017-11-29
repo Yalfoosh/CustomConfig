@@ -7,8 +7,8 @@
 		"values":
 		[
 			{ 
-				"comment": "Discard Small-Time Recruits (CFM_905), Chillblade Champion (ICC_820), Truesilver Champion (CS2_097), Tirion Fordring (EX1_383), Patches (CFM_637), Corpsetaker (ICC_912), Grook Fu Master (CFM_666), Bonemare (ICC_705), Lich King (ICC_314)",
-				"mulligan":"CFM_905, ICC_820, CS2_097, EX1_383, CFM_637, ICC_912, CFM_666, ICC_705, ICC_314",
+				"comment": "Discard Small-Time Recruits (CFM_905), Chillblade Champion (ICC_820), Truesilver Champion (CS2_097), Tirion Fordring (EX1_383), Patches (CFM_637), Corpsetaker (ICC_912), Spellbreaker (EX1_048), Cobalt Scalebane (ICC_029), Grook Fu Master (CFM_666), Bonemare (ICC_705), Lich King (ICC_314)",
+				"mulligan":"CFM_905, ICC_820, CS2_097, EX1_383, CFM_637, ICC_912, EX1_048, ICC_029, CFM_666, ICC_705, ICC_314",
 				"condition": "*",
 				"value":"discard",
 			},
@@ -24,6 +24,13 @@
 				"comment": "Hold Wickerflame against super aggressive classes.",
 				"mulligan":"CFM_815",
 				"condition": "opp_hero(count(), hero_class = hunter | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Rallying Blade against classes with critical minions early.",
+				"mulligan":"OG_222",
+				"condition": "opp_hero(count(), hero_class = hunter | priest | shaman | warlock) > 0",
 				"value":"hold",
 			},
 			
