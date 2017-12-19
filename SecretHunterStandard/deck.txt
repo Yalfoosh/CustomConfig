@@ -1,0 +1,32 @@
+#Milecar12's VisionAI decks
+
+---------- Standard Secret Hunter ----------
+
+Hunter cards (23):
+
+2x Cat Trick (KAR_004)
+2x Crackling Razormaw (UNG_915)
+1x Freezing Trap (EX1_611)
+1x Kindly Grandmother (KAR_005)
+2x Scavenging Hyena (EX1_531)
+1x Snake Trap (EX1_554)
+1x Snipe (EX1_609)
+1x Wandering Monster (LOOT_079)
+2x Animal Companion (NEW1_031)
+2x Cloaked Huntress (KAR_006)
+2x Eaglehorn Bow (EX1_536)
+2x Kill Command (EX1_539)
+1x Houndmaster (DS1_070)
+1x Professor Putricide (ICC_204)
+2x Lesser Emerald Spellstone (LOOT_080, LOOT_080t2, LOOT_080t3)
+
+
+Neutral cards (7):
+
+2x Dire Mole (LOOT_258)
+2x Secretkeeper (EX1_080)
+1x Leeroy Jenkins (EX1_116)
+2x Corridor Creeper (LOOT_149)
+
+
+------------------------------------------

@@ -1,0 +1,28 @@
+{
+	"GameCardId":"DS1_070",
+	"ConfigComment":"Houndmaster settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Loses value if there is no target for it.",
+				"condition": "my_minions(count(), beast) < 1",
+				"value":"-15",
+			}
+		],
+	},
+
+	"InHandBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"It's a good card to hold onto.",
+				"condition": "*",
+				"value":"5",
+			}
+		],
+	},
+}

@@ -1,0 +1,45 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{
+				"comment": "Discard Cat Trick (KAR_004), Freezing Trap (EX1_611), Snipe (EX1_609), Wandering Monster (LOOT_079), Animal Companion (NEW1_031), Kill Command (EX1_539), Houndmaster (DS1_070), Professor Putricide (ICC_204), Lesser Emerald Spellstone (LOOT_080), Leeroy Jenkins (EX1_116), Corridor Creeper (LOOT_149).",
+				"mulligan":"KAR_004, EX1_611, EX1_609, LOOT_079, NEW1_031, EX1_539, DS1_070, ICC_204, LOOT_080, EX1_116, LOOT_149",
+				"condition": "*",
+				"value":"discard",
+			},
+				
+			{
+				"comment": "Hold Dire Mole (LOOT_258), Secretkeeper (EX1_080), Scavenging Hyena (EX1_531)",
+				"mulligan":"LOOT_258, EX1_080, EX1_531",
+				"condition": "*",
+				"value":"hold",
+			},
+				
+			{
+				"comment": "Hold Dire Mole (LOOT_258) and Crackling Razormaw (UNG_915).",
+				"mulligan":"LOOT_258 + UNG_915",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Eaglehorn Bow (EX1_536) vs nasty classes early.",
+				"mulligan":"EX1_536",
+				"condition": "opp_hero(count(), hero_class = hunter | shaman | priest | mage) > 0",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

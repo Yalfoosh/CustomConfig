@@ -1,0 +1,22 @@
+{
+	"GameCardId":"KAR_006",
+	"ConfigComment":"Cloaked Huntress settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"You don't want to play her if you don't have any Secrets in hand.",
+				"condition": "my_hand(count(), secret) < 1",
+				"value":"-15",
+			},
+
+			{
+				"comment":"Depending on how many Secrets you have, gain bonuses if Professor Putricide is on board.",
+				"condition": "my_minions(count(), cardid = ICC_204) > 0",
+				"value":"15 * my_hand(count(), secret)",
+			}
+		],
+	},
+}

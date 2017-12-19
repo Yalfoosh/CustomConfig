@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_116",
+	"ConfigComment":"Leeroy Jenkins settings.",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it if you have other things to play is a no-no.",
+				"condition": "my_hand(count(), cost < 6) > 1 AND opp_hero(count(), health > 7) > 0",
+				"value":"-25",
+			}
+		],
+	},
+}

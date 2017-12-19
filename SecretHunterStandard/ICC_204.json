@@ -1,0 +1,40 @@
+{
+	"GameCardId":"ICC_204",
+	"ConfigComment":"Professor Putricide settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play if you don't have a secret in hand.",
+				"condition": "my_hand(count(), secret) < 1",
+				"value":"-15",
+			},
+			
+			{
+				"comment":"Don't play if you don't neither have Cloaked Huntress or mana to play a Secret.",
+				"condition": "my_minions(count(), cardid = KAR_006) < 1 AND my_hero(count(), mana) < 6",
+				"value":"-15",
+			},
+
+			{
+				"comment":"You must play this if you have 2 or more secrets in hand and Cloaked Huntress on board.",
+				"condition": "my_hand(count(), secret) > 1 AND my_minions(count(), cardid = KAR_006) > 0",
+				"value":"100",
+			}
+		],
+	},
+
+	"InHandBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"This card is pretty valuable to keep in hand.",
+				"condition": "*",
+				"value":"10",
+			}
+		],
+	},
+}

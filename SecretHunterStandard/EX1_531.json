@@ -1,0 +1,28 @@
+{
+	"GameCardId":"EX1_531",
+	"ConfigComment":"Scavenging Hyena settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Discouraged to play without a Beast on board.",
+				"condition": "*",
+				"value":"-10 + 10 * my_minions(count(), beast)",
+			},
+		],
+	},
+	
+	"InHandBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"It is very valuable to keep.",
+				"condition": "*",
+				"value":"15",
+			},
+		],
+	},
+}
