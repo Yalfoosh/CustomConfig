@@ -1,0 +1,15 @@
+{
+         "GameCardId":"EX1_310",    
+         "ConfigComment":"Doomguard config",      
+
+         "BeforeUseHeroPowerBonus":
+ 		{
+                	"values":
+                 	[
+                       		{             
+                      		"condition": "my_hand(count())<2",
+                     		"value":"-1000",
+                      		}
+                   	],
+		},
+}

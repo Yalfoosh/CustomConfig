@@ -1,0 +1,44 @@
+### Zoolock 2.0
+# Class: Warlock
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Acherus Veteran
+# 2x (1) Bloodsail Corsair
+# 2x (1) Fire Fly
+# 2x (1) Flame Imp
+# 2x (1) Malchezaar's Imp
+# 1x (1) Mortal Coil
+# 1x (1) Patches the Pirate
+# 2x (1) Soulfire
+# 2x (1) Voidwalker
+# 1x (2) Prince Keleseth
+# 2x (3) Darkshire Councilman
+# 2x (3) Southsea Captain
+# 2x (4) Saronite Chain Gang
+# 2x (5) Despicable Dreadlord
+# 2x (5) Doomguard
+# 2x (7) Bonemare
+# 1x (10) Bloodreaver Gul'dan
+# 
+AAECAcn1AgTECJG8ApfTApziAg0w9wSoBc4H5QfCCLSsAry2AuvCApvLAvfNApXOAqbOAgA=
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+Acherus Veteran	x2	ICC_092
+Bloodsail Corsair	x2	NEW1_025
+Fire Fly	x2	UNG_809
+Flame Imp	x2	EX1_319
+Malchezaar's Imp	x2	KAR_089
+Mortal Coil	x1	EX1_302
+Patches the Pirate	x1	CFM_637
+Soulfire	x2	EX1_308
+Voidwalker	x2	CS2_065
+Prince Keleseth	x1	ICC_851
+Darkshire Councilman	x2	OG_113
+Southsea Captain	x2	NEW1_027
+Saronite Chain Gang	x2	ICC_466
+Despicable Dreadlord	x2	ICC_075
+Doomguard	x2	EX1_310
+Bonemare	x2	ICC_705
+Bloodreaver Gul'dan	x1	ICC_831
