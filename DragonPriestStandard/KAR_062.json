@@ -32,7 +32,7 @@
 			
 			{
 				"comment":"If you don't have a turn 3 play, get a Faerie Dragon.",
-				"condition": "my_hand(count(), min_mana) > 3 AND my_hero(count(), max_mana < 3) > 0 AND my_discover(count(), cardid = NEW1_023) > 0",
+				"condition": "my_hand(min(cost))) > 3 AND my_hero(count(), max_mana < 3) > 0 AND my_discover(count(), cardid = NEW1_023) > 0",
 				"value":"10",
 			},
 			
