@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CS2_236",
+	"ConfigComment":"Divine Spirit settings.",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if you don't have a fairly healthy minion.",
+				"condition": "my_minions(count(), health > 4) < 1",
+				"value":"-100",
+			},
+		],
+	},
+}

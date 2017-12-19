@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_528",
+	"ConfigComment":"Twilight Acolyte settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"If you're holding a Shadow Word: Pain, there is a high attack enemy minion, you're holding a Dragon and you have 5 Mana, try and play this.",
+				"condition": "my_hand(count(), cardid = CS2_234) > 0 AND opp_minions(count(), attack > 4) > 0 AND my_hand(count(), dragon) > 0 AND my_hero(count(), mana) > 4",
+				"value":"15",
+			},
+		],
+	},
+}

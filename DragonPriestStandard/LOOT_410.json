@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_410",
+	"ConfigComment":"Duskbreaker settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this without a dragon in your hand.",
+				"condition": "my_hand(count(), dragon) < 1",
+				"value":"-35",
+			},
+		],
+	},
+}

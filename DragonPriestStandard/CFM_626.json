@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_626",
+	"ConfigComment":"Kabal Talonpriest settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Always play this when you have a minion.",
+				"condition": "my_minions(count()) > 0",
+				"value":"15",
+			},
+		],
+	},
+}

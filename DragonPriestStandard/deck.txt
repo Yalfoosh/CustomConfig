@@ -1,0 +1,29 @@
+#Milecar12's VisionAI decks
+
+---------- Standard Dragon Priest ----------
+
+Priest cards (26):
+
+2x Inner Fire (CS1_129)
+2x Northshire Cleric (CS2_235)
+2x Power Word: Shield (CS2_004)
+2x Divine Spirit (CS2_236)
+2x Netherspite Historian (KAR_062)
+1x Radiant Elemental (UNG_034)
+2x Shadow Visions (UNG_029)
+2x Shadow Word: Pain (CS2_234)
+1x Kabal Talonpriest (CFM_626)
+1x Shadow Word: Death (EX1_622)
+2x Twilight Acolyte (LOOT_528)
+2x Duskbreaker (LOOT_410)
+2x Drakonid Operative (CFM_605)
+2x Dragonfire Potion (CFM_662)
+1x Psychic Scream (LOOT_008)
+
+
+Neutral cards (4):
+
+2x Twilight Drake (EX1_043)
+2x Cobalt Scalebane (ICC_029)
+
+------------------------------------------

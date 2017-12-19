@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_043",
+	"ConfigComment":"Twilight Drake settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this card if you have less than 4 cards in your hand.",
+				"condition": "*",
+				"value":"-20 + 5 * my_hand(count())",
+			},
+		],
+	},
+}
