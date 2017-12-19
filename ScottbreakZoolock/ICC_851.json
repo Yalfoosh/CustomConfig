@@ -1,0 +1,54 @@
+{
+         "GameCardId":"UNG_851",    
+         "ConfigComment":"Prince Keleseth config",   
+	
+	"InHandBonus": 
+	          
+		{
+
+			"values":
+
+			[
+						  		
+				{						  		  
+						  			
+				"condition": "*",
+
+				"value":"100",
+						  		
+				}
+
+			],
+
+		},
+
+	"InHandPlayPriority": 
+	          
+		{
+
+			"values":
+
+			[
+						  		
+				{						  		  
+						  			
+				"condition": "*",
+
+				"value":"500",
+						  		
+				}
+
+			],
+
+		},
+         "BeforeUseHeroPowerBonus":
+ 		{
+                	"values":
+                 	[
+                       		{             
+                      		"condition": "my_hand(count(),cardid=ICC_851)>0",
+                     		"value":"-1000",
+                      		}
+                   	],
+		},
+}

@@ -1,0 +1,33 @@
+{
+        "GameCardId":"NEW1_027",    
+        "ConfigComment":"Southsea Captain config",   
+
+	"InHandBonus": 
+	          
+		{
+
+			"values":
+
+			[
+						  		
+				{	
+				"condition": "my_deck(count(),cardid=CFM_637)>0 AND my_graveyard(count(),cardid=ICC_851)>0",
+
+				"value":"10",
+						  		
+				}
+
+				,
+				{
+				"condition": "my_deck(count(),cardid=CFM_637)>0 AND my_minions(count(),cardid=ICC_851)>0",
+
+				"value":"10",
+						  		
+				}
+
+				,
+			],
+
+		},
+
+}
