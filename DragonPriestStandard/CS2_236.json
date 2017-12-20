@@ -13,4 +13,16 @@
 			},
 		],
 	},
+	
+	"BeforeUseHeroPowerBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"You want to heal before using this.",
+				"condition": "*",
+				"value":"10",
+			},
+		],
+	},
 }

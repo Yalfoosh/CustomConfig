@@ -23,7 +23,7 @@
 			{ 
 				"comment": "Hold Shadow Word: Pain (CS2_234), Twilight Acolyte (LOOT_528) and Duskbreaker (LOOT_410) against classes with annoying aggro minions",
 				"mulligan":"CS2_234, LOOT_528, LOOT_410",
-				"condition": "opp_hero(count(), hero_class = hunter | rogue | shaman | warrior | paladin) > 0",
+				"condition": "opp_hero(count(), hero_class = hunter | rogue | shaman | warrior | paladin | mage) > 0",
 				"value":"hold",
 			},
 			

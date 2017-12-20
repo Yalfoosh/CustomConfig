@@ -14,8 +14,8 @@
 			},
 				
 			{
-				"comment": "Hold Dire Mole (LOOT_258), Secretkeeper (EX1_080), Scavenging Hyena (EX1_531)",
-				"mulligan":"LOOT_258, EX1_080, EX1_531",
+				"comment": "Hold Dire Mole (LOOT_258), Secretkeeper (EX1_080), Scavenging Hyena (EX1_531), Kindly Grandmother (KAR_005)",
+				"mulligan":"LOOT_258, EX1_080, EX1_531, KAR_005",
 				"condition": "*",
 				"value":"hold",
 			},
@@ -31,6 +31,34 @@
 				"comment": "Hold Eaglehorn Bow (EX1_536) vs nasty classes early.",
 				"mulligan":"EX1_536",
 				"condition": "opp_hero(count(), hero_class = hunter | shaman | priest | mage) > 0",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Cloaked Huntress (KAR_006) with Freezing Trap (EX1_611).",
+				"mulligan":"KAR_006 + EX1_611",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Cloaked Huntress (KAR_006) with Snake Trap (EX1_554).",
+				"mulligan":"KAR_006 + EX1_554",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Cloaked Huntress (KAR_006) with Snipe (EX1_609).",
+				"mulligan":"KAR_006 + EX1_609",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Cloaked Huntress (KAR_006) with Wandering Monster (LOOT_079).",
+				"mulligan":"KAR_006 + LOOT_079",
+				"condition": "*",
 				"value":"hold",
 			},
 			

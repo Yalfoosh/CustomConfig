@@ -9,7 +9,7 @@
 			{
 				"comment":"You don't want to play her if you don't have any Secrets in hand.",
 				"condition": "my_hand(count(), secret) < 1",
-				"value":"-15",
+				"value":"-5",
 			},
 
 			{

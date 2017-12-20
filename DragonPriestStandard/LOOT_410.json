@@ -11,6 +11,12 @@
 				"condition": "my_hand(count(), dragon) < 1",
 				"value":"-35",
 			},
+			
+			{
+				"comment":"Don't play this with more than 3 low health minions.",
+				"condition": "my_minions(count(), health < 4) > 3",
+				"value":"-25",
+			},
 		],
 	},
 }

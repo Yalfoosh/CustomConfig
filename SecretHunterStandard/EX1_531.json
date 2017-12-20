@@ -13,16 +13,4 @@
 			},
 		],
 	},
-	
-	"InHandBonus":
-	{
-		"values":
-		[
-			{
-				"comment":"It is very valuable to keep.",
-				"condition": "*",
-				"value":"15",
-			},
-		],
-	},
 }
