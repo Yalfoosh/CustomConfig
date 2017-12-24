@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"If the opponent has no taunt minions, gain a bonus for using this on a minion with higher Health than its Attack.",
-				"condition": "opp_minions(count(), taunt, stealth != 1) < 1 AND (my_target(count(), health) - my_target(count(), attack) > 1",
+				"condition": "opp_minions(count(), taunt, stealthed != 1) < 1 AND (my_target(count(), health) - my_target(count(), attack)) > 1",
 				"value":"10",
 			}
 		],
