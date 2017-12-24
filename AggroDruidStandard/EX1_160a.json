@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_160a",
+	"ConfigComment":"Power of the Wild +1/+1 settings.",
+	
+	"OnChooseOneCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't choose this if you have less than 2 minions.",
+				"condition": "my_minions(count()) < 2",
+				"value":"-15",
+			}
+		],
+	},
+}

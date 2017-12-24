@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_051a",
+	"ConfigComment":"Druid of the Swarm Poisonous settings.",
+	
+	"OnChooseOneCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't choose this if you don't have taunts and your opponent doesn't have a large minions.",
+				"condition": "my_minions(count(), taunt, health > 1) < 1 OR opp_minions(count(), health > 4)",
+				"value":"-10",
+			}
+		],
+	},
+}

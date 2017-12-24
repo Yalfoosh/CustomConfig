@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_054d",
+	"ConfigComment":"Branching Paths Draw a card settings.",
+	
+	"OnChooseOneCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't choose this ever unless you have less than 3 cards in your hand.",
+				"condition": "my_hand(count()) < 3",
+				"value":"-15",
+			}
+		],
+	},
+}

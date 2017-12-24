@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_054b",
+	"ConfigComment":"Branching Paths Give your minions +1 Attack settings.",
+	
+	"OnChooseOneCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't choose this ever if you have less than 3 minions.",
+				"condition": "my_minions(count()) < 3",
+				"value":"-15",
+			}
+		],
+	},
+}

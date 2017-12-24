@@ -11,7 +11,7 @@ Druid cards (17):
 2x Power of the Wild (EX1_160)
 2x Crypt Lord (ICC_808)
 2x Savage Roar (CS2_011)
-1x Branching Paths (LOOT_054d) (LOOT_054d, LOOT_054b, LOOT_054c)
+1x Branching Paths (LOOT_054) (LOOT_054d, LOOT_054b, LOOT_054c)
 2x Living Mana (UNG_111)
 
 

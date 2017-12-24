@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_051b",
+	"ConfigComment":"Druid of the Swarm Taunt settings.",
+	
+	"OnChooseOneCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Choose this one if your opponent has more than 1 minions which don't have high attack.",
+				"condition": "opp_minions(count(), attack < 5) > 1",
+				"value":"15",
+			}
+		],
+	},
+}

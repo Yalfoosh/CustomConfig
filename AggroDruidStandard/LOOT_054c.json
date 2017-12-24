@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_054c",
+	"ConfigComment":"Branching Paths Gain +6 Armor settings.",
+	
+	"OnChooseOneCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't choose this if you the sum of your Health and Armor is above 12.",
+				"condition": "(my_hero(count(), health) + my_hero(count(), armor)) > 12",
+				"value":"-15",
+			}
+		],
+	},
+}

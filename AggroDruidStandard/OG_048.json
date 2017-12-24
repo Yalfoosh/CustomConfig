@@ -1,0 +1,16 @@
+{
+	"GameCardId":"OG_048",
+	"ConfigComment":"Mark of Y'Shaarj settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Gains value if you have a Beast on board, even more if you don't have much of a hand.",
+				"condition": "my_minions(count(), beast) > 0",
+				"value":"10 + 10 * (my_hand(count()) < 4)",
+			}
+		],
+	},
+}

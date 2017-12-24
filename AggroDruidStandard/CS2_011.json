@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CS2_011",
+	"ConfigComment":"Savage Roar settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't play this with a low amount of minions.",
+				"condition": "my_minions(count()) < 3",
+				"value":"-25 + 13 * my_minions(count())",
+			}
+		],
+	},
+}
