@@ -1,0 +1,16 @@
+{
+	"GameCardId":"GAME_005",
+	"ConfigComment":"Mark of the Lotus settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this on an empty board, lose value on only 1 target.",
+				"condition": "my_minions(count()) < 2",
+				"value":"-15 + 10 * my_minions(count())",
+			}
+		],
+	},
+}

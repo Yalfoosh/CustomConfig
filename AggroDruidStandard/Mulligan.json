@@ -1,0 +1,45 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Discard Mark of the Lotus (CFM_614), Power of the Wild (EX1_160), Crypt Lord (ICC_808), Savage Roar (CS2_011), Branching Paths (LOOT_054d), Living Mana (UNG_111), Patches the Pirate (CFM_637), Vicious Fledgeling (UNG_075), Corridor Creeper (LOOT_149).",
+				"mulligan":"CFM_614, EX1_160, ICC_808, CS2_011, LOOT_054d, UNG_111, CFM_637, UNG_075, LOOT_149",
+				"condition": "*",
+				"value":"discard",
+			},
+				
+			{ 
+				"comment": "Hold Bloodsail Corsair (NEW1_025), Enchanted Raven (KAR_300).",
+				"mulligan":"NEW1_025, KAR_300",
+				"condition": "*",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "Hold Dire More (LOOT_258) and Mark of Y'Shaarj (OG_048).",
+				"mulligan":"LOOT_258 + OG_048",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Druid of the Swarm (ICC_051) vs nasty classes.",
+				"mulligan":"ICC_051",
+				"condition": "opp_hero(count(), hero_class = druid | hunter | paladin | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}
