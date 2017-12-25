@@ -1,0 +1,16 @@
+{
+	"GameCardId":"GAME_005",
+	"ConfigComment":"The Coin settings.",
+
+	"BeforeEndTurnBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"A coin in a full hand is almost worthless.",
+				"condition": "my_hand(count()) > 9",
+				"value":"-100",
+			}
+		],
+	},
+}

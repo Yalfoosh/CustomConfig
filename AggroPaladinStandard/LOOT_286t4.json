@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_286t4",
+	"ConfigComment":"Champion's Maul (give your minions +1 Attack) settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Playing this without less than 2 minions is less value.",
+				"condition": "my_minions(count()) < 2",
+				"value":"-10 + 5 * my_minions(count())",
+			}
+		],
+	},
+}

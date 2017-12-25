@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_286t3",
+	"ConfigComment":"Champion's Maul (give your minions Divine Shield) settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Playing this without less than 2 minions is less value.",
+				"condition": "my_minions(count()) < 2",
+				"value":"-10 + 5 * my_minions(count())",
+			}
+		],
+	},
+}
