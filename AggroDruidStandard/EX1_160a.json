@@ -7,9 +7,9 @@
 		"values":
 		[
 			{
-				"comment":"Don't choose this if you have less than 2 minions.",
-				"condition": "my_minions(count()) < 2",
-				"value":"-15",
+				"comment":"Play this if you have more than 1 minions.",
+				"condition": "my_minions(count()) > 1",
+				"value":"10 * my_minions(count())",
 			}
 		],
 	},

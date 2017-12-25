@@ -1,0 +1,28 @@
+{
+	"GameCardId":"LOOT_054",
+	"ConfigComment":"Branching Paths settings.",
+	
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Draw a card only when you have less than 3 cards, no minions on board and more than 12 effective health.",
+				"condition": "my_hand(count()) < 3 AND my_minions(count()) < 2 AND (my_hero(count(), health) + my_hero(count(), armor)) > 12 AND my_discover(count(), cardid = LOOT_054d) > 0",
+				"value":"15",
+			},
+			
+			{
+				"comment":"Give your minions +1 Attack only when you have more than a minion more than 12 effective health.",
+				"condition": "my_minions(count()) > 1 AND (my_hero(count(), health) + my_hero(count(), armor)) > 12 AND my_discover(count(), cardid = LOOT_054b) > 0",
+				"value":"15",
+			},
+			
+			{
+				"comment":"Gain 6 Armor only when you have less than 13 effective health.",
+				"condition": "(my_hero(count(), health) + my_hero(count(), armor)) < 13 AND my_discover(count(), cardid = LOOT_054c) > 0",
+				"value":"15",
+			},
+		],
+	},
+}
