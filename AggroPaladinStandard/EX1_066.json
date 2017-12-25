@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_066",
+	"ConfigComment":"Acidic Swamp Ooze settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If your opponent is a Warlock or a Warrior or a Warlock, hold this until they have a weapon up.",
+				"condition": "opp_hero(count(), hero_class = warlock | warrior) > 0",
+				"value":"-25 + 75 * (opp_heroweapon(count()) > 0)",
+			}
+		],
+	},
+}
