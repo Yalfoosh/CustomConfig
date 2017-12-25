@@ -19,6 +19,13 @@
 				"condition": "opp_hero(count(), hero_class = druid | hunter | paladin | mage | priest) > 0",
 				"value":"hold",
 			},
+			
+			{ 
+				"comment": "Hold Acidic Swamp Ooze (EX1_066) against annoying weapon classes.",
+				"mulligan":"EX1_066",
+				"condition": "opp_hero(count(), hero_class = warlock | warrior) > 0",
+				"value":"hold",
+			},
 
 			{ 
 				"comment": "Discard all cards not listed as hold",

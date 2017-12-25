@@ -10,8 +10,7 @@ Paladin cards (17):
 1x Drygulch Jailor (LOOT_363)
 2x Divine Favor (EX1_349)
 2x Rallying Blade (OG_222)
-2x Unindentified Maul (LOOT_286) ()
-1x Blessing of Kings (CS2_092)
+2x Unindentified Maul (LOOT_286) (LOOT_286t1, LOOT_286t2, LOOT_286t3, LOOT_286t4)
 2x Call to Arms (LOOT_093)
 1x Sunkeeper Tarim (UNG_015)
 1x Val'anyr (LOOT_500)
@@ -20,10 +19,11 @@ Paladin cards (17):
 
 Neutral cards (13):
 
-2x Acherus Veteran (ICC_092)
+1x Acherus Veteran (ICC_092)
 1x Argent Squire (EX1_008)
 1x Patches the Pirate (CFM_637)
 2x Southsea Deckhand (CS2_146)
+2x Acidic Swamp Ooze (EX1_066)
 2x Dire Wolf Alpha (EX1_162)
 2x Knife Juggler (NEW1_019)
 1x Leeroy Jenkins (EX1_116)
