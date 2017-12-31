@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"Usually this is the card you want to play first, unless you're against a Mage with a Secret on board.",
-				"condition": "opp_hero(count(), mage = false) OR opp_secret(count()) < 1",
+				"condition": "opp_hero(count(), hero_class != mage) > 0 OR opp_secret(count()) < 1",
 				"value":"50",
 			}
 		],

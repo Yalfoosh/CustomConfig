@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"You want to prioritize playing this if you have more minions in your hand.",
-				"condition": "my_hand(count(), minionscard) > 1",
+				"condition": "my_hand(count(), minioncard) > 1",
 				"value":"50",
 			}
 		],
