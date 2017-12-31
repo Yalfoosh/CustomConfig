@@ -13,15 +13,9 @@
 			},
 			
 			{
-				"comment":"Don't play this without a Dragon in hand.",
-				"condition": "my_hand(count(), dragon) < 1",
-				"value":"-10",
-			},
-			
-			{
-				"comment":"Don't play this on a minion below 3 HP.",
-				"condition": "my_hand(count(), dragon) < 1",
-				"value":"-10",
+				"comment":"Don't play this without a Dragon in hand if there is an enemy minion with more than 2 health.",
+				"condition": "my_hand(count(), dragon) < 1 AND opp_minions(count(), health > 2) > 0",
+				"value":"-7",
 			},
 		],
 	},

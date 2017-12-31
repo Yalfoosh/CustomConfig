@@ -1,0 +1,40 @@
+{
+	"GameCardId":"ICC_851",	
+	"ConfigComment":"Keleseth bonuses",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Prince Keleseth is pretty much the best card to play.",  		  
+				"condition": "*",
+				"value":"100",
+			}
+		],
+	},
+	
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"comment":"Prince Keleseth will always be of the highest priority to play.",
+				"condition": "*",
+				"value": "250",
+			}
+		],
+	},
+	
+	"BeforeUseHeroPowerBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't use heropower before playing this.",
+				"condition": "*",
+				"value": "-1000",
+			}
+		],
+	}
+}

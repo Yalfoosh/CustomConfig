@@ -1,0 +1,16 @@
+{
+	"GameCardId":"NEW1_019",
+	"ConfigComment":"Knife Juggler settings.",
+
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"comment":"You want to prioritize playing this if you have more minions in your hand.",
+				"condition": "my_hand(count(), minionscard) > 1",
+				"value":"50",
+			}
+		],
+	},
+}

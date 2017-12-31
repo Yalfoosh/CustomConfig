@@ -1,0 +1,42 @@
+### Secret Mage
+# Class: Mage
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Kabal Lackey
+# 2x (1) Mana Wyrm
+# 2x (2) Arcanologist
+# 2x (2) Frostbolt
+# 2x (2) Medivh's Valet
+# 2x (2) Primordial Glyph
+# 2x (2) Sorcerer's Apprentice
+# 2x (3) Counterspell
+# 2x (3) Explosive Runes
+# 2x (3) Kirin Tor Mage
+# 2x (4) Fireball
+# 1x (4) Spellbreaker
+# 1x (6) Aluneth
+# 2x (6) Kabal Crystal Runner
+# 2x (7) Corridor Creeper
+# 2x (7) Firelands Portal
+# 
+AAECAf0EAvIFotMCDnG7ApUD5gSWBewFo7YC17YC67oCh70CwcECmMQCj9MC+9MCAA==
+
+
+
+Kabal Lackey 			(CFM_066)
+Mana Wyrm 				(NEW1_012)
+Arcanologist 			(UNG_020)
+Frostbolt 				(CS2_024)
+Medivh's Valet 			(KAR_092)
+Primordial Glyph 		(UNG_941)
+Sorcerer's Apprentice 	(EX1_608)
+Counterspell 			(EX1_287)
+Explosive Runes 		(LOOT_101)
+Kirin Tor Mage 			(EX1_612)
+Fireball 				(CS2_029)
+Spellbreaker 			(EX1_048)
+Aluneth 				(LOOT_108)
+Kabal Crystal Runner 	(CFM_760)
+Corridor Creeper 		(LOOT_149)
+Firelands Portal 		(KAR_076)

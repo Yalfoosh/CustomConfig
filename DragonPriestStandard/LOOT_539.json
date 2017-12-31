@@ -1,0 +1,22 @@
+{
+	"GameCardId":"LOOT_539",
+	"ConfigComment":"Spiteful Summoner settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand.",
+				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard) > 1",
+				"value":"-30",
+			},
+
+			{
+				"comment":"If your deck has spells, gain a huge bonus.",
+				"condition": "my_deck(count(), spell) > 0",
+				"value":"90",
+			},
+		],
+	},
+}

@@ -1,0 +1,48 @@
+### Miracle Secret Hunter
+# Class: Hunter
+# Format: Standard
+# Year of the Mammoth
+#
+# 1x (1) Candleshot
+# 2x (1) Dire Mole
+# 1x (1) Patches the Pirate
+# 2x (1) Southsea Deckhand
+# 2x (2) Cat Trick
+# 2x (2) Crackling Razormaw
+# 1x (2) Explosive Trap
+# 1x (2) Freezing Trap
+# 2x (2) Scavenging Hyena
+# 1x (2) Snake Trap
+# 1x (2) Wandering Monster
+# 2x (3) Cloaked Huntress
+# 2x (3) Eaglehorn Bow
+# 2x (3) Unleash the Hounds
+# 2x (4) Cult Master
+# 1x (4) Houndmaster
+# 1x (4) Professor Putricide
+# 2x (4) Spellbreaker
+# 2x (5) Lesser Emerald Spellstone
+# 
+AAECAR8IxwOHBMkE6weRvALDzALf0gLh4wIL1AXyBasG2wmBCv4M+LECxLQCjsMC49ICi+UCAA==
+
+
+
+Candleshot 					(LOOT_222)
+Dire Mole 					(LOOT_258)
+Patches the Pirate 			(CFM_637)
+Southsea Deckhand 			(CS2_146)
+Cat Trick 					(KAR_004)
+Crackling Razormaw 			(UNG_915)
+Explosive Trap 				(EX1_610)
+Freezing Trap 				(EX1_611)
+Scavenging Hyena 			(EX1_531)
+Snake Trap 					(EX1_554)
+Wandering Monster 			(LOOT_079)
+Cloaked Huntress 			(KAR_006)
+Eaglehorn Bow 				(EX1_536)
+Unleash the Hounds 			(EX1_538)
+Cult Master 				(EX1_595)
+Houndmaster 				(DS1_070)
+Professor Putricide 		(ICC_204)
+Spellbreaker 				(EX1_048)
+Lesser Emerald Spellstone 	(LOOT_080, LOOT_080t2, LOOT_080t3)

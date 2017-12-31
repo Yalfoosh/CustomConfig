@@ -1,0 +1,46 @@
+### Pirate Warrior
+# Class: Warrior
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) N'Zoth's First Mate
+# 1x (1) Patches the Pirate
+# 2x (1) Southsea Deckhand
+# 1x (2) Prince Keleseth
+# 2x (3) Bloodsail Cultist
+# 2x (3) Fiery War Axe
+# 2x (3) Frothing Berserker
+# 1x (3) Rummaging Kobold
+# 1x (3) Southsea Captain
+# 2x (4) Dread Corsair
+# 2x (4) Kor'kron Elite
+# 2x (4) Saronite Chain Gang
+# 2x (4) Spellbreaker
+# 1x (5) Arcanite Reaper
+# 1x (5) Leeroy Jenkins
+# 2x (6) Spiteful Summoner
+# 2x (7) Corridor Creeper
+# 2x (7) Lesser Mithril Spellstone
+# 
+AAECAQcGsAKvBKgFkbwCnOICiOgCDByRA44F1AXyBe4GgrACiLACm8sC+9MCz+MC1+sCAA==
+
+
+
+N'Zoth's First Mate 		(OG_312)
+Patches the Pirate 			(CFM_637)
+Southsea Deckhand 			(CS2_146)
+Prince Keleseth 			(ICC_851)
+Bloodsail Cultist 			(OG_315)
+Fiery War Axe 				(CS2_106)
+Frothing Berserker 			(EX1_604)
+Rummaging Kobold 			(LOOT_389)
+Southsea Captain 			(NEW1_027)
+Dread Corsair 				(NEW1_022)
+Kor'kron Elite 				(NEW1_011)
+Saronite Chain Gang 		(ICC_466)
+Spellbreaker 				(EX1_048)
+Arcanite Reaper 			(CS2_112)
+Leeroy Jenkins 				(EX1_116)
+Spiteful Summoner 			(LOOT_539)
+Corridor Creeper 			(LOOT_149)
+Lesser Mithril Spellstone 	(LOOT_203, LOOT_203t2, LOOT_203t3)

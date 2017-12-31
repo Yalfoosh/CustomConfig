@@ -23,23 +23,29 @@
 				"condition": "my_discover(count(), cardid = LOOT_144 | LOOT_118 | OG_320 | OG_271 | EX1_563 | ICC_838 | EX1_560 | EX1_560) > 0",
 				"value":"-1000",
 			},
-			
+
 			{
 				"comment":"If your enemy has a lot of minions on board, you want Duskbreaker (LOOT_410), Primordial Drake (UNG_848), Deathwing (NEW1_030).",
 				"condition": "opp_minions(count()) > 3 AND my_discover(count(), cardid = LOOT_410 | UNG_848 | NEW1_030) > 0",
-				"value":"20",
+				"value":"50",
 			},
-			
+
 			{
-				"comment":"If you don't have a turn 3 play, get a Faerie Dragon.",
+				"comment":"If you don't have a turn 3 play, get a Faerie Dragon (NEW1_023).",
 				"condition": "my_hand(min(cost)) > 3 AND my_hero(count(), max_mana < 3) > 0 AND my_discover(count(), cardid = NEW1_023) > 0",
-				"value":"10",
+				"value":"35",
 			},
-			
+
 			{
 				"comment":"If you're winning on board, encourage getting Cobalt Scalebane (ICC_029), Drakonid Operative (CFM_605), Deathwing Dragonlord (OG_317), Ysera (EX1_572).",
 				"condition": "my_minions(count()) - opp_minions(count()) > 1 AND my_discover(count(), cardid = ICC_029 | CFM_605 | OG_317 | EX1_572) > 0",
-				"value":"15",
+				"value":"50",
+			},
+			
+			{
+				"comment":"Reduce the likelihood of choosing niche dragons; Onyxia (EX1_562) and Sleepy Dragon (LOOT_137).",
+				"condition": "my_discover(count(), cardid = EX1_562 | LOOT_137) > 0",
+				"value":"-10",
 			},
 		],
 	}

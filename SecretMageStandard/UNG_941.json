@@ -1,0 +1,22 @@
+{
+	"GameCardId":"UNG_941",
+	"ConfigComment":"Primordial Glyph settings.",
+
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Spells you never want to take are: Blizzard (CS2_028), Shifting Scroll (LOOT_104), Forbidden Flame (OG_086), Breath of Sindragosa (ICC_836), Cone of Cold (EX1_275), Deck of Wonders (LOOT_106), Flamestrike (CS2_032), Freezing Potion (CFM_021), Frost Nova (CS2_026), Frozen Clone (ICC_082), Glacial Mysteries (ICC_086), Arcane Missiles (EX1_277), Greater Arcane Missiles (CFM_623), Lesser Ruby Spellstone (LOOT_103), Mirror Image (CS2_027), Molten Reflection (UNG_948), Potion of Polymorph (CFM_620), Shatter (OG_081), Simulacrum (ICC_823), Vaporize (EX1_594), Volcanic Potion (CFM_065).",
+				"condition": "my_discover(count(), cardid = CS2_028 | LOOT_104 | OG_086 | ICC_836 | EX1_275 | LOOT_106 | CS2_032 | CFM_021 | CS2_026 | ICC_082 | ICC_086 | EX1_277 | CFM_623 | LOOT_103 | CS2_027 | UNG_948 | CFM_620 | OG_081 | ICC_823 | EX1_594 | CFM_065) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"The spells you want are Explosive Runes (LOOT_101), Fireball (CS2_029), Firelands Portal (KAR_076), Frostbolt (CS2_024) and Pyroblast (EX1_279).",
+				"condition": "my_discover(count(), cardid = LOOT_101 | CS2_029 | KAR_076 | CS2_024 | EX1_279) > 0",
+				"value":"20",
+			},
+		],
+	},
+}

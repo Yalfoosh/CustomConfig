@@ -1,0 +1,28 @@
+{
+	"GameCardId":"LOOT_414",
+	"ConfigComment":"Grand Archivist settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand.",
+				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard) > 1",
+				"value":"-30",
+			},
+		],
+	},
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"As long as there is a spell in your deck, prioritize playing this.",
+				"condition": "my_deck(count(), spell) > 0",
+				"value":"60",
+			},
+		],
+	},
+}

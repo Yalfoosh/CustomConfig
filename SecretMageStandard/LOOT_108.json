@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_108",
+	"ConfigComment":"Aluneth settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"You always want to play this if your hand size is lower than 8.",
+				"condition": "my_hand(count()) < 8",
+				"value":"50",
+			},
+		],
+	},
+}

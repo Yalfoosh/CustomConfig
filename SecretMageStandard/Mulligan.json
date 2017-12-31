@@ -1,0 +1,59 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Hold Kabal Lackey (CFM_066), Mana Wyrm (NEW1_012), Corridor Creeper (LOOT_149).",
+				"mulligan":"CFM_066, NEW1_012, LOOT_149, LOOT_108",
+				"condition": "*",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Kabal Lackey (CFM_066) + Explosive Runes (LOOT_101)",
+				"mulligan":"CFM_066 + LOOT_101",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Kabal Lackey (CFM_066) + Counterspell (EX1_287)",
+				"mulligan":"CFM_066 + EX1_287",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Frostbolt (CS2_024) against nasty classes.",
+				"mulligan":"CS2_024",
+				"condition": "opp_hero(count(), hero_class = hunter | mage | priest | warlock | shaman) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Spellbreaker (EX1_048) against nasty classes.",
+				"mulligan":"EX1_048",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Aluneth (LOOT_108) when not against Rogue.",
+				"mulligan":"LOOT_108",
+				"condition": "opp_hero(count(), hero_class != rogue) > 0",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

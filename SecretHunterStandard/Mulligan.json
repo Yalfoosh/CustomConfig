@@ -7,15 +7,8 @@
 		"values":
 		[
 			{
-				"comment": "Discard Cat Trick (KAR_004), Freezing Trap (EX1_611), Snipe (EX1_609), Wandering Monster (LOOT_079), Animal Companion (NEW1_031), Kill Command (EX1_539), Houndmaster (DS1_070), Professor Putricide (ICC_204), Lesser Emerald Spellstone (LOOT_080), Leeroy Jenkins (EX1_116), Corridor Creeper (LOOT_149).",
-				"mulligan":"KAR_004, EX1_611, EX1_609, LOOT_079, NEW1_031, EX1_539, DS1_070, ICC_204, LOOT_080, EX1_116, LOOT_149",
-				"condition": "*",
-				"value":"discard",
-			},
-				
-			{
-				"comment": "Hold Dire Mole (LOOT_258), Secretkeeper (EX1_080), Scavenging Hyena (EX1_531), Kindly Grandmother (KAR_005)",
-				"mulligan":"LOOT_258, EX1_080, EX1_531, KAR_005",
+				"comment": "Hold Candleshot (LOOT_222), Dire Mole (LOOT_258), Southsea Deckhand (CS2_146), Scavenging Hyena (EX1_531).",
+				"mulligan":"LOOT_222, LOOT_258, CS2_146, EX1_531",
 				"condition": "*",
 				"value":"hold",
 			},
@@ -49,16 +42,16 @@
 			},
 			
 			{
-				"comment": "Hold Cloaked Huntress (KAR_006) with Snipe (EX1_609).",
-				"mulligan":"KAR_006 + EX1_609",
+				"comment": "Hold Cloaked Huntress (KAR_006) with Wandering Monster (LOOT_079).",
+				"mulligan":"KAR_006 + LOOT_079",
 				"condition": "*",
 				"value":"hold",
 			},
 			
 			{
-				"comment": "Hold Cloaked Huntress (KAR_006) with Wandering Monster (LOOT_079).",
-				"mulligan":"KAR_006 + LOOT_079",
-				"condition": "*",
+				"comment": "Hold Spellbreaker (EX1_048) against nasty classes.",
+				"mulligan":"EX1_048",
+				"condition": "opp_hero(count(), hero_class = paladin | rogue | warlock) > 0",
 				"value":"hold",
 			},
 			

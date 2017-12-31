@@ -7,21 +7,21 @@
 		"values":
 		[
 			{
-				"comment":"Draw a card only when you have less than 3 cards, no minions on board and more than 12 effective health.",
-				"condition": "my_hand(count()) < 3 AND my_minions(count()) < 2 AND (my_hero(count(), health) + my_hero(count(), armor)) > 12 AND my_discover(count(), cardid = LOOT_054d) > 0",
-				"value":"15",
+				"comment":"Draw a card only when you have less than 9 cards and you have less than 3 minions on board.",
+				"condition": "my_discover(count(), cardid = LOOT_054d) > 0 AND my_hand(count()) < 9",
+				"value":"50",
 			},
 			
 			{
-				"comment":"Give your minions +1 Attack only when you have more than a minion more than 12 effective health.",
-				"condition": "my_minions(count()) > 1 AND (my_hero(count(), health) + my_hero(count(), armor)) > 12 AND my_discover(count(), cardid = LOOT_054b) > 0",
-				"value":"15",
+				"comment":"Give your minions +1 Attack when you have more than 2 minions.",
+				"condition": "my_discover(count(), cardid = LOOT_054b) > 0 AND my_minions(count()) > 2",
+				"value":"50",
 			},
 			
 			{
-				"comment":"Gain 6 Armor only when you have less than 13 effective health.",
-				"condition": "(my_hero(count(), health) + my_hero(count(), armor)) < 13 AND my_discover(count(), cardid = LOOT_054c) > 0",
-				"value":"15",
+				"comment":"Never choose this; if you should be choosing it, you're going to lose anyways.",
+				"condition": "my_discover(count(), cardid = LOOT_054c) > 0",
+				"value":"-50",
 			},
 		],
 	},

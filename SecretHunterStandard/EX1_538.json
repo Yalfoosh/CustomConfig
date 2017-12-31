@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_538",
+	"ConfigComment":"Unleash the Hounds settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if your opponent has less than 3 minions on board.",
+				"condition": "opp_minions(count()) < 3",
+				"value":"-15 - 30 * (opp_minions(count()) < 1)",
+			},
+		],
+	},
+}

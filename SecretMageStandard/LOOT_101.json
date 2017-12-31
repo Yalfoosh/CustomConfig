@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_101",
+	"ConfigComment":Explosive Runes settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Prioritize playing this.",
+				"condition": "*",
+				"value":"10",
+			},
+		],
+	},
+}

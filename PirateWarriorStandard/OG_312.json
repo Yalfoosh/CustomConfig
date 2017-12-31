@@ -1,29 +1,15 @@
 ﻿{	
 	"GameCardId":"OG_312",	
-	"ConfigComment":"Don't play N'Zoth's First Mate when you have a weapon.",	
+	"ConfigComment":"N'Zoth's First Mate settings.",	
 	
 	"BeforePlayCardBonus": 
 	{
 		"values":
 		[
-			{						  		  
-				"condition": "my_heroweapon(count()) > 0 ",
-				"value":"-8",
-			},
-			
-			{						  		  
-				"condition": "my_hero(count(), max_mana) == 1",
-				"value":"2",
-			},
-			
-			{						  		  
-				"condition": "my_hand(count(), cardid=NEW1_025) > 0 AND opp_heroweapon(count()) == 0",
-				"value":"8",
-			},
-			
-			{						  		  
-				"condition": "opp_minions(count(), health < 2) > 0",
-				"value":"2",
+			{
+				"comment":"Don't play this when you have a weapon that is 3/1 or more.",
+				"condition": "my_heroweapon(count(), attack > 2, durability > 0) > 0",
+				"value":"-10",
 			}
 		],
 	},																																																					

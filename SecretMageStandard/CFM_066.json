@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CFM_066",
+	"ConfigComment":"Kabal Lackey settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If you aren't holding a secret, don't play this.",
+				"condition": "my_hand(count(), secret) < 1",
+				"value":"-15",
+			}
+		],
+	},
+}

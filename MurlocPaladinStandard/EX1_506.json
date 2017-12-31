@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_506",
+	"ConfigComment":"Murloc Tidecaller settings.",
+
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"comment":"You mostly want to prioritize playing this first if you have Murlocs in your hand.",
+				"condition": "my_hand(count(), murloc) > 1",
+				"value":"45",
+			}
+		],
+	},
+}

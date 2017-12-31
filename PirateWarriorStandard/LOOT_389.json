@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_389",	
+	"ConfigComment":"Rummaging Kobold bonuses.",		
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't play this if you don't have a destroyed weapon and other minions in hand.",
+				"condition": "my_graveyard(count(), weapon) < 1 AND my_hand(count(), minioncard) > 1",
+				"value":"-15",
+			}
+		],
+	}
+}

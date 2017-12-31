@@ -1,0 +1,34 @@
+{
+	"GameCardId":"UNG_075",
+	"ConfigComment":"Vicious Fledgling settings.",
+
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Give priority to Windfury.",
+				"condition": "my_discover(count(), cardid = UNG_999t7) > 0 AND opp_minions(count(), taunt) < 1",
+				"value":"20",
+			},
+			
+			{
+				"comment":"Second priority to +3 Attack and Spores.",
+				"condition": "my_discover(count(), cardid = UNG_999t2 | UNG_999t3) > 0",
+				"value":"10",
+			}
+		],
+	},
+	
+	"BeforePhysicalAttackBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"SMORC.",
+				"condition": " opp_minions(count(), taunt) < 1 AND my_target(count(), hero = true) > 0",
+				"value":"10",
+			}
+		],
+	},
+}

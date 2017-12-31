@@ -1,0 +1,16 @@
+{
+	"GameCardId":"KAR_092",
+	"ConfigComment":"Medivh's Valet settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Discourage playing this without a secret in play.",
+				"condition": "my_secret(count()) < 1",
+				"value":"-15",
+			}
+		],
+	},
+}

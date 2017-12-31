@@ -1,0 +1,28 @@
+{
+	"GameCardId":"UNG_854",
+	"ConfigComment":"Free From Amber settings.",
+
+	"OnDiscoverCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"8 drops you never want to take: King Togwaggle (LOOT_541), Marin the Fox (LOOT_357), Tortollan Primalist (UNG_088), Grand Archivist (LOOT_414).",
+				"condition": "my_discover(count(), cardid = LOOT_541 | LOOT_357 | UNG_088 | LOOT_414)",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"9 drops you never want to take: Dragonhatcher (LOOT_540), Mayor Noggenfogger (CFM_670), Master Oakheart (LOOT_521)",
+				"condition": "my_discover(count(), cardid = LOOT_540 | CFM_670 | LOOT_521)",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"10 drops you never want to take: N'Zoth, the Corruptor (OG_133), Yogg'Saron, Hope's End (OG_134)",
+				"condition": "my_discover(count(), cardid = OG_133 | OG_134)",
+				"value":"-1000",
+			}
+		],
+	},
+}

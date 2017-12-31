@@ -19,4 +19,16 @@
 			},
 		],
 	},
+	
+	"InHandBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Hold this if you're against a Paladin or Druid who hasn't flood the board yet.",
+				"condition": "opp_hero(count(), hero_class = paladin | druid) > 0 AND opp_minions(count()) < 3",
+				"value":"25",
+			},
+		],
+	},
 }

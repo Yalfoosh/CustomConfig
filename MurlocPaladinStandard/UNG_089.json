@@ -1,0 +1,34 @@
+{
+	"GameCardId":"UNG_089",
+	"ConfigComment":"Gentle Megasaur settings.",
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Don't play this without a Murloc on board.",
+				"condition": "my_minions(count(), murloc) < 1",
+				"value":"-10",
+			}
+		],
+	},
+	
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Give priority to Windfury.",
+				"condition": "my_discover(count(), cardid = UNG_999t7) > 0 AND opp_minions(count(), taunt) < 1",
+				"value":"20",
+			},
+			
+			{
+				"comment":"Second priority to +3 Attack, +1/+1 and Spores.",
+				"condition": "my_discover(count(), cardid = UNG_999t2 | UNG_999t14 | UNG_999t3) > 0",
+				"value":"10",
+			}
+		],
+	},
+}

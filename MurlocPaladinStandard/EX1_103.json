@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_103",
+	"ConfigComment":"Coldlight Seer settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Try not to play this without at least 1 Murloc on board.",
+				"condition": "my_minions(count(), murloc) < 1",
+				"value":"-10",
+			}
+		],
+	},
+}

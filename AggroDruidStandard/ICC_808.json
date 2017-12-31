@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_808",
+	"ConfigComment":"Crypt Lord settings.",
+
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"comment":"Usually this is the card you want to play first, unless you're against a Mage with a Secret on board.",
+				"condition": "opp_hero(count(), mage = false) OR opp_secret(count()) < 1",
+				"value":"50",
+			}
+		],
+	},
+}

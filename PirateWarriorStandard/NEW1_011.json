@@ -8,7 +8,7 @@
 		[
 			{						
 				"comment":"Get bonus for attacking enemy hero when able to.",  		  
-				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0 ",
+				"condition": "opp_minions(count(), taunt) < 1 AND my_target(count(), hero) > 0 ",
 				"value":"10",
 			}
 		],
@@ -20,8 +20,8 @@
 		[
 			{
 				"comment":"When played on taunt board.",
-				"condition": "opp_minions(count(),taunt=true)==0 AND my_target(count(),hero=true) > 0",
-				"value":"8",
+				"condition": "opp_minions(count(), taunt) < 1",
+				"value":"10",
 			}
 		],
 	}
