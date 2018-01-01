@@ -7,8 +7,8 @@
 		"values":
 		[
 			{
-				"comment":"Draw a card only when you have less than 9 cards and you have less than 3 minions on board.",
-				"condition": "my_discover(count(), cardid = LOOT_054d) > 0 AND my_hand(count()) < 9",
+				"comment":"Draw a card only when you have less than 7 cards (so even if you draw you don't get milled by Oracle) and you have less than 3 minions on board.",
+				"condition": "my_discover(count(), cardid = LOOT_054d) > 0 AND my_hand(count()) < 7 AND my_minions(count()) < 3",
 				"value":"50",
 			},
 			
