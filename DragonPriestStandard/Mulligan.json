@@ -21,6 +21,13 @@
 			},
 			
 			{ 
+				"comment": "Hold Northshire Cleric (CS2_235) + Shadow Ascendant (ICC_210)",
+				"mulligan":"CS2_235 + ICC_210",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
 				"comment": "Hold Duskbreaker (CS2_235) and Tar Creeper (UNG_928) against very aggressive classes.",
 				"mulligan":"CS2_235, UNG_928",
 				"condition": "opp_hero(count(), hero_class = hunter | rogue | shaman | warrior | paladin | mage) > 0",
@@ -35,8 +42,8 @@
 			},
 			
 			{
-				"comment": "Hold Kabal Songstealer (CFM_657) against nasty classes.",
-				"mulligan":"CFM_657",
+				"comment": "Hold Kabal Songstealer (CFM_657) and Twiligh Acolyte (LOOT_528) for Mountain Giant, Edwin, etc.",
+				"mulligan":"CFM_657, LOOT_528",
 				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
 				"value":"hold",
 			},

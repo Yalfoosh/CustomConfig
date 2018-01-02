@@ -42,9 +42,9 @@
 			},
 			
 			{
-				"comment": "Hold Spellbreaker (EX1_048) vs Warlock.",
+				"comment": "Hold Spellbreaker (EX1_048) vs Warlock and Rogue (for Edwin).",
 				"mulligan":"EX1_048",
-				"condition": "opp_hero(count(), hero_class = warlock) > 0",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
 				"value":"hold",
 			},
 			
