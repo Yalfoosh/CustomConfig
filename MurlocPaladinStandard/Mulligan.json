@@ -7,30 +7,37 @@
 		"values":
 		[
 			{ 
-				"comment": "Hold Bloodsail Corsair (NEW1_025), Enchanted Raven (KAR_300), Dire Mole (LOOT_258) and Corridor Creeper (LOOT_149).",
-				"mulligan":"NEW1_025, KAR_300, LOOT_258, LOOT_149",
+				"comment": "Hold Grimscale Chum (CFM_650), Murloc Tidecaller (EX1_506), Vilefin Inquisitor (OG_006).",
+				"mulligan":"CFM_650, EX1_506, OG_006",
 				"condition": "*",
 				"value":"hold",
 			},
 				
 			{ 
-				"comment": "Hold Dire More (LOOT_258) and Mark of Y'Shaarj (OG_048).",
-				"mulligan":"LOOT_258 + OG_048",
+				"comment": "Hold Rockpool Hunter (UNG_073) + Grimscale Chum (CFM_650).",
+				"mulligan":"UNG_073 + CFM_650",
 				"condition": "*",
 				"value":"hold",
 			},
 			
 			{ 
-				"comment": "Hold Enchanted Raven (KAR_300) and Mark of Y'Shaarj (OG_048).",
-				"mulligan":"KAR_300 + OG_048",
+				"comment": "Hold Rockpool Hunter (UNG_073) + Murloc Tidecaller (EX1_506).",
+				"mulligan":"UNG_073 + EX1_506",
 				"condition": "*",
 				"value":"hold",
 			},
 			
-			{
-				"comment": "Hold Druid of the Swarm (ICC_051) vs nasty classes.",
-				"mulligan":"ICC_051",
-				"condition": "opp_hero(count(), hero_class = druid | hunter | paladin | rogue) > 0",
+			{ 
+				"comment": "Hold Rockpool Hunter (UNG_073) + Vilefin Inquisitor (OG_006).",
+				"mulligan":"UNG_073 + OG_006",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Spellbreaker (EX1_048) vs Warlock and Rogue.",
+				"mulligan":"EX1_048",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
 				"value":"hold",
 			},
 			
