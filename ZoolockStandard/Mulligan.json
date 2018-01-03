@@ -16,14 +16,14 @@
 			{ 
 				"comment": "Hold Mortal Coil (EX1_302) vs aggro classes with low HP minions.",
 				"mulligan":"ICC_038",
-				"condition": "opp_hero(count(), hero_class = paladin | warrior) > 0",
+				"condition": "opp_hero(count(), hero_class = paladin | warrior | hunter | rogue) > 0",
 				"value":"hold",
 			},
 			
 			{ 
 				"comment": "Hold Southsea Captain (NEW1_027) when you don't have any 1 Mana minions in hand.",
 				"mulligan":"NEW1_027",
-				"condition": "my_hand(count(), cardid = EX1_319 | LOOT_014 | KAR_089 | CS2_065 | CFM_637) < 1",
+				"condition": "my_hand(count(), cardid = EX1_319 | LOOT_014 | KAR_089 | CS2_065) < 1",
 				"value":"hold",
 			},
 			
