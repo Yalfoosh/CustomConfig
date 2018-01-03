@@ -1,0 +1,16 @@
+{
+	"GameCardId":"OG_113",
+	"ConfigComment":"Darkshire Councilman settings.",
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"Always play this card first.",
+				"condition": "*",
+				"value":"50",
+			},
+		],
+	},
+}

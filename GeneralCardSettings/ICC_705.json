@@ -1,0 +1,28 @@
+{
+	"GameCardId":"ICC_705",
+	"ConfigComment":"Bonemare settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Lose value playing this without minions if you have some in your hand.",
+				"condition": "my_hand(count(), minioncard) > 1 AND my_minions(count()) < 1",
+				"value":"-40",
+			},
+		],
+	},
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"As long as you have a minion on board, you want to play this.",
+				"condition": "my_minions(count()) > 0",
+				"value":"50",
+			},
+		],
+	},
+}

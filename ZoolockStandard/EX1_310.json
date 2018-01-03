@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_310",
+	"ConfigComment":"Doomguard settings.",
+	
+	"BeforeUseHeroPowerBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"If you have less than 2 cards, you never want to Hero Power before playing this.",
+				"condition": "my_hand(count()) < 2",
+				"value":"-1000",
+			},
+		],
+	},
+}
