@@ -1,0 +1,22 @@
+{
+	"GameCardId":"UNG_011",
+	"ConfigComment":"Hydrologist settings.",
+	
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Secrets you don't want to ever take: Eye for an Eye (EX1_132), Repentance (EX1_379).",
+				"condition": "my_discover(count(), cardid = EX1_132 | EX1_379) > 0",
+				"value":"-50",
+			},
+			
+			{
+				"comment":"Give priority to Getaway Kodo (CFM_800).",
+				"condition": "my_discover(count(), cardid = CFM_800) > 0",
+				"value":"25",
+			}
+		],
+	},
+}
