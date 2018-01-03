@@ -28,7 +28,7 @@ AAECAaToAgb+A/IFsQjTvAK5wQK36QIMxQPbA6cFpwjTqgKzwQKdwgKxwgLjywL40gL70wLW5QIA
 
 Grimscale Chum 		(CFM_650)
 Grimscale Oracle 	(EX1_508)
-Murloc Tidecaller 	(EX1_506)
+Murloc Tidecaller 	(EX1_509)
 Righteous Protector (ICC_038)
 Vilefin Inquisitor 	(OG_006)
 Hydrologist 		(UNG_011)

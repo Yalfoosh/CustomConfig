@@ -7,8 +7,8 @@
 		"values":
 		[
 			{ 
-				"comment": "Hold Grimscale Chum (CFM_650), Murloc Tidecaller (EX1_506), Vilefin Inquisitor (OG_006).",
-				"mulligan":"CFM_650, EX1_506, OG_006",
+				"comment": "Hold Grimscale Chum (CFM_650), Murloc Tidecaller (EX1_509), Vilefin Inquisitor (OG_006).",
+				"mulligan":"CFM_650, EX1_509, OG_006",
 				"condition": "*",
 				"value":"hold",
 			},
@@ -21,8 +21,8 @@
 			},
 			
 			{ 
-				"comment": "Hold Rockpool Hunter (UNG_073) + Murloc Tidecaller (EX1_506).",
-				"mulligan":"UNG_073 + EX1_506",
+				"comment": "Hold Rockpool Hunter (UNG_073) + Murloc Tidecaller (EX1_509).",
+				"mulligan":"UNG_073 + EX1_509",
 				"condition": "*",
 				"value":"hold",
 			},
