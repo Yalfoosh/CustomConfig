@@ -1,0 +1,46 @@
+{
+	"GameCardId":"UNG_915",
+	"ConfigComment":"Crackling Razormaw settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Slightly bad to play without Beasts on board.",
+				"condition": "my_minions(count(), beast) < 1",
+				"value":"-5",
+			}
+		],
+	},
+	
+	"OnDiscoverCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Give priority to Poisonous if there is a large minion with Taunt and the target has low Attack.",
+				"condition": "my_discover(count(), cardid = UNG_999t13) AND opp_minions(count(), taunt, health > 5) > 0 AND my_target(count(), attack > 0) > 0",
+				"value":"20 + 20 - my_target(count(), cost)",
+			},
+			
+			{
+				"comment":"Give priority to Windfury if the Minion has more than 2 Attack.",
+				"condition": "my_discover(count(), cardid = UNG_999t7) > 0 AND opp_minions(count(), taunt) < 1 AND my_target(count(), attack > 2) > 0",
+				"value":"20",
+			},
+			
+			{
+				"comment":"First natural priority is +3 Attack.",
+				"condition": "my_discover(count(), cardid = UNG_999t2)",
+				"value":"15",
+			},
+			
+			{
+				"comment":"Second priority are +1/+1 Attack and Spores.",
+				"condition": "my_discover(count(), cardid = UNG_999t14 | UNG_999t3) > 0",
+				"value":"10",
+			}
+		],
+	},
+}

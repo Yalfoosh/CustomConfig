@@ -42,16 +42,23 @@
 			},
 			
 			{ 
-				"comment": "Hold Crackling Razormaw (UNG_915) + Alleycat (CFM_315).",
-				"mulligan":"UNG_915 + CFM_315",
-				"condition": "*",
+				"comment": "Hold Crackling Razormaw (UNG_915) when you have either Alleycat (CFM_315) or Dire Mole (LOOT_258).",
+				"mulligan":"UNG_915",
+				"condition": "my_hand(count(), cardid = CFM_315 | LOOT_258) > 0",
 				"value":"hold",
 			},
 			
 			{ 
-				"comment": "Hold Crackling Razormaw (UNG_915) + Dire Mole (LOOT_258).",
-				"mulligan":"UNG_915 + LOOT_258",
-				"condition": "*",
+				"comment": "Hold Eaglehorn Bow (EX1_536) vs nasty classes.",
+				"mulligan":"EX1_536",
+				"condition": "opp_hero(count(), hero_class = shaman | priest | mage | hunter) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Spellbreaker (EX1_048) vs Warlock and Rogue.",
+				"mulligan":"EX1_048",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
 				"value":"hold",
 			},
 			
