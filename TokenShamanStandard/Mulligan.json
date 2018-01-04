@@ -1,0 +1,45 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Hold Fire Fly (UNG_809), Bloodsail Corsair (NEW1_025), Jade Claws (CFM_717).",
+				"mulligan":"UNG_809, NEW1_025, CFM_717",
+				"condition": "*",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Golakka Crawler (UNG_807) if you're against Pirate classes.",
+				"mulligan":"UNG_807",
+				"condition": "opp_hero(count(), hero_class = druid | warrior | rogue | paladin) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Maelstrom Portal (KAR_073) when against classes with low health minions.",
+				"mulligan":"KAR_073",
+				"condition": "opp_hero(count(), hero_class = warrior | paladin | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Flametongue Totem (EX1_565) when you have a 1-drop.",
+				"mulligan":"EX1_565",
+				"condition": "my_hand(count(), cardid = UNG_809 | NEW1_025) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

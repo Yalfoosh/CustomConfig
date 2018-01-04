@@ -1,0 +1,23 @@
+{
+    "GameCardId":"Combo",
+    "ConfigComment":"This is the combo config file.",
+	"ComboList":
+    {
+		"values":
+		[
+			{
+				"comment":"Doppelgangster (CFM_668) -->  Evolve (OG_027)",
+				"condition": "*",
+                "combo":"CFM_668 >> OG_027",
+                "value":"25 >> 0",
+            },
+
+			{
+				"comment":"Doppelgangster (CFM_668) -->  Thrall, Deathseer (ICC_481)",
+				"condition": "my_hand(count(), cardid = ICC_481) > 0 AND my_hero(count(), mana = 10) > 0",
+                "combo":"ICC_481 >> ICC_481",
+                "value":"40 >> 0",
+            },
+		],
+	},
+}

@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CS2_046",
+	"ConfigComment":"Bloodlust bonuses",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if you have less than 3 minions.",
+				"condition": "my_minions(count()) < 3",
+				"value":"-25",
+			}
+		],
+	},
+}

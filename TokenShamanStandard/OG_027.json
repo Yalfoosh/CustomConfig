@@ -1,0 +1,16 @@
+{
+	"GameCardId":"OG_027",
+	"ConfigComment":"Evolve bonuses",
+
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"You always play this last.",
+				"condition": "*",
+				"value":"-49",
+			}
+		],
+	},
+}

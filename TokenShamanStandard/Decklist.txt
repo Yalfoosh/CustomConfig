@@ -1,0 +1,44 @@
+### Token Shaman
+# Class: Shaman
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Bloodsail Corsair
+# 2x (1) Evolve
+# 2x (1) Fire Fly
+# 1x (1) Patches the Pirate
+# 2x (2) Devolve
+# 2x (2) Flametongue Totem
+# 1x (2) Golakka Crawler
+# 2x (2) Jade Claws
+# 2x (2) Maelstrom Portal
+# 2x (2) Primalfin Totem
+# 2x (3) Mana Tide Totem
+# 2x (4) Jade Lightning
+# 2x (5) Bloodlust
+# 2x (5) Doppelgangster
+# 1x (5) Thrall, Deathseer
+# 1x (6) Aya Blackpaw
+# 2x (6) Thing from Below
+#
+AAECAaoIBJG8ApS9AuTCAuvPAg2BBOUH8AeTCfqqAvuqAqC2Aoe8AtG8Ava9Avm/ApHBAuvCAgA=
+
+
+
+Bloodsail Corsair 	(NEW1_025)
+Evolve 				(OG_027)
+Fire Fly 			(UNG_809)
+Patches the Pirate 	(CFM_637)
+Devolve 			(CFM_696)
+Flametongue Totem 	(EX1_565)
+Golakka Crawler 	(UNG_807)
+Jade Claws 			(CFM_717)
+Maelstrom Portal 	(KAR_073)
+Primalfin Totem 	(UNG_201)
+Mana Tide Totem 	(EX1_575)
+Jade Lightning 		(CFM_707)
+Bloodlust 			(CS2_046)
+Doppelgangster 		(CFM_668)
+Thrall, Deathseer 	(ICC_481)
+Aya Blackpaw 		(CFM_902)
+Thing from Below 	(OG_028)

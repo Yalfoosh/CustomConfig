@@ -1,13 +1,13 @@
 {
 	"GameCardId":"ICC_851",
 	"ConfigComment":"Keleseth bonuses",
-	
-	"BeforePlayCardBonus": 
+
+	"BeforePlayCardBonus":
     {
 		"values":
 		[
 			{
-				"comment":"Prince Keleseth is pretty much the best card to play.",  		  
+				"comment":"Prince Keleseth is pretty much the best card to play.",
 				"condition": "*",
 				"value":"100",
 			}

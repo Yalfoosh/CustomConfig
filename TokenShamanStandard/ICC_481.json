@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_481",
+	"ConfigComment":"Thrall Deathseer bonuses",
+
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"You always play this last.",
+				"condition": "*",
+				"value":"-50",
+			}
+		],
+	},
+}
