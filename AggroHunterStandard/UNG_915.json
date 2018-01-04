@@ -20,7 +20,7 @@
 		[
 			{
 				"comment":"Give priority to Poisonous if there is a large minion with Taunt and the target has low Attack.",
-				"condition": "my_discover(count(), cardid = UNG_999t13) AND opp_minions(count(), taunt, health > 5) > 0 AND my_target(count(), attack > 0) > 0",
+				"condition": "my_discover(count(), cardid = UNG_999t13) > 0 AND opp_minions(count(), taunt, health > 5) > 0 AND my_target(count(), attack > 0) > 0",
 				"value":"20 + 20 - my_target(count(), cost)",
 			},
 			
@@ -32,7 +32,7 @@
 			
 			{
 				"comment":"First natural priority is +3 Attack.",
-				"condition": "my_discover(count(), cardid = UNG_999t2)",
+				"condition": "my_discover(count(), cardid = UNG_999t2) > 0",
 				"value":"15",
 			},
 			
