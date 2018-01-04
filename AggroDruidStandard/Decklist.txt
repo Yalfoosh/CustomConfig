@@ -10,19 +10,18 @@
 # 2x (1) Fire Fly
 # 2x (1) Mark of the Lotus
 # 1x (1) Patches the Pirate
-# 1x (2) Dire Wolf Alpha
+# 2x (2) Dire Wolf Alpha
 # 2x (2) Druid of the Swarm
 # 2x (2) Mark of Y'Shaarj
 # 2x (2) Power of the Wild
 # 2x (3) Crypt Lord
 # 2x (3) Savage Roar
-# 1x (4) Branching Paths
 # 1x (4) Cult Master
 # 1x (4) Spellbreaker
 # 2x (5) Living Mana
 # 2x (7) Corridor Creeper
 # 
-AAECAZICBvIFqwbZB5G8AuLKAp7SAgz3A+YF5QfBqwK2swLNuwKGwQLrwgKbzQKR0AL70wKL5QIA
+AAECAZICBPIFqwaRvALiygIN9wPmBdkH5QfBqwK2swLNuwKGwQLrwgKbzQKR0AL70wKL5QIA
 
 
 
@@ -44,3 +43,5 @@ Cult Master 		(EX1_595)
 Spellbreaker 		(EX1_048)
 Living Mana 		(UNG_111)
 Corridor Creeper 	(LOOT_149)
+
+Branching Paths is replaced by Dire Wolf Alpha. Will come back once it's fixed.

@@ -10,6 +10,24 @@
 				"comment":"Don't play this on an empty board, lose value on only 1 target.",
 				"condition": "my_minions(count()) < 2",
 				"value":"-15 + 10 * my_minions(count())",
+			},
+
+			{
+				"comment":"Gain a bonus when playing on minions that can attack this turn.",
+				"condition": "my_minions(count()) > 2",
+				"value":"5 * my_minions(count(), tired = false, frozen = false) ",
+			}
+		],
+	},
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"This is usually the last card you want to play.",
+				"condition": "*",
+				"value":"-10",
 			}
 		],
 	},
