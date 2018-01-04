@@ -26,7 +26,7 @@
 		[
 			{
 				"comment":"If you're against Warlock, and there is no Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161) on the board, hold onto this.",  		  
-				"condition": "opp_minions(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161) < 1",
+				"condition": "opp_minions(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161) < 1 AND opp_hero(count(), hero_class = warlock) > 0",
 				"value":"50",
 			}
 		],

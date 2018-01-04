@@ -7,33 +7,40 @@
 		"values":
 		[
 			{
-				"comment": "Hold N'Zoth's First Mate (OG_312), Southsea Deckhand (CS2_146), Frothing Berserker (EX1_604), Prince Keleseth (ICC_851), Corridor Creeper (LOOT_149)",
-				"mulligan":"OG_312, CS2_146, EX1_604, ICC_851, LOOT_149",
+				"comment": "Hold Fire Fly (UNG_809), N'Zoth's First Mate (OG_312), Southsea Deckhand (CS2_146), Frothing Berserker (EX1_604), Prince Keleseth (ICC_851), Corridor Creeper (LOOT_149).",
+				"mulligan":"UNG_809, OG_312, CS2_146, EX1_604, ICC_851, LOOT_149",
 				"condition": "*",
 				"value":"hold",
 			},
-			
+
+			{
+				"comment": "Hold Southsea Captain (NEW1_027) and Upgrade! (EX1_409) if you have no turn 1 plays.",
+				"mulligan":"NEW1_027, EX1_409",
+				"condition": "my_hand(count(), cardid = OG_312 | CS2_146 | UNG_809) < 1",
+				"value":"hold",
+			},
+
 			{
 				"comment": "Keep Fiery War Axe (CS2_106) against classes with critical minions early.",
 				"mulligan":"CS2_106",
-				"condition": "opp_hero(count(), hero_class = hunter | priest | shaman | warlock) > 0",
+				"condition": "opp_hero(count(), hero_class = hunter | priest | shaman | mage) > 0",
 				"value":"hold",
 			},
-			
+
 			{
 				"comment": "Keep Spellbreaker (EX1_048) for classes with nasty buffs.",
 				"mulligan":"EX1_048",
-				"condition": "opp_hero(count(), hero_class = paladin | rogue | warlock) > 0",
+				"condition": "opp_hero(count(), hero_class = paladin | warlock) > 0",
 				"value":"hold",
 			},
-			
+
 			{
-				"comment": "Bloodsail Cultist (OG_315) + N'Zoth's First Mate (OG_312) with Coin.",
+				"comment": "Bloodsail Cultist (OG_315) + N'Zoth's First Mate (OG_312).",
 				"mulligan":"OG_315 + OG_312",
-				"condition": "coin",
+				"condition": "*",
 				"value":"hold",
 			},
-			
+
 			{
 				"comment": "discard all cards not listed as hold",
 				"mulligan":"*",
