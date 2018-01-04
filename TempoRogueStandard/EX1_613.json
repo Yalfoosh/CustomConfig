@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_613",
+	"ConfigComment":"Edwin VanCleef settings",
+
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"Always play this last.",  		  
+				"condition": "*",
+				"value":"-50",
+			}
+		],
+	},
+}

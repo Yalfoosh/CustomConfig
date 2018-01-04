@@ -1,0 +1,46 @@
+### Tempo Rogue
+# Class: Rogue
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (0) Backstab
+# 2x (0) Shadowstep
+# 2x (1) Fire Fly
+# 1x (1) Patches the Pirate
+# 2x (1) Southsea Deckhand
+# 2x (1) Swashburglar
+# 1x (2) Prince Keleseth
+# 1x (3) Edwin VanCleef
+# 2x (3) SI:7 Agent
+# 2x (3) Southsea Captain
+# 1x (3) Tar Creeper
+# 1x (4) Elven Minstrel
+# 2x (4) Saronite Chain Gang
+# 2x (5) Cobalt Scalebane
+# 1x (5) Leeroy Jenkins
+# 2x (5) Vilespine Slayer
+# 2x (7) Bonemare
+# 2x (7) Corridor Creeper
+#
+AAECAaIHBrICrwSRvALKwwKc4gLb4wIMtAHtAqgF1AXdCJK2AoHCAuvCApvLAsrLAqbOAvvTAgA=
+
+
+
+Backstab 			(CS2_072)
+Shadowstep 			(EX1_144)
+Fire Fly 			(UNG_809)
+Patches the Pirate 	(CFM_637)
+Southsea Deckhand 	(CS2_146)
+Swashburglar 		(KAR_069)
+Prince Keleseth 	(ICC_851)
+Edwin VanCleef 		(EX1_613)
+SI:7 Agent 			(EX1_134)
+Southsea Captain 	(NEW1_027)
+Tar Creeper 		(UNG_928)
+Elven Minstrel 		(LOOT_211)
+Saronite Chain Gang (ICC_466)
+Cobalt Scalebane 	(ICC_029)
+Leeroy Jenkins 		(EX1_116)
+Vilespine Slayer 	(UNG_064)
+Bonemare 			(ICC_705)
+Corridor Creeper 	(LOOT_149)

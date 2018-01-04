@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_144",
+	"ConfigComment":"Shadowstep bonuses",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"If you have a Prince Keleseth (ICC_851) on board, you want to play this on it.",  		  
+				"condition": "my_target(count(), cardid = ICC_851) > 0",
+				"value":"30",
+			}
+		],
+	},
+}

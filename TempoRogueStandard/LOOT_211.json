@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_211",
+	"ConfigComment":"Elven Minstrel settings",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"This loses quite a bit value without the Combo portion.",  		  
+				"condition": "my_played(count(), played_turn = turn)",
+				"value":"-25",
+			}
+		],
+	},
+}

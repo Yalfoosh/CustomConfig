@@ -1,0 +1,16 @@
+{
+	"GameCardId":"UNG_064",
+	"ConfigComment":"Vilespine Slayer settings",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"This loses quite a bit value without the Combo portion.",  		  
+				"condition": "my_played(count(), played_turn = turn)",
+				"value":"-40",
+			}
+		],
+	},
+}
