@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_160",
+	"ConfigComment":"Power of the Wild settings.",
+
+	"InHandBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Keep this if you can't +1/+1.",
+				"condition": "my_minions(count()) < 3",
+				"value":"5",
+			}
+		],
+	},
+}

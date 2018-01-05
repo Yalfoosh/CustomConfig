@@ -19,18 +19,11 @@
 				"condition": "*",
 				"value":"hold",
 			},
-				
-			{ 
-				"comment": "Hold Dire More (LOOT_258) and Mark of Y'Shaarj (OG_048).",
-				"mulligan":"LOOT_258 + OG_048",
-				"condition": "*",
-				"value":"hold",
-			},
 			
 			{ 
-				"comment": "Hold Enchanted Raven (KAR_300) and Mark of Y'Shaarj (OG_048).",
-				"mulligan":"KAR_300 + OG_048",
-				"condition": "*",
+				"comment": "Hold Mark of Y'Shaarj (OG_048) if you have Dire Mole (LOOT_258) or Enchanted Raven (KAR_300).",
+				"mulligan":"OG_048",
+				"condition": "my_hand(count(), cardid = LOOT_258 | KAR_300) > 0",
 				"value":"hold",
 			},
 			

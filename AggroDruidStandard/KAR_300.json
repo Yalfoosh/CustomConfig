@@ -1,0 +1,16 @@
+{
+	"GameCardId":"KAR_300",
+	"ConfigComment":"Enchanted Raven config.",
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If you it's turn 1 and you have a Mark of Y'Shaarj (OG_048) in hand, prioritize playing this.", 		  
+				"condition": "my_hero(count(), max_mana = 1) > 0 AND my_hand(count(), cardid = OG_048) > 0",
+				"value":"4",
+			}
+		],
+	},
+}
