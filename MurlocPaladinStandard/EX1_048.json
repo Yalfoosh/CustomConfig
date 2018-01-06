@@ -1,21 +1,21 @@
 {
 	"GameCardId":"EX1_048",	
 	"ConfigComment":"Spellbreaker config.",	
-	
+
 	"BeforeBattlecryTargetBonus":
 	{
 		"values":
 		[
 			{
-				"comment":"You don't want to silence a very low spec minion because you can kill it usually.",  		  
-				"condition": "my_target(count(), health < 4, attack < 4) > 0 AND my_target(count(), deathrattle) < 1",
-				"value":"-20",
-			},
-			
-			{
 				"comment":"If you're targetting Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161), gain a huge bonus.",  		  
 				"condition": "my_target(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161, silenced = false) > 0",
 				"value":"100",
+			},
+
+			{
+				"comment":"If you're targetting your Hydra, gain a huge bonus.",  		  
+				"condition": "my_target(count(), cardid = UNG_087) > 0 AND opp_minions(count(), cardid = UNG_087) < 1",
+				"value":"20",
 			},
 		],
 	},
