@@ -1,0 +1,106 @@
+{
+	"GameCardId":"CFM_605",
+	"ConfigComment":"Drakonid Operative settings.",
+
+	"OnDiscoverCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Druid cards you never want to take: Forbidden Ancient (OG_051), Jade Idol (CFM_602), Jungle Giants (UNG_116), Savagery (EX1_578), Addled Grizzly (OG_313),
+						   Celestial Dreamer (CFM_617), Jade Blossom (CFM_713), Evolving Spores (UNG_103), Strongshell Scavenger (ICC_807), Twig of the World Tree (LOOT_392),
+						   Fatespinner (ICC_047), Force of Nature (EX1_571), Ixlid, Fungal Lord (LOOT_329), Webweave (ICC_050), Giant Anaconda (UNG_086), Wisps of the Old Gods (OG_195),
+						   Grizzled Guardian (LOOT_314), Hadronox (ICC_835)",
+				"condition": "my_discover(count(), cardid = OG_051 | CFM_602 | UNG_116 | EX1_578 | OG_313 | CFM_617 | CFM_713 | UNG_103 | ICC_807 | LOOT_392 | ICC_047 | EX1_571 | LOOT_329 | ICC_050 | UNG_086 | OG_195 | LOOT_314 | ICC_835) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Hunter cards you never want to take: Bestial Wrath (EX1_549), Play Dead (ICC_052), Smuggler's Crate (CFM_305), Stampede (UNG_916), The Marsh Queen (UNG_920),
+						   Dinomancy (UNG_917), Exploding Bloatbat (ICC_021), Piranha Launcher (CFM_337), Seeping Oozeling (LOOT_520), To My Side! (LOOT_217), Rhok'delar (LOOT_085).",
+				"condition": "my_discover(count(), cardid = EX1_549 | ICC_052 | CFM_305 | UNG_916 | UNG_920 | UNG_917 | ICC_021 | CFM_337 | LOOT_520 | LOOT_217 | LOOT_085) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Mage cards you never want to take: Forbidden Flame (OG_086), Shifting Scroll (LOOT_104), Open the Waygate (UNG_028), Ice Walker (ICC_068), Shatter (OG_081),
+						   Doomed Apprentice (ICC_083), Demented Frostcaller (OG_085), Deck of Wonders (LOOT_106), Servant of Yogg-Saron (OG_087), Inkmaster Solia (CFM_687), Anomalus (OG_120),
+						   Glacial Mysteries (ICC_086), Dragoncaller Alanna (LOOT_535).",
+				"condition": "my_discover(count(), cardid = OG_086 | LOOT_104 | UNG_028 | ICC_068 | OG_081 | ICC_083 | OG_085 | LOOT_106 | OG_087 | CFM_687 | OG_120 | ICC_086 | LOOT_535) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Paladin cards you never want to take: Forbidden Healing (OG_198), Meanstreet Marshall (CFM_759), The Last Kaleidosaur (UNG_954), Desperate Stand (ICC_244),
+						   Primalfin Champion (UNG_953), Howling Commander (ICC_801), Small-Time Recruits (CFM_905), Lightfused Stegodon (UNG_962), Light's Sorrow (ICC_071), Level Up! (LOOT_333),
+						   Crystal Lion (LOOT_313), Lynessa Sunsorrow (LOOT_216).",
+				"condition": "my_discover(count(), cardid = OG_198 | CFM_759 | UNG_954 | ICC_244 | UNG_953 | ICC_801 | CFM_905 | UNG_962 | ICC_071 | LOOT_333 | LOOT_313 | LOOT_216) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Priest cards you never want to take: Awaken the Makers (UNG_940), Pint-Size Potion (CFM_661), Purify (KAR_013), Curious Glimmerroot (UNG_035), 
+						   Dragon Soul (LOOT_209), Shadowform (EX1_625), Twilight's Call (LOOT_187), Mass Dispel (EX1_626), Shadow Madness (EX1_334), Embrace Darkness (ICC_849), 
+						   Shadow Essence (ICC_235), Archbishop Benedictus (ICC_215), Temporus (LOOT_538)",
+				"condition": "my_discover(count(), cardid = UNG_940 | CFM_661 | KAR_013 | UNG_035 | LOOT_209 | EX1_625 | LOOT_187 | EX1_626 | EX1_334 | ICC_849 | ICC_235 | ICC_215 | LOOT_538) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Rogue cards you never want to take: Preparation (EX1_145), Doomerang (ICC_233), Kingsbane (LOOT_542), The Caverns Below (UNG_067), Biteweed (UNG_063),
+						   Cavern Shinyfinder (LOOT_033), Gadgetzan Ferryman (CFM_693), Leeching Poison (ICC_221), Roll the Bones (ICC_201), Envenom Weapon (UNG_823),
+						   Sonya Shadowdancer (LOOT_165), Blade Flurry (CS2_233), Kidnapper (NEW1_005), Blade of C'Thun (OG_282).",
+				"condition": "my_discover(count(), cardid = EX1_145 | ICC_233 | LOOT_542 | UNG_067 | UNG_063 | LOOT_033 | CFM_693 | ICC_221 | ICC_201 | UNG_823 | LOOT_165 | CS2_233 | NEW1_005 | OG_282) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Shaman cards you never want to take: Dust Devil (EX1_243), Finders Keepers (CFM_313), Primal Fusion (OG_023), Unite the Murlocs (UNG_942),
+						   Fire Plume Harbinger (UNG_202), Ice Fishing (ICC_089), Kobold Hermit (LOOT_062), Spirit Claws (KAR_063), Primal Talisman (LOOT_344), Avalanche (ICC_078),
+						   Hallazeal the Ascended (OG_209), Moorabi (ICC_289), Jade Chieftain (CFM_312), Lesser Sapphire Spellstone (LOOT_064), Stone Sentinel (UNG_208),
+						   The Runespear (LOOT_506), Snowfury Giant (ICC_090).",
+				"condition": "my_discover(count(), cardid = EX1_243 | CFM_313 | OG_023 | UNG_942 | UNG_202 | ICC_089 | LOOT_062 | KAR_063 | LOOT_344 | ICC_078 | OG_209 | ICC_289 | CFM_312 | LOOT_064 | UNG_208 | LOOT_506 | ICC_090) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Warlock cards you never want to take: Lakkari Sacrifice (UNG_829), Bloodbloom (UNG_832), Howlfiend (ICC_218), Sense Demons (EX1_317), Spreading Madness (OG_116),
+						   Unlicensed Apothecary (CFM_900), Lesser Amethyst Spellstone (LOOT_043), Seadevil Stinger (CFM_699), Blood-Queen Lana'thel (ICC_841), Kara Kazham! (KAR_025),
+						   Possessed Lackey (LOOT_306), Skull of the Man'ari (LOOT_420), Cruel Dinomancer (UNG_830), Krul the Unshackled (CFM_750), DOOM! (OG_239).",
+				"condition": "my_discover(count(), cardid = UNG_829 | UNG_832 | ICC_218 | EX1_317 | OG_116 | CFM_900 | LOOT_043 | CFM_699 | ICC_841 | KAR_025 | LOOT_306 | LOOT_420 | UNG_830 | CFM_750 | OG_239) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Warrior cards you never want to take: Animated Berserker (ICC_238), Fire Plume's Heart (UNG_934), I Know a Guy (CFM_940), Shield Slam (EX1_410),
+						   Bladed Gauntlet (LOOT_044), Explore Un'Goro (UNG_922), Forge of Souls (ICC_281), Stolen Goods (CFM_752), Reckless Flurry (LOOT_364), Brass Knuckles (CFM_631),
+						   Death Revenant (ICC_450), Tentacles for Arms (OG_033), Gather Your Party (LOOT_370), Gemstudded Golem (LOOT_365), Ancient Shieldbearer (OG_301),
+						   Lesser Mithril Spellstone (LOOT_203), Geosculptor Yip (LOOT_519).",
+				"condition": "my_discover(count(), cardid = ICC_238 | UNG_934 | CFM_940 | EX1_410 | LOOT_044 | UNG_922 | ICC_281 | CFM_752 | LOOT_364 | CFM_631 | ICC_450 | OG_033 | LOOT_370 | LOOT_365 | OG_301 | LOOT_203 | LOOT_519) > 0",
+				"value":"-1000",
+			},
+			
+			{
+				"comment":"Neutral cards you never want to take: Emerald Hive Queen (UNG_085), Feral Gibberer (LOOT_218), Ancient Watcher (EX1_045), Duskboar (OG_326), Lorewalker Cho (EX1_100),
+						   Mana Addict (EX1_055), Millhouse Manastorm (NEW1_029), Nat Pagle (EX1_557), Prince Keleseth (ICC_851), Alarm-O-Bot (EX1_006), Am'gam Rager (OG_248), Blubber Baron (CFM_064),
+						   Kobold Apprentice (LOOT_347), Moroes (KAR_044), Prince Taldaram (ICC_852), Rummaging Kobold (LOOT_389), Sergeant Sally (CFM_341), Silithid Swarmer (OG_034), Street Trickster (CFM_039),
+						   Toothy Chest (LOOT_134), Corpsetaker (ICC_912), Deathaxe Punisher (ICC_810), Dread Corsair (NEW1_022), Ebon Dragonsmith (LOOT_118), Evolved Kobold (OG_082), Genzo, the Shark (CFM_808),
+						   Jade Spirit (CFM_715), Kazakus (CFM_621), Keening Banshee (ICC_911), Meat Wagon (ICC_812), Phantom Freebooter (ICC_018), Rattling Rascal (ICC_025), Shimmering Courser (LOOT_193), 
+						   The Voraxx (UNG_843), Ticking Abomination (ICC_099), Wicked Skeleton (ICC_904), Avian Watcher (KAR_037), Bloodworm (ICC_905), Captain Greenskin (NEW1_024), Corrupted Healbot (OG_147), 
+						   Finja, the Flying Star (CFM_344), Green Jelly (LOOT_131), Grook Fu Master (CFM_666), Lotus Agent (CFM_852), Menagerie Magician (KAR_702), Tomb Lurker (ICC_098), Trogg Gloomeater (LOOT_315),
+						   Validated Doomsayer (OG_200), Venomancer (ICC_032), Venture Co. Mercenary (CS2_227), Ancient Harbinger (OG_290), Fight Promoter (CFM_328), Gadgetzan Auctioneer (EX1_095), Madam Goya (CFM_672),
+						   Moat Lurker (KAR_041), Necrotic Geist (ICC_900), Nerubian Unraveler (ICC_706), Priestess of Elune (EX1_583), Sabretooth Stalker (UNG_812), Skeram Cultist (OG_339), Spellweaver (ICC_856),
+						   The Beast (EX1_577), Windfury Harpy (EX1_033), Wind-up Burglebot (CFM_025), Blazecaller (UNG_847), Grotesque Dragonhawk (OG_152), Silver Vanguard (LOOT_184), The Curator (KAR_061), 
+						   Twin Emperor Vek'lor (OG_131), Volcanosaur (UNG_002), Grand Archivist (LOOT_414), King Togwaggle (LOOT_541), Marin the Fox (LOOT_357), Medivh, the Guardian (KAR_097), 
+						   The Boogeymonster (OG_300), Tortollan Primalist (UNG_088), Blood of the Ancient One (OG_173), Dragonhatcher (LOOT_540), Master Oakheart (LOOT_521), Mayor Noggenfogger (CFM_670),
+						   Nozdormu (EX1_560), Ozruk (UNG_907), N'Zoth, the Corruptor (OG_133), Yogg-Saron, Hope's End (OG_134), Arcane Giant (KAR_711).",
+				"condition": "my_discover(count(), cardid = UNG_085 | LOOT_218 | EX1_045 | OG_326 | EX1_100 | EX1_055 | NEW1_029 | EX1_557 | ICC_851 | EX1_006 | OG_248 | CFM_064 | LOOT_347 | KAR_044 | ICC_852 | LOOT_389 | CFM_341 | OG_034 | CFM_039 | 
+															LOOT_134 | ICC_912 | ICC_810 | NEW1_022 | LOOT_118 | OG_082 | CFM_808 | CFM_715 | CFM_621 | ICC_911 | ICC_812 | ICC_018 | ICC_025 | LOOT_193 | UNG_843 | ICC_099 | ICC_904 | KAR_037 | ICC_905 | NEW1_024 | OG_147 | 
+															CFM_344 | LOOT_131 | CFM_666 | CFM_852 | KAR_702 | ICC_098 | LOOT_315 | OG_200 | ICC_032 | CS2_227 | OG_290 | CFM_328 | EX1_095 | CFM_672 | KAR_041 | ICC_900 | ICC_706 | EX1_583 | UNG_812 | OG_339 | ICC_856 | 
+															EX1_577 | EX1_033 | CFM_025 | UNG_847 | OG_152 | LOOT_184 | KAR_061 | OG_131 | UNG_002 | LOOT_414 | LOOT_541 | LOOT_357 | KAR_097 | OG_300 | UNG_088 | OG_173 | LOOT_540 | LOOT_521 | CFM_670 | 
+															EX1_560 | UNG_907 | OG_133 | OG_134 | KAR_711) > 0",
+				"value":"-1000",
+			},
+		]
+	},
+}

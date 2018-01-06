@@ -7,7 +7,7 @@
 		"values":
 		[
 			{
-				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand.",
+				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand other than Grand Archivist.",
 				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard) > 1",
 				"value":"-30",
 			},

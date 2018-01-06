@@ -10,6 +10,12 @@
 				"comment":"Playing this without drawing at least 2 cards is BAD.",
 				"condition": "(opp_hand(count()) - my_hand(count())) < 2",
 				"value":"-30",
+			},
+			
+			{
+				"comment":"Playing this while drawing 3 or more cards is really good.",
+				"condition": "(opp_hand(count()) - my_hand(count())) > 2",
+				"value":"10",
 			}
 		],
 	},

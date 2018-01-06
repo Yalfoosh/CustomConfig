@@ -25,8 +25,8 @@
 		"values":
 		[
 			{
-				"comment":"Don't play this on low HP targets or your minions.",
-				"condition": "my_target(count(), health < 3) > 0 OR opp_minions(count()) < 1",
+				"comment":"Don't play this on low HP targets, enemy Tar Creeper (UNG_928) or your minions.",
+				"condition": "my_target(count(), health < 3) > 0 OR my_target(count(), cardid = UNG_928, attack < 4) > 0 OR opp_minions(count(), stealthed = false) < 1",
 				"value":"-10",
 			},
 		],

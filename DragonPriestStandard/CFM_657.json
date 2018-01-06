@@ -2,18 +2,18 @@
 	"GameCardId":"CFM_657",
 	"ConfigComment":"Kabal Songstealer settings. They're the same as Spellbreaker settings with a slightly lower penalty.",
 
-	"BeforePlayCardBonus":
+	"BeforeBattlecryTargetBonus":
     {
 		"values":
 		[
 			{
-				"comment":"You don't want to silence a very low spec minion because you can kill it usually.",  		  
-				"condition": "my_target(count(), health < 4, attack < 4) > 0 AND my_target(count(), deathrattle) < 1",
-				"value":"-16",
+				"comment":"You don't want to silence a very low spec minion because you can kill it usually.",
+				"condition": "my_target(count(), health < 4, attack < 4) > 0 OR my_target(count(), deathrattle = false) > 0",
+				"value":"-15",
 			},
 			
 			{
-				"comment":"If you're targetting Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161), gain a huge bonus.",  		  
+				"comment":"If you're targetting Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161), gain a huge bonus.",
 				"condition": "my_target(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161, silenced = false) > 0",
 				"value":"100",
 			},
@@ -25,7 +25,7 @@
 		"values":
 		[
 			{
-				"comment":"If you're against Warlock, and there is no Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161) on the board, hold onto this.",  		  
+				"comment":"If you're against Warlock, and there is no Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161) on the board, hold onto this.",
 				"condition": "opp_minions(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161) < 1 AND opp_hero(count(), hero_class = warlock) > 0",
 				"value":"50",
 			},

@@ -7,9 +7,9 @@
 		"values":
 		[
 			{
-				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand.",
-				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard) > 1",
-				"value":"-30",
+				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand other than Spiteful Summoner.",
+				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard, cardid != LOOT_539) > 1",
+				"value":"-28",
 			},
 		],
 	},
