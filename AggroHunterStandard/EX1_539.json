@@ -1,0 +1,22 @@
+{
+	"GameCardId":"EX1_539",	
+	"ConfigComment":"Kill Command bonuses.",	
+	
+	"BeforePlayCardBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"Playing it without a friendly Beast on board is kinda bad.",  		  
+				"condition": "my_minions(count(), beast) < 1",
+				"value":"-8",
+			},
+			
+			{
+				"comment":"If there are no enemy minions on board and you have a Beast, gain a bonus when its target is the enemy hero.",  		  
+				"condition": "my_minions(count(), beast) > 0 AND opp_minions(count(), stealthed = false) < 1 AND my_target(count(), hero) > 0",
+				"value":"10",
+			}
+		],
+	},
+}

@@ -37,7 +37,7 @@
 			{ 
 				"comment": "Hold Golakka Crawler (UNG_807) vs classess with Pirate openings.",
 				"mulligan":"UNG_807",
-				"condition": "opp_hero(count(), hero_class = rogue | warrior) > 0",
+				"condition": "opp_hero(count(), hero_class = rogue | warrior | paladin) > 0",
 				"value":"hold",
 			},
 			

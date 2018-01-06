@@ -1,0 +1,34 @@
+{
+	"GameCardId":"LOOT_222",	
+	"ConfigComment":"Candleshot bonuses.",	
+	
+	"BeforePhysicalAttackBonus": 
+    {
+		"values":
+		[
+			{
+				"comment":"If you don't have a weapon in your hand while at 1 Durability and your opponent has minions on board or cards in hand, don't attack face.",  		  
+				"condition": "my_target(count(), hero = true) > 0 AND my_hand(count(), weapon) < 1 AND my_heroweapon(count(), durability) < 2 AND opp_minions(count(), stealthed = false) > 0 AND opp_hand(count()) > 0 ",
+				"value":"-10",
+			},
+			
+			{
+				"comment":"You don't want to attack a minion you can't kill if your opponent has a Northshire Cleric (CS2_235) on the board.",  		  
+				"condition": "my_target(min(health)) > my_heroweapon(count(), attack) AND opp_minions(count(), cardid = CS2_235) > 0",
+				"value":"-25",
+			},
+			
+			{
+				"comment":"Gain a bonus if the target has Divine Shield.",  		  
+				"condition": "my_target(count(), divineshield) > 0",
+				"value":"5",
+			},
+			
+			{
+				"comment":"Gain a bonus if the target has 1 Health left and no Divine Shield.",  		  
+				"condition": "my_target(count(), divineshield = false, health = 1) > 0",
+				"value":"10",
+			}
+		],
+	},
+}
