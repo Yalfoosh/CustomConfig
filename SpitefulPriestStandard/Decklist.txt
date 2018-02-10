@@ -1,44 +1,48 @@
-### Dragon Priest
+### Spiteful Priest
 # Class: Priest
 # Format: Standard
 # Year of the Mammoth
 #
 # 2x (1) Northshire Cleric
+# 1x (2) Acidic Swamp Ooze
+# 2x (2) Faerie Dragon
 # 2x (2) Netherspite Historian
-# 2x (2) Shadow Ascendant
+# 1x (2) Shadow Ascendant
 # 2x (3) Kabal Talonpriest
-# 2x (3) Tar Creeper
-# 2x (3) Twilight Acolyte
+# 1x (3) Tar Creeper
+# 1x (3) Twilight Acolyte
 # 2x (4) Duskbreaker
-# 1x (4) Twilight Drake
+# 1x (4) Spellbreaker
+# 2x (4) Twilight Drake
 # 2x (5) Cobalt Scalebane
 # 2x (5) Drakonid Operative
 # 1x (5) Kabal Songstealer
 # 2x (6) Spiteful Summoner
-# 2x (7) Bonemare
-# 2x (7) Corridor Creeper
-# 1x (8) Free From Amber
+# 2x (8) Free From Amber
 # 1x (8) Grand Archivist
+# 1x (9) Ysera
 # 2x (10) Mind Control
 # 
-AAECAa0GBI0I4b8CmcgC0OcCDQjyDIK1Arq7AvC7AsrDAsrLAs7MAqbOAvvTAsvmAvzqAtfrAgA=
+AAECAa0GCPIFigeiCeG/AsrDAs7MAtDnAvzqAgsI4QSNCPIMgrUCursC8LsCmcgCyssCy+YC1+sCAA==
 
 
 
 Northshire Cleric 		(CS2_235)
+Acidic Swamp Ooze		(EX1_066)
+Faerie Dragon			(NEW1_023)
 Netherspite Historian 	(KAR_062)
 Shadow Ascendant 		(ICC_210)
 Kabal Talonpriest 		(CFM_626)
 Tar Creeper 			(UNG_928)
-Twilight Acolyte 		(LOOT_528)
+Twilight Acolyte		(LOOT_528)
 Duskbreaker 			(LOOT_410)
+Spellbreaker			(EX1_048)
 Twilight Drake 			(EX1_043)
 Cobalt Scalebane 		(ICC_029)
 Drakonid Operative 		(CFM_605)
 Kabal Songstealer 		(CFM_657)
 Spiteful Summoner 		(LOOT_539)
-Bonemare 				(ICC_705)
-Corridor Creeper 		(LOOT_149)
 Free From Amber 		(UNG_854)
 Grand Archivist 		(LOOT_414)
+Ysera					(EX1_572)
 Mind Control 			(CS1_113)

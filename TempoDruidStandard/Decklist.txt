@@ -1,0 +1,44 @@
+### Tempo Druid
+# Class: Druid
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Enchanted Raven
+# 2x (1) Fire Fly
+# 1x (1) Patches the Pirate
+# 1x (2) Prince Keleseth
+# 2x (3) Greedy Sprite
+# 2x (3) Southsea Captain
+# 2x (3) Tar Creeper
+# 2x (4) Mire Keeper
+# 2x (4) Saronite Chain Gang
+# 2x (4) Spellbreaker
+# 2x (5) Cobalt Scalebane
+# 2x (6) Spiteful Summoner
+# 2x (7) Corridor Creeper
+# 2x (8) Bonemare
+# 1x (8) Grand Archivist
+# 1x (8) The Lich King
+# 2x (10) Ultimate Infestation
+# 
+AAECAZICBJG8AsLOApziAtDnAg2oBfIFvq4CtrMC68ICysMCm8sCyssCh84Cps4C+9MC+eYC1+sCAA==
+
+
+
+Enchanted Raven			(KAR_300)
+Fire Fly				(UNG_809)
+Patches the Pirate		(CFM_637)
+Prince Keleseth			(ICC_851)
+Greedy Sprite			(LOOT_351)
+Southsea Captain		(NEW1_027)
+Tar Creeper				(UNG_928)
+Mire Keeper				(OG_202)
+Saronite Chain Gang		(ICC_466)
+Spellbreaker			(EX1_048)
+Cobalt Scalebane		(ICC_029)
+Spiteful Summoner		(LOOT_539)
+Corridor Creeper		(LOOT_149)
+Bonemare				(ICC_705)
+Grand Archivist			(LOOT_414)
+The Lich King			(ICC_314)
+Ultimate Infestation	(ICC_085)

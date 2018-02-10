@@ -1,0 +1,28 @@
+{
+	"GameCardId":"LOOT_414",
+	"ConfigComment":"Grand Archivist (Druid) settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if your deck has no spells unless it's the only minion in your hand other than Spiteful Summoner.",
+				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard, cardid != LOOT_539) > 1",
+				"value":"-28",
+			},
+
+			{
+				"comment":"Don't play this if your deck has spells and you have more than 6 cards in your hand.",
+				"condition": "my_deck(count(), spell) > 0 AND my_hand(count()) > 6",
+				"value":"-20",
+			},
+
+			{
+				"comment":"Don't play this if your deck has spells and you have less than 5 cards in your deck.",
+				"condition": "my_deck(count(), spell) > 0 AND my_deck(count()) < 5",
+				"value":"-20",
+			},
+		],
+	},
+}

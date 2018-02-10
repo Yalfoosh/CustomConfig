@@ -1,48 +1,62 @@
-{	
-	"GameCardId":"Mulligan",	
-	"ConfigComment":"These are the Mulligan rules.",	
-	
-	"Mulligan": 
+{
+	"GameCardId":"Mulligan",
+	"ConfigComment":"These are the Mulligan rules.",
+
+	"Mulligan":
 	{
 		"values":
 		[
-			{ 
-				"comment": "Hold Kabal Lackey (CFM_066), Mana Wyrm (NEW1_012), Corridor Creeper (LOOT_149).",
+			{
+				"comment": "Hold Kabal Lackey (CFM_066), Mana Wyrm (NEW1_012), Arcanologist (UNG_020).",
 				"mulligan":"CFM_066, NEW1_012, LOOT_149",
 				"condition": "*",
 				"value":"hold",
 			},
 
-			{ 
-				"comment": "Hold Kabal Lackey (CFM_066) + Explosive Runes (LOOT_101)",
-				"mulligan":"CFM_066 + LOOT_101",
-				"condition": "*",
+			{
+				"comment": "Hold Kirin Tor Mage (EX1_612) if you're holding a Secret.",
+				"mulligan":"EX1_612",
+				"condition": "my_hand(count(), secret) > 0",
 				"value":"hold",
 			},
-			
+
 			{ 
-				"comment": "Hold Kabal Lackey (CFM_066) + Counterspell (EX1_287)",
-				"mulligan":"CFM_066 + EX1_287",
-				"condition": "*",
+				"comment": "Hold Medivh's Valet (KAR_092) if you're holding a Secret, you have Kabal Lackey (CFM_066) but don't have Arcanologist (UNG_020).",
+				"mulligan":"KAR_092",
+				"condition": "my_hand(count(), secret) > 0 AND my_hand(count(), cardid = CFM_066) > 0 AND my_hand(count(), cardid = CFM_066) < 1",
 				"value":"hold",
 			},
-			
+
+			{ 
+				"comment": "Hold Counterspell (EX1_287), Explosive Runes (LOOT_101), Ice Block(EX1_295) if you have Kabal Lackey (CFM_066) or Kirin Tor Mage (EX1_612).",
+				"mulligan":"EX1_287, LOOT_101, EX1_295",
+				"condition": "my_hand(count(), cardid = CFM_066 | EX1_612) > 0",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Arcane Intellect (CS2_023) when having a cheap hand.",
+				"mulligan":"CS2_023",
+				"condition": "my_hand(count(), cost = 3) < 1",
+				"value":"hold",
+			},
+
 			{ 
 				"comment": "Hold Frostbolt (CS2_024) against nasty classes.",
 				"mulligan":"CS2_024",
-				"condition": "opp_hero(count(), hero_class = hunter | mage | priest | warlock | shaman) > 0",
+				"condition": "opp_hero(count(), hero_class = mage | priest | warlock | rogue) > 0",
 				"value":"hold",
 			},
-			
+
 			{ 
 				"comment": "Hold Spellbreaker (EX1_048) against nasty classes.",
 				"mulligan":"EX1_048",
 				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
 				"value":"hold",
 			},
-			
+
 			{ 
-				"comment": "Hold Aluneth (LOOT_108) when not against Rogue.",
+				"comment": "Hold Aluneth (LOOT_108) when not against Rogue (Rogue can mill you).",
 				"mulligan":"LOOT_108",
 				"condition": "opp_hero(count(), hero_class != rogue) > 0",
 				"value":"hold",

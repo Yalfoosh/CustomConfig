@@ -3,31 +3,29 @@
 # Format: Standard
 # Year of the Mammoth
 #
-# 1x (1) Grimscale Chum
-# 1x (1) Grimscale Oracle
+# 2x (1) Grimscale Chum
 # 2x (1) Murloc Tidecaller
 # 2x (1) Righteous Protector
 # 2x (1) Vilefin Inquisitor
 # 2x (2) Hydrologist
-# 1x (2) Knife Juggler
+# 2x (2) Knife Juggler
 # 2x (2) Rockpool Hunter
-# 2x (3) Coldlight Seer
+# 1x (3) Coldlight Seer
 # 2x (3) Divine Favor
 # 2x (3) Murloc Warleader
+# 2x (3) Rallying Blade
 # 2x (3) Unidentified Maul
+# 1x (4) Blessing of Kings
 # 2x (4) Call to Arms
 # 2x (4) Gentle Megasaur
 # 1x (4) Spellbreaker
 # 1x (6) Sunkeeper Tarim
-# 1x (6) Val'anyr
-# 2x (7) Corridor Creeper
 # 
-AAECAaToAgb+A/IFsQjTvAK5wQK36QIMxQPbA6cFpwjTqgKzwQKdwgKxwgLjywL40gL70wLW5QIA
+AAECAaToAgTFA/IFrwe5wQIN2wOnBacIsQjTqgLZrgLTvAKzwQKdwgKxwgLjywL40gLW5QIA
 
 
 
 Grimscale Chum 		(CFM_650)
-Grimscale Oracle 	(EX1_508)
 Murloc Tidecaller 	(EX1_509)
 Righteous Protector (ICC_038)
 Vilefin Inquisitor 	(OG_006)
@@ -37,10 +35,10 @@ Rockpool Hunter 	(UNG_073)
 Coldlight Seer 		(EX1_103)
 Divine Favor 		(EX1_349)
 Murloc Warleader 	(EX1_507)
+Rallying Blade		(OG_222)
 Unidentified Maul 	(LOOT_286) [Recruits: LOOT_286t1, Taunt: LOOT_286t2, Attack: LOOT_286t3, Divine Shield: LOOT_286t4]
+Blessing of Kings	(CS2_092)
 Call to Arms 		(LOOT_093)
 Gentle Megasaur 	(UNG_089)
 Spellbreaker 		(EX1_048)
 Sunkeeper Tarim 	(UNG_015)
-Val'anyr 			(LOOT_500)
-Corridor Creeper 	(LOOT_149)

@@ -7,23 +7,23 @@
 		"values":
 		[
 			{ 
-				"comment": "Hold Flame Imp (EX1_319), Kobold Librarian (LOOT_014), Malchezaar's Imp (KAR_089), Voidwalker (CS2_065), Prince Keleseth (ICC_851), Corridor Creeper (LOOT_149).",
-				"mulligan":"EX1_319, LOOT_014, KAR_089, CS2_065, ICC_851, LOOT_149",
+				"comment": "Hold Fire Fly (UNG_809), Flame Imp (EX1_319), Kobold Librarian (LOOT_014), Malchezaar's Imp (KAR_089), Prince Keleseth (ICC_851), Corridor Creeper (LOOT_149).",
+				"mulligan":"UNG_809, EX1_319, LOOT_014, KAR_089, ICC_851, LOOT_149",
 				"condition": "*",
 				"value":"hold",
 			},
 
 			{ 
-				"comment": "Hold Mortal Coil (EX1_302) vs aggro classes with low HP minions.",
+				"comment": "Hold Voidwalker (CS2_065) against aggro classes or if you don't have other one drops in hand.",
 				"mulligan":"ICC_038",
-				"condition": "opp_hero(count(), hero_class = paladin | warrior | hunter | rogue) > 0",
+				"condition": "opp_hero(count(), hero_class = paladin | warrior | hunter | rogue) > 0 OR my_hand(count(), cost = 1) < 1",
 				"value":"hold",
 			},
 			
 			{ 
-				"comment": "Hold Southsea Captain (NEW1_027) when you don't have any 1 Mana minions in hand.",
-				"mulligan":"NEW1_027",
-				"condition": "my_hand(count(), cardid = EX1_319 | LOOT_014 | KAR_089 | CS2_065) < 1",
+				"comment": "Hold Darkshire Councilman (OG_113) with a Coin or more than one 1-drop in hand.",
+				"mulligan":"OG_113",
+				"condition": "my_hand(count(), cost = 1, minion) > 1 OR coin",
 				"value":"hold",
 			},
 			

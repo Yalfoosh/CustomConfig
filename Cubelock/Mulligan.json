@@ -1,0 +1,31 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Hold Kobold Librarian (LOOT_014), Mistress of Mixtures (CFM_120), Possessed Lackey (LOOT_306), Skull of the Man'ari (LOOT_420).",
+				"mulligan":"LOOT_014, CFM_120, LOOT_306, LOOT_420",
+				"condition": "*",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Defile (ICC_041) and Hellfire (CS2_062) against aggressive classes.",
+				"mulligan":"ICC_041, CS2_062",
+				"condition": "opp_hero(count(), hero_class = paladin | warrior | shaman | rogue | druid) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

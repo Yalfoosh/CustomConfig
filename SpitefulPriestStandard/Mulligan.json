@@ -14,37 +14,65 @@
 			},
 			
 			{ 
+				"comment": "Hold Faerie Dragon (NEW1_023) if you don't have Northshire Cleric (CS2_235).",
+				"mulligan":"NEW1_023",
+				"condition": "my_hand(count(), cardid = CS2_235) < 1",
+				"value":"hold",
+			},
+
+			{ 
 				"comment": "Hold Northshire Cleric (CS2_235) + Kabal Talonpriest (CFM_626) with Coin.",
 				"mulligan":"CS2_235 + CFM_626",
 				"condition": "coin",
 				"value":"hold",
 			},
-			
+
 			{ 
 				"comment": "Hold Northshire Cleric (CS2_235) + Shadow Ascendant (ICC_210)",
 				"mulligan":"CS2_235 + ICC_210",
 				"condition": "*",
 				"value":"hold",
 			},
-			
+
 			{ 
 				"comment": "Hold Duskbreaker (CS2_235) and Tar Creeper (UNG_928) against very aggressive classes.",
 				"mulligan":"CS2_235, UNG_928",
 				"condition": "opp_hero(count(), hero_class = hunter | rogue | shaman | warrior | paladin | mage) > 0",
 				"value":"hold",
 			},
-			
+
 			{
 				"comment": "Hold Netherspite Historian (KAR_062) and Duskbreaker (LOOT_410).",
 				"mulligan":"KAR_062 + LOOT_410",
 				"condition": "*",
 				"value":"hold",
 			},
+
+			{
+				"comment": "Hold Netherspite Historian (KAR_062) and Faerie Dragon (NEW1_023).",
+				"mulligan":"KAR_062 + NEW1_023",
+				"condition": "*",
+				"value":"hold",
+			},
 			
 			{
-				"comment": "Hold Kabal Songstealer (CFM_657) and Twiligh Acolyte (LOOT_528) for Mountain Giant, Edwin, etc.",
-				"mulligan":"CFM_657, LOOT_528",
+				"comment": "Hold Spellbreaker (EX1_048) and Twiligh Acolyte (LOOT_528) for Mountain Giant, Edwin, etc.",
+				"mulligan":"EX1_048, LOOT_528",
 				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Kabal Songstealer (CFM_657) if you're against Warlock and Rogue without a Spellbreaker (EX1_048).",
+				"mulligan":"CFM_657",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0 AND my_hand(count(), cardid = EX1_048) < 1",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Acidic Swamp Ooze (EX1_066) if you're against Warlock or Mage.",
+				"mulligan":"EX1_066",
+				"condition": "opp_hero(count(), hero_class = warlock | mage) > 0",
 				"value":"hold",
 			},
 			

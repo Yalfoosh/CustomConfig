@@ -1,0 +1,30 @@
+{
+	"GameCardId":"ICC_852",
+	"ConfigComment":"Prince Taldaram settings.",
+
+	"BeforeBattlecryTargetBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Gain a bonus when played on Carnivorous Cube (LOOT_161e) and Voidlord (LOOT_368)",
+				"condition": "my_target(count(), cardid = LOOT_161e | LOOT_368) > 0",
+				"value":"20",
+			},
+			
+			{
+				"comment":"Gain a bonus when played on Mistress of Mixtures (CFM_120) if low on Health.",
+				"condition": "my_target(count(), cardid = CFM_120) > 0 AND my_hero(count(), health) < 13",
+				"value":"10",
+			},
+			
+			{
+				"comment":"Gain a bonus when played on Cairne Bloodhoof (EX1_110), Devilsaur Egg (UNG_083), Exploding Bloatbat (ICC_021), Obsidian Statue (ICC_214),
+						   Rin, the First Disciple (LOOT_415), Savannah Highmane (EX1_534), Sergeant Sally (CFM_341), Sherazin, the Corpse Flower (UNG_065), Tirion Fordring (EX1_383),
+						   Twilight Summoner (OG_272), Y'Shaarj, Rage Unbound (OG_042), Grommash Hellscream (EX1_414), Al'Akir the Windlord (NEW1_010).",
+				"condition": "my_target(count(), cardid = EX1_110 | UNG_083 | ICC_021 | ICC_214 | LOOT_415 | EX1_534 | CFM_341 | UNG_065 | EX1_383 | OG_272 | OG_042 | EX1_414 | NEW1_010) > 0",
+				"value":"10",
+			},
+		],
+	},
+}

@@ -11,7 +11,7 @@
 				"condition": "my_hand(count(), cardid = CS2_234) > 0 AND opp_minions(count(), attack > 4) > 0 AND my_hand(count(), dragon) > 0 AND my_hero(count(), mana) > 4",
 				"value":"15",
 			},
-			
+
 			{
 				"comment":"Don't play this without a Dragon in hand if there is an enemy minion with more than 2 health.",
 				"condition": "my_hand(count(), dragon) < 1 AND opp_minions(count(), health > 2) > 0",

@@ -11,13 +11,13 @@
 				"condition": "my_discover(count(), cardid = LOOT_541 | LOOT_357 | UNG_088 | LOOT_414) > 0",
 				"value":"-1000",
 			},
-			
+
 			{
 				"comment":"9 drops you never want to take: Dragonhatcher (LOOT_540), Mayor Noggenfogger (CFM_670), Master Oakheart (LOOT_521)",
 				"condition": "my_discover(count(), cardid = LOOT_540 | CFM_670 | LOOT_521) > 0",
 				"value":"-1000",
 			},
-			
+
 			{
 				"comment":"10 drops you never want to take: N'Zoth, the Corruptor (OG_133), Yogg'Saron, Hope's End (OG_134)",
 				"condition": "my_discover(count(), cardid = OG_133 | OG_134) > 0",

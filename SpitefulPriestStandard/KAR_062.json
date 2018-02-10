@@ -25,9 +25,15 @@
 			},
 
 			{
-				"comment":"If your enemy has a lot of minions on board, you want Duskbreaker (LOOT_410), Primordial Drake (UNG_848), Deathwing (NEW1_030).",
-				"condition": "opp_minions(count()) > 3 AND my_discover(count(), cardid = LOOT_410 | UNG_848 | NEW1_030) > 0",
+				"comment":"If your enemy has a lot of minions on board with 3 or less health, you want Duskbreaker (LOOT_410)",
+				"condition": "opp_minions(count(), health < 4) > 2 AND my_discover(count(), cardid = LOOT_410) > 0",
 				"value":"50",
+			},
+			
+			{
+				"comment":"If your enemy has a lot of minions on board with less than 3 Health while you have 8 Mana, you want Primordial Drake (UNG_848)",
+				"condition": "opp_minions(count(), health < 3) > 2 AND my_discover(count(), cardid = UNG_848) > 0",
+				"value":"45",
 			},
 
 			{

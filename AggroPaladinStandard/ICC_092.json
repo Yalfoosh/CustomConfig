@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_092",
+	"ConfigComment":"Acherus Veteran config.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Try not to play this without a minion to buff.",  		  
+				"condition": "my_minions(count()) < 1",
+				"value":"-7",
+			},
+		],
+	},
+}

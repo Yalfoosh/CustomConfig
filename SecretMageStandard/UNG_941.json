@@ -15,7 +15,7 @@
 			{
 				"comment":"The spells you want are Explosive Runes (LOOT_101), Fireball (CS2_029), Firelands Portal (KAR_076), Frostbolt (CS2_024) and Pyroblast (EX1_279).",
 				"condition": "my_discover(count(), cardid = LOOT_101 | CS2_029 | KAR_076 | CS2_024 | EX1_279) > 0",
-				"value":"20",
+				"value":"25",
 			},
 		],
 	},

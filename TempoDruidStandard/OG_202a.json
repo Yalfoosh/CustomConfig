@@ -1,0 +1,22 @@
+{
+	"GameCardId":"OG_202a",
+	"ConfigComment":"Mire Keeper: Summon a 2/2 Slime.",
+
+	"OnChooseOneCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't choose this if you have 8 or less maximum mana.",
+				"condition": "my_hero(count(), max_mana < 9) > 0",
+				"value":"-100",
+			},
+			
+			{
+				"comment":"Not sure if this one has priority, so setting it anyways - choose if you have 9 or more mana.",
+				"condition": "my_hero(count(), max_mana > 8) > 0",
+				"value":"100",
+			}
+		],
+	},
+}

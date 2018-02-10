@@ -4,43 +4,39 @@
 # Year of the Mammoth
 #
 # 2x (1) Alleycat
-# 1x (1) Patches the Pirate
-# 1x (1) Candleshot
+# 2x (1) Candleshot
 # 2x (1) Dire Mole
+# 1x (1) Patches the Pirate
 # 2x (1) Southsea Deckhand
-# 2x (2) Dire Wolf Alpha
-# 2x (2) Golakka Crawler
 # 2x (2) Crackling Razormaw
-# 2x (3) Southsea Captain
+# 1x (2) Dire Wolf Alpha
 # 2x (3) Animal Companion
 # 2x (3) Eaglehorn Bow
 # 2x (3) Kill Command
+# 2x (3) Southsea Captain
 # 2x (4) Houndmaster
-# 1x (4) Spellbreaker
-# 1x (5) Leeroy Jenkins
-# 1x (5) Bittertide Hydra
-# 1x (5) Cobalt Scalebane
+# 2x (4) Spellbreaker
+# 2x (5) Bittertide Hydra
+# 2x (5) Tundra Rhino
 # 2x (7) Corridor Creeper
-#
-AAECAR8GrwTyBZG8Aq/CAsrLAuHjAgyoArUDqAXUBdkH6wf+DOq7AuTCAo7DAvvTAovlAgA=
+# 
+AAECAR8C2QeRvAIOqAK1A6gFuwXUBfIF6wf+DOq7Aq/CAo7DAvvTAuHjAovlAgA=
 
 
 
 Alleycat 			(CFM_315)
-Patches the Pirate 	(CFM_637)
 Candleshot 			(LOOT_222)
 Dire Mole 			(LOOT_258)
+Patches the Pirate 	(CFM_637)
 Southsea Deckhand 	(CS2_146)
-Dire Wolf Alpha 	(EX1_162)
-Golakka Crawler 	(UNG_807)
 Crackling Razormaw 	(UNG_915)
-Southsea Captain 	(NEW1_027)
+Dire Wolf Alpha		(EX1_162)
 Animal Companion 	(NEW1_031)
 Eaglehorn Bow 		(EX1_536)
 Kill Command 		(EX1_539)
+Southsea Captain	(NEW1_027)
 Houndmaster 		(DS1_070)
 Spellbreaker 		(EX1_048)
-Leeroy Jenkins 		(EX1_116)
 Bittertide Hydra 	(UNG_087)
-Cobalt Scalebane 	(ICC_029)
+Tundra Rhino		(DS1_178)
 Corridor Creeper 	(LOOT_149)

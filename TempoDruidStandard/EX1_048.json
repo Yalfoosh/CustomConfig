@@ -1,0 +1,34 @@
+{
+	"GameCardId":"EX1_048",	
+	"ConfigComment":"Spellbreaker config.",	
+
+	"BeforeBattlecryTargetBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If you're targetting Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161), gain a huge bonus.",  		  
+				"condition": "my_target(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161, silenced = false) > 0",
+				"value":"100",
+			},
+
+			{
+				"comment":"If you're targetting your Hydra, gain a huge bonus.",  		  
+				"condition": "my_target(count(), cardid = UNG_087) > 0 AND opp_minions(count(), cardid = UNG_087) < 1",
+				"value":"20",
+			},
+		],
+	},
+
+	"InHandBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If you're against Warlock, and there is no Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161) on the board, hold onto this.",  		  
+				"condition": "opp_minions(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161) < 1 AND opp_hero(count(), hero_class = warlock) > 0",
+				"value":"50",
+			}
+		],
+	},
+}

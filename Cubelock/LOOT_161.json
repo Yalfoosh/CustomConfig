@@ -1,0 +1,34 @@
+{
+	"GameCardId":"LOOT_161",
+	"ConfigComment":"Carnivorous Cube settings.",
+
+	"BeforeBattlecryTargetBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Prioritize playing this on a Doomguard (EX1_310).",
+				"condition": "my_target(count(), cardid = EX1_310) > 0",
+				"value":"40",
+			},
+
+			{
+				"comment":"Second priority is a Mountain Giant (EX1_105).",
+				"condition": "my_target(count(), cardid = EX1_105) > 0",
+				"value":"30",
+			},
+
+			{
+				"comment":"Third priority is a Voidlord (LOOT_368).",
+				"condition": "my_target(count(), cardid = LOOT_368) > 0",
+				"value":"25",
+			},
+
+			{
+				"comment":"Last priority is Possessed Lackey (LOOT_306) if there are demons in your deck.",
+				"condition": "my_target(count(), cardid = LOOT_306) > 0 AND my_deck(count(), demon) > 0",
+				"value":"20",
+			},
+		],
+	},
+}

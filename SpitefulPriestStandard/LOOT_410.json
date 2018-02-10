@@ -13,13 +13,19 @@
 			},
 			
 			{
-				"comment":"Don't play this with more than 3 low health minions.",
-				"condition": "my_minions(count(), health < 4) > 3",
+				"comment":"Don't play this with more than 2 low health minions.",
+				"condition": "my_minions(count(), health < 4) > 2",
+				"value":"-25",
+			},
+			
+			{
+				"comment":"Don't play this when your opponent doesn't have a high attack minion or when he has less than 2 minions.",
+				"condition": "opp_minions(count(), attack > 4) < 1 OR opp_minions(count()) < 2",
 				"value":"-25",
 			},
 		],
 	},
-	
+
 	"InHandBonus":
     {
 		"values":

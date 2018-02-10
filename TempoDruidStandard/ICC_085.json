@@ -1,0 +1,28 @@
+{
+	"GameCardId":"ICC_085",
+	"ConfigComment":"Ultimate Infestation settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if you have more than 6 cards in your hand or less than 5 cards in your deck - only 1 card burned is acceptable.",
+				"condition": "my_hand(count()) > 6 OR my_deck(count()) < 5",
+				"value":"-35",
+			},
+		],
+	},
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"Prioritize playing this.",
+				"condition": "*",
+				"value":"50",
+			},
+		],
+	},
+}

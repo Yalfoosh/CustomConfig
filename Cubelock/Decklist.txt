@@ -1,0 +1,48 @@
+### Cubelock
+# Class: Warlock
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Dark Pact
+# 2x (1) Kobold Librarian
+# 1x (1) Mistress of Mixtures
+# 1x (1) Mortal Coil
+# 2x (2) Defile
+# 1x (3) Prince Taldaram
+# 2x (4) Hellfire
+# 2x (4) Lesser Amethyst Spellstone
+# 1x (4) Spellbreaker
+# 1x (4) Spiritsinger Umbra
+# 2x (5) Carnivorous Cube
+# 2x (5) Doomguard
+# 2x (5) Faceless Manipulator
+# 2x (5) Possessed Lackey
+# 1x (5) Skull of the Man'ari
+# 2x (9) Voidlord
+# 1x (10) Bloodreaver Gul'dan
+# 1x (10) N'Zoth, the Corruptor
+# 2x (12) Mountain Giant
+# 
+AAECAcn1AgjyBcQI4KwCycIC3sQCl9MCneIC2+kCC5ME9wS2B+EH58sC8tAC+NACiNICi+EC/OUC6OcCAA==
+
+
+
+Dark Pact					(LOOT_017)
+Kobold Librarian			(LOOT_014)
+Mistress of Mixtures		(CFM_120)
+Mortal Coil					(EX1_302)
+Defile						(ICC_041)
+Prince Taldaram				(ICC_852)
+Hellfire					(CS2_062)
+Lesser Amethyst Spellstone	(LOOT_043, LOOT_043t2, LOOT_043t3)
+Spellbreaker				(EX1_048)
+Spiritsinger Umbra			(UNG_900)
+Carnivorous Cube			(LOOT_161, LOOT_161e)
+Doomguard					(EX1_310)
+Faceless Manipulator		(EX1_564)
+Possessed Lackey			(LOOT_306)
+Skull of the Man'ari		(LOOT_420)
+Voidlord					(LOOT_368)
+Bloodreaver Gul'dan			(ICC_831)
+N'Zoth, the Corruptor		(OG_133)
+Mountain Giant				(EX1_105)

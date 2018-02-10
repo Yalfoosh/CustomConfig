@@ -1,0 +1,38 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Hold Argent Squire (EX1_008), Lost in the Jungle (UNG_960), Righteous Protector (ICC_038), Southsea Deckhand (NEW1_027), Call to Arms (LOOT_093).",
+				"mulligan":"EX1_008, UNG_960, ICC_038, NEW1_027, LOOT_093",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Acherus Veteran (ICC_092), Divine Favor (EX1_349) and Corridor Creeper (LOOT_149) if you have more than one 1-cost card.",
+				"mulligan":"ICC_092, EX1_349, LOOT_149",
+				"condition": "my_hand(count(), cost = 1) > 1",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "Hold Rallying Blade (OG_222) vs nasty classes.",
+				"mulligan":"OG_222",
+				"condition": "opp_hero(count(), hero_class = priest | warlock | mage | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

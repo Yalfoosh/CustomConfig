@@ -1,0 +1,44 @@
+### Aggro Paladin
+# Class: Paladin
+# Format: Standard
+# Year of the Mammoth
+#
+# 2x (1) Acherus Veteran
+# 2x (1) Argent Squire
+# 2x (1) Lost in the Jungle
+# 1x (1) Patches the Pirate
+# 2x (1) Righteous Protector
+# 2x (1) Southsea Deckhand
+# 2x (2) Dire Wolf Alpha
+# 2x (2) Knife Juggler
+# 2x (3) Divine Favor
+# 2x (3) Rallying Blade
+# 2x (3) Unidentified Maul
+# 2x (4) Blessing of Kings
+# 2x (4) Call to Arms
+# 1x (4) Consecration
+# 1x (5) Leeroy Jenkins
+# 1x (6) Sunkeeper Tarim
+# 2x (7) Corridor Creeper
+# 
+AAECAaToAgTcA68EkbwCucECDacF1AX1Ba8H2QexCNmuArjHAuPLApXOAvjSAvvTAtblAgA=
+
+
+
+Acherus Veteran		(ICC_092)
+Argent Squire		(EX1_008)
+Lost in the Jungle	(UNG_960)
+Patches the Pirate	(CFM_637)
+Righteous Protector (ICC_038)
+Southsea Deckhand	(NEW1_027)
+Dire Wolf Alpha		(EX1_162)
+Knife Juggler 		(NEW1_019)
+Divine Favor 		(EX1_349)
+Rallying Blade		(OG_222)
+Unidentified Maul 	(LOOT_286) [Recruits: LOOT_286t1, Taunt: LOOT_286t2, Attack: LOOT_286t3, Divine Shield: LOOT_286t4]
+Blessing of Kings	(CS2_092)
+Call to Arms 		(LOOT_093)
+Consecration		(CS2_093)
+Leeroy Jenkins		(EX1_116)
+Sunkeeper Tarim 	(UNG_015)
+Corridor Creeper	(LOOT_149)

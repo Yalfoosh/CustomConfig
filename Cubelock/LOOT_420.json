@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_420",
+	"ConfigComment":"Skull of the Man'ari settings.",
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Prioritize playing this if you're holding a Demon.",
+				"condition": "my_hand(count(), demon) > 0",
+				"value":"100",
+			},
+		],
+	},
+}

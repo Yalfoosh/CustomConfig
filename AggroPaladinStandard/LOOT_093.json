@@ -1,0 +1,28 @@
+{
+	"GameCardId":"LOOT_093",
+	"ConfigComment":"Call to Arms settings.",
+
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"comment":"You generally want to play this first.",
+				"condition": "*",
+				"value":"40",
+			}
+		],
+	},
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If your deck has more than a low mana minion left, play this.",
+				"condition": "my_deck(count(), cost < 3) > 1",
+				"value":"25",
+			}
+		],
+	},
+}

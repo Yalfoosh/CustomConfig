@@ -9,7 +9,7 @@
 			{
 				"comment":"Lose value playing this without minions if you have some in your hand.",
 				"condition": "my_hand(count(), minioncard) > 1 AND my_minions(count()) < 1",
-				"value":"-40",
+				"value":"-50",
 			},
 		],
 	},

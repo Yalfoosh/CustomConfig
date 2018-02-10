@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_066",
+	"ConfigComment":"Acidic Swap Ooze settings.",
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this when your opponent is a Warlock, Rogue or Mage and he has no weapon equipped.",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue | mage) > 0 AND opp_heroweapon(count()) < 1",
+				"value":"-20",
+			},
+		],
+	},
+}

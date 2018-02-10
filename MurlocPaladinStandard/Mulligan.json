@@ -7,8 +7,8 @@
 		"values":
 		[
 			{ 
-				"comment": "Hold Grimscale Chum (CFM_650), Murloc Tidecaller (EX1_509), Vilefin Inquisitor (OG_006).",
-				"mulligan":"CFM_650, EX1_509, OG_006",
+				"comment": "Hold Grimscale Chum (CFM_650), Murloc Tidecaller (EX1_509), Vilefin Inquisitor (OG_006), Call to Arms (LOOT_093).",
+				"mulligan":"CFM_650, EX1_509, OG_006, LOOT_093",
 				"condition": "*",
 				"value":"hold",
 			},

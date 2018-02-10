@@ -1,0 +1,28 @@
+{
+	"GameCardId":"EX1_564",
+	"ConfigComment":"Faceless Manipulator config.",
+	
+	"BeforeBattlecryTargetBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"You want to play this on Carnivorous Cube (LOOT_161e), Voidlord (LOOT_368), Mountain Giant (EX1_105)",
+				"condition": "my_target(count(), cardid = LOOT_161e | LOOT_368 | EX1_105) > 0",
+				"value":"50",
+			},
+		],
+	},
+	
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Don't play this if there is no minion to copy.",
+				"condition": "my_minions(count()) < 1 AND opp_minions(count(), stealthed = false) < 1",
+				"value":"-1000",
+			},
+		],
+	},
+}

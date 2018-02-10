@@ -15,7 +15,7 @@
 			{
 				"comment":"If your deck has spells, gain a huge bonus.",
 				"condition": "my_deck(count(), spell) > 0",
-				"value":"90",
+				"value":"80",
 			},
 		],
 	},

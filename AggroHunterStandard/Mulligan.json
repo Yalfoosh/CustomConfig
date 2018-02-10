@@ -7,23 +7,23 @@
 		"values":
 		[
 			{ 
-				"comment": "Hold Alleycat (CFM_315), Dire Mole (LOOT_258), Southsea Captain (NEW1_027), Corridor Creeper (LOOT_149).",
-				"mulligan":"CFM_315, LOOT_258, NEW1_027, LOOT_149",
-				"condition": "*",
-				"value":"hold",
-			},
-
-			{ 
-				"comment": "Hold Southsea Deckhand (CS2_146) + Candleshot (LOOT_222)",
-				"mulligan":"CS2_146 + LOOT_222",
+				"comment": "Hold Dire Mole (LOOT_258), Southsea Deckhand (CS2_146), Crackling Razormaw (UNG_915), Corridor Creeper (LOOT_149).",
+				"mulligan":"LOOT_258, CS2_146, UNG_915, LOOT_149",
 				"condition": "*",
 				"value":"hold",
 			},
 			
 			{ 
-				"comment": "Hold Southsea Deckhand (CS2_146) when you have no other 1 cost minions in hand.",
-				"mulligan":"CS2_146",
-				"condition": "my_hand(count(), cardid = CFM_315 | LOOT_258) < 1",
+				"comment": "Hold Alleycat (CFM_315) when you have no other 1 cost minions in hand or if you have a Crackling Razormaw (UNG_915).",
+				"mulligan":"CFM_315",
+				"condition": "my_hand(count(), cardid = LOOT_258 | CS2_146) < 1 OR my_hand(count(), cardid = UNG_915) > 0",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Candleshot (LOOT_222) if you have a Southsea Deckhand (CS2_146).",
+				"mulligan":"LOOT_222",
+				"condition": "my_hand(count(), cardid = CS2_146) > 0",
 				"value":"hold",
 			},
 			
@@ -35,23 +35,16 @@
 			},
 			
 			{ 
-				"comment": "Hold Golakka Crawler (UNG_807) vs classess with Pirate openings.",
-				"mulligan":"UNG_807",
-				"condition": "opp_hero(count(), hero_class = rogue | warrior | paladin) > 0",
-				"value":"hold",
-			},
-			
-			{ 
-				"comment": "Hold Crackling Razormaw (UNG_915) when you have either Alleycat (CFM_315) or Dire Mole (LOOT_258).",
-				"mulligan":"UNG_915",
-				"condition": "my_hand(count(), cardid = CFM_315 | LOOT_258) > 0",
-				"value":"hold",
-			},
-			
-			{ 
 				"comment": "Hold Eaglehorn Bow (EX1_536) vs nasty classes.",
 				"mulligan":"EX1_536",
 				"condition": "opp_hero(count(), hero_class = shaman | priest | mage | hunter) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Animal Command (NEW1_031) if it's you're only 3-drop.",
+				"mulligan":"NEW1_031",
+				"condition": "my_hand(count(), cardid = EX1_536 | NEW1_027) < 1",
 				"value":"hold",
 			},
 			

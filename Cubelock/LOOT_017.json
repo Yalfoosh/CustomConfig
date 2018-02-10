@@ -1,0 +1,40 @@
+{
+	"GameCardId":"LOOT_017",
+	"ConfigComment":"Dark Pact settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Prioritize playing this on a Carnivorous Cube (LOOT_161e).",
+				"condition": "my_target(count(), cardid = LOOT_161e) > 0",
+				"value":"40",
+			},
+
+			{
+				"comment":"Second priority is Possessed Lackey (LOOT_306) if there are demons in your deck.",
+				"condition": "my_target(count(), cardid = LOOT_306) > 0 AND my_deck(count(), demon) > 0",
+				"value":"30",
+			},
+
+			{
+				"comment":"Third priority is a low health Voidlord (LOOT_368).",
+				"condition": "my_target(count(), cardid = LOOT_368, health < 4) > 0",
+				"value":"20",
+			},
+		],
+	},
+	
+	"BeforeUseHeroPowerBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If you have more than 2 Health and 9 or less cards in your hand, you want to tap first.",
+				"condition": "my_hero(count(), health) > 2 AND my_hand(count()) < 10",
+				"value":"100",
+			}
+		],
+	},
+}

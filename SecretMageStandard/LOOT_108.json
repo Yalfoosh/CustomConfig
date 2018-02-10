@@ -7,8 +7,8 @@
 		"values":
 		[
 			{
-				"comment":"You always want to play this if your hand size is lower than 8.",
-				"condition": "my_hand(count()) < 8",
+				"comment":"You always want to play this if your hand size is lower than 8 and your opponent isn't a Rogue.",
+				"condition": "my_hand(count()) < 8 AND opp_hero(count(), hero_class = rogue) < 1",
 				"value":"50",
 			},
 		],
