@@ -8,7 +8,7 @@
 		[
 			{
 				"comment":"Concede when number of cards in hand is less than 3 and the health difference is 20 or more.",  		  
-				"condition": "my_hand(count()) < 3 AND (opp_hero(count(), health) + opp_hero(count(), armor) - my_hero(count(), health) - my_hero(count(), armor)) <= 20",
+				"condition": "my_hand(count()) < 3 AND (opp_hero(count(), health) + opp_hero(count(), armor) - my_hero(count(), health) - my_hero(count(), armor)) >= 20",
 				"value":"1",
 			},
 			
@@ -17,12 +17,6 @@
 				"condition": "my_deck(count()) < 2 AND (my_hero(count(), health) + my_hero(count(), armor) - opp_hero(count(), health) - opp_hero(count(), armor)) < 10",
 				"value":"1",
 			},
-			
-			{
-				"comment":"Concede when you have 10 mana, your opponent has more than 2 more cards than you and more than 2 more minions than you.",  		  
-				"condition": "my_hero(count(), max_mana) > 9 AND opp_hand(count()) > (my_hand(count()) + 2) AND my_minions(count()) < (opp_minions(count()) - 2)",
-				"value":"1",
-			}
 		],
 	},
 }
