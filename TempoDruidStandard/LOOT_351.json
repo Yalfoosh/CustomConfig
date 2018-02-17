@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_351",
+	"ConfigComment":"Greedy Sprite settings.",
+
+	"BeforePhysicalAttackBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Gain a bonus if it's attacking an enemy minion when you have less than 9 Mana.",
+				"condition": "my_target(count(), minion) > 0 AND my_hero(count(), max_mana < 9) > 0",
+				"value":"15",
+			},
+		],
+	},
+}

@@ -16,7 +16,7 @@
 			{ 
 				"comment": "Hold Tar Creeper (UNG_928) against nasty aggro classes.",
 				"mulligan":"UNG_928",
-				"condition": "opp_hero(count(), hero_class = hunter | rogue | druid | paladin) > 0",
+				"condition": "opp_hero(count(), hero_class = hunter | rogue | paladin | warrior | warlock) > 0",
 				"value":"hold",
 			},
 			
