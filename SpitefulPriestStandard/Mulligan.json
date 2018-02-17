@@ -12,11 +12,32 @@
 				"condition": "*",
 				"value":"hold",
 			},
-			
+
+			{ 
+				"comment": "Hold Shadow Ascendant (ICC_210) if you don't have Northshire Cleric (CS2_235).",
+				"mulligan":"ICC_210",
+				"condition": "my_hand(count(), cardid = CS2_235) < 1",
+				"value":"hold",
+			},
+
 			{ 
 				"comment": "Hold Faerie Dragon (NEW1_023) if you don't have Northshire Cleric (CS2_235).",
 				"mulligan":"NEW1_023",
 				"condition": "my_hand(count(), cardid = CS2_235) < 1",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Faerie Dragon (NEW1_023) if you don't have Shadow Ascendant (ICC_210) but have Northshire Cleric (CS2_235).",
+				"mulligan":"NEW1_023",
+				"condition": "my_hand(count(), cardid = CS2_235) > 0 AND my_hand(count(), cardid = ICC_210) < 1",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Hold Netherspite Historian (KAR_062) if you don't have Faerie Dragon (NEW1_023) or Shadow Ascendant (ICC_210).",
+				"mulligan":"KAR_062",
+				"condition": "my_hand(count(), cardid = NEW1_023 | ICC_210) < 1",
 				"value":"hold",
 			},
 
@@ -54,28 +75,28 @@
 				"condition": "*",
 				"value":"hold",
 			},
-			
+
 			{
 				"comment": "Hold Spellbreaker (EX1_048) and Twiligh Acolyte (LOOT_528) for Mountain Giant, Edwin, etc.",
 				"mulligan":"EX1_048, LOOT_528",
 				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
 				"value":"hold",
 			},
-			
+
 			{
 				"comment": "Hold Kabal Songstealer (CFM_657) if you're against Warlock and Rogue without a Spellbreaker (EX1_048).",
 				"mulligan":"CFM_657",
 				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0 AND my_hand(count(), cardid = EX1_048) < 1",
 				"value":"hold",
 			},
-			
+
 			{
-				"comment": "Hold Acidic Swamp Ooze (EX1_066) if you're against Warlock or Mage.",
+				"comment": "Hold Acidic Swamp Ooze (EX1_066) if you're against Warlock, Mage, Paladin or Warrior.",
 				"mulligan":"EX1_066",
-				"condition": "opp_hero(count(), hero_class = warlock | mage) > 0",
+				"condition": "opp_hero(count(), hero_class = warlock | mage | paladin | warrior) > 0",
 				"value":"hold",
 			},
-			
+
 			{ 
 				"comment": "Discard all cards not listed as hold",
 				"mulligan":"*",

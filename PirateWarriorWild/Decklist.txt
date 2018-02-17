@@ -1,0 +1,45 @@
+### Pirate Warrior Wild
+# Class: Warrior
+# Format: Wild
+#
+# 2x (1) N'Zoth's First Mate
+# 1x (1) Patches the Pirate
+# 2x (1) Southsea Deckhand
+# 1x (1) Upgrade!
+# 2x (2) Bloodsail Raider
+# 2x (2) Ship's Cannon
+# 2x (3) Bloodsail Cultist
+# 2x (3) Fiery War Axe
+# 2x (3) Frothing Berserker
+# 2x (3) Southsea Captain
+# 2x (4) Death's Bite
+# 2x (4) Dread Corsair
+# 2x (4) Kor'kron Elite
+# 2x (4) Piloted Shredder
+# 1x (5) Leeroy Jenkins
+# 1x (5) Loatheb
+# 1x (7) Dr. Boom
+# 1x (8) Grommash Hellscream
+# 
+AAEBAQcG0gL/A68E+g6eEJG8AgwckQOOBagF1AXuBucHjQ77D5AQgrACiLACAA==
+
+
+
+N'Zoth's First Mate 	(OG_312)
+Patches the Pirate 		(CFM_637)
+Southsea Deckhand 		(CS2_146)
+Upgrade! 				(EX1_409)
+Bloodsail Raider		(NEW1_018)
+Ship's Cannon			(GVG_075)
+Bloodsail Cultist 		(OG_315)
+Fiery War Axe 			(CS2_106)
+Frothing Berserker 		(EX1_604)
+Southsea Captain 		(NEW1_027)
+Death's Bite			(FP1_021)
+Dread Corsair 			(NEW1_022)
+Kor'kron Elite 			(NEW1_011)
+Piloted Shredder		(GVG_096)
+Leeroy Jenkins 			(EX1_116)
+Loatheb					(FP1_030)
+Dr. Boom				(GVG_110)
+Grommash Hellscream		(EX1_414)

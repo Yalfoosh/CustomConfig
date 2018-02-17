@@ -1,0 +1,45 @@
+{	
+	"GameCardId":"Mulligan",
+	"ConfigComment":"These are the Mulligan rules.",
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{
+				"comment": "Hold N'Zoth's First Mate (OG_312), Southsea Deckhand (CS2_146), Ship's Cannon (GVG_075).",
+				"mulligan":"OG_312, CS2_146, GVG_075",
+				"condition": "*",
+				"value":"hold",
+			},
+
+			{
+				"comment": "Hold Southsea Captain (NEW1_027) and Upgrade! (EX1_409) if you have no turn 1 plays.",
+				"mulligan":"NEW1_027, EX1_409",
+				"condition": "my_hand(count(), cardid = OG_312 | CS2_146) < 1",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Bloodsail Raider (NEW1_018) and Bloodsail Cultist (OG_315) if you have a N'Zoth's First Mate (OG_312).",
+				"mulligan":"NEW1_018, OG_315",
+				"condition": "my_hand(count(), cardid = OG_312) > 0",
+				"value":"hold",
+			},
+
+			{
+				"comment": "Keep Fiery War Axe (CS2_106) against classes with critical minions early.",
+				"mulligan":"CS2_106",
+				"condition": "opp_hero(count(), hero_class = hunter | priest | shaman | mage) > 0",
+				"value":"hold",
+			},
+
+			{
+				"comment": "discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

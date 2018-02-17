@@ -1,0 +1,28 @@
+{
+	"GameCardId":"CS2_106",	
+	"ConfigComment":"Fiery War Axe bonuses",	
+	
+	"BeforePhysicalAttackBonus": 
+    {
+		"values":
+		[
+			{						
+				"comment":"Get bonus for trading with exact enemy HP.",  		  
+				"condition": "opp_minions(count()) > 0 AND my_target(count(),health) == my_heroweapon(count(), attack)",
+				"value":"10",
+			}
+		],
+	},
+	
+	"BeforeUseHeroPowerBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Never Hero Power before playing this",
+				"condition":"*",
+				"value":"-100",
+			}
+		],
+	},
+}

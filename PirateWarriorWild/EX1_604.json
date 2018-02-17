@@ -1,0 +1,15 @@
+﻿{
+	"GameCardId":"EX1_604",
+	"ConfigComment":"Frothing Berserker settings.",
+
+	"InHandPlayPriority":
+	{
+		"values":
+		[
+			{
+				"condition": "*",
+				"value":"50",
+			}
+		],
+	},
+}

@@ -11,13 +11,7 @@
 				"condition": "my_deck(count(), spell) < 1 AND my_hand(count(), minioncard, cardid != LOOT_539) > 1",
 				"value":"-28",
 			},
-		],
-	},
-	
-	"InHandPlayPriority":
-    {
-		"values":
-		[
+			
 			{
 				"comment":"As long as there is a spell in your deck, prioritize playing this.",
 				"condition": "my_deck(count(), spell) > 0",
