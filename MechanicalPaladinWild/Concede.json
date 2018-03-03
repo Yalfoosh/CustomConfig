@@ -1,0 +1,22 @@
+{
+	"GameCardId":"Concede",	
+	"ConfigComment":"This is the extra auto concede settings file.",
+	
+	"ExtraConcdeSettings": 
+	{
+		"values":
+		[
+			{
+				"comment":"Concede when number of cards in hand is less than 3 and the health difference is 20 or more.",  		  
+				"condition": "my_hand(count()) < 3 AND (opp_hero(count(), health) + opp_hero(count(), armor) - my_hero(count(), health) - my_hero(count(), armor)) >= 20",
+				"value":"1",
+			},
+			
+			{
+				"comment":"Concede when deck has less than 2 cards left and you're not winning by at least 10 HP.",  		  
+				"condition": "my_deck(count()) < 2 AND (my_hero(count(), health) + my_hero(count(), armor) - opp_hero(count(), health) - opp_hero(count(), armor)) < 10",
+				"value":"1",
+			},
+		],
+	},
+}

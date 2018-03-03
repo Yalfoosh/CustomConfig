@@ -1,0 +1,16 @@
+{
+	"GameCardId":"ICC_038",
+	"ConfigComment":"Righteous Protector settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Niché misplay fix; aggro configs prefer Righteous Protecter instead of 1-cost Murlocs.",
+				"condition": "my_hero(count(), max_mana = 1) > 0 AND my_hand(count(), cardid = EX1_509 | CFM_650 | OG_006) > 0 AND my_hand(count(), cardid = UNG_073) > 0",
+				"value":"-2",
+			}
+		],
+	},
+}
