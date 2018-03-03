@@ -1,0 +1,73 @@
+{	
+	"GameCardId":"Mulligan",	
+	"ConfigComment":"These are the Mulligan rules.",	
+	
+	"Mulligan": 
+	{
+		"values":
+		[
+			{ 
+				"comment": "Hold Grimscale Chum (CFM_650), Murloc Tidecaller (EX1_509), Vilefin Inquisitor (OG_006), Call to Arms (LOOT_093).",
+				"mulligan":"GVG_013, UNG_960, LOOT_093",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Righteous Protector(ICC_038) without Murlocs above.",
+				"mulligan":"ICC_038",
+				"condition": "my_hand(count(), cardid = GVG_013 | UNG_960) < 1",
+				"value":"hold",
+			},
+				
+			{ 
+				"comment": "Hold Rockpool Hunter (UNG_073) + Grimscale Chum (CFM_650).",
+				"mulligan":"GVG_006 + GVG_058",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Rockpool Hunter (UNG_073) + Murloc Tidecaller (EX1_509).",
+				"mulligan":"GVG_006 + GVG_085",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Rockpool Hunter (UNG_073) + Vilefin Inquisitor (OG_006).",
+				"mulligan":"GVG_013 + GVG_058",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Rockpool Hunter (UNG_073) + Vilefin Inquisitor (OG_006).",
+				"mulligan":"GVG_013 + GVG_085",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Rockpool Hunter (UNG_073) + Vilefin Inquisitor (OG_006).",
+				"mulligan":"GVG_013 + GVG_006",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Hold Spellbreaker (EX1_048) vs Warlock and Rogue.",
+				"mulligan":"CS2_203",
+				"condition": "opp_hero(count(), hero_class = warlock | rogue) > 0",
+				"value":"hold",
+			},
+			
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

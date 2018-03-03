@@ -1,0 +1,29 @@
+{
+	"GameCardId":"AT_074",
+	"ConfigComment":"BUFF",
+	
+
+	"BeforePlayCardBonus":
+    {
+		"values":
+		[
+			{
+				"comment":"Lose value playing this without minions if you have some in your hand.",
+				"condition": "my_minions(count()) < 1",
+				"value":"-40",
+			},
+		],
+	},
+	
+	"InHandPlayPriority":
+    {
+		"values":
+		[
+			{
+				"comment":"As long as you have a minion on board, you want to play this first.",
+				"condition": "my_minions(count()) > 0",
+				"value":"50",
+			},
+		],
+	},
+}

@@ -1,0 +1,19 @@
+{
+	"GameCardId":"EX1_048",    
+        "ConfigComment":"Spellbreaker config",
+
+	"BeforeBattlecryTargetBonus": 
+		{
+			"values":
+			[
+				{
+				"condition": "my_target(count(),cardid=UNG_087)>0",
+				"value":"-100",
+				},
+				{ 
+				"condition": "my_target(count(),cardid=LOOT_306|LOOT_368|LOOT_161|NEW1_021)>0",
+				"value":"25",
+				},
+			],
+		},  
+}
