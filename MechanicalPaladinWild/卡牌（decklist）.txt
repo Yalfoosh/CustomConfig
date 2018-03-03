@@ -17,3 +17,17 @@
 火车王里诺艾 * 1	EX1_116
 洛欧塞布 * 1		FP1_030
 守日者塔林姆 * 1	UNG_015
+
+
+### qishi_cus
+# 
+职业：圣骑士
+# 
+模式：狂野模式
+
+
+AAEBAZ8FCqICrwSnBa8H+g7tD/oPuhPJFrnBAgqxCIwPlA/qD4UQnRXZrgK4xwLjywL40gIA
+
+
+# 
+# 想要使用这副套牌，请先复制到剪贴板，然后在游戏中点击“新套牌”进行粘贴。
