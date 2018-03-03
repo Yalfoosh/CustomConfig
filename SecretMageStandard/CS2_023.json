@@ -1,0 +1,37 @@
+{
+	"GameCardId":"CS2_023",
+	"ConfigComment": "Arcane Intellect.",
+
+		"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Dont Draw Cards if there a other cards can play and i have more than 4 cards",
+				"condition": "my_hand(count(), cost < 4) > 2 AND my_hand(count()) > 4",
+				"value":"-50",
+			},
+			{
+				"comment":"Dont Draw Cards if there a other cards can play and i have more than 4 cards",
+				"condition": "my_hand(count(), cost < 4) > 4",
+				"value":"-50",
+			},
+			{
+				"comment":"Dont Draw Cards if have Aluneth weapon",
+				"condition": "my_heroweapon(count()) > 0 AND my_hand(count()) > 3",
+				"value":"-1000",
+			},
+			{
+				"comment":"Dont play this in late game",
+				"condition": "my_deck(count()) < 5 AND opp_hero(count(), health > 15) > 0 AND my_hand(count()) > 3",
+				"value":"-1000",
+			},	
+			{
+				"comment":"Dont play this if there a mill regue Palyed Vanish(NEW1_001) or EX1_050 Coldlight Oracle",
+				"condition": "opp_played(count(), cardid = NEW1_001 | EX1_050) > 0 AND my_hand(count()) > 3",
+				"value":"-500",
+			}, 
+		],
+	},  
+	
+}
